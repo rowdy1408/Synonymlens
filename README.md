@@ -54,13 +54,13 @@ Câu ví dụ do mình tự soạn theo chủ đề IELTS. Câu nào cũng gắn
 
 **Cách sửa:** mở `data/examples.csv` trên GitHub, bấm biểu tượng bút chì, sửa hoặc thêm dòng, rồi bấm **Commit changes**. Trang cập nhật sau 1–2 phút. Muốn sửa nhiều thì tải file về, mở bằng Excel hoặc Google Sheets, sửa xong lưu lại dạng CSV (UTF-8) rồi upload đè lên.
 
-Có 148 câu cho 60 từ của Academic Word List (sublist 1), cộng 65 câu cho các collocation chủ đề (Education, Environment, Health, Cities, Crime and law), gắn vào từng từ trong cụm. Các câu do AI soạn nháp nên đang để `draft`, chờ giáo viên duyệt.
+Hiện có 1471 dòng: 148 câu cho 60 từ của Academic Word List (sublist 1), cộng khoảng 700 câu tự viết cho các collocation lấy từ sách. Mỗi câu collocation được gắn vào từng từ trong cụm, nên một câu có thể xuất hiện ở nhiều dòng. Các câu do AI soạn nháp nên đang để `draft`, chờ giáo viên duyệt.
 
 ## Collocation và chủ đề IELTS từ sách (`data/collocations.csv`, `data/topics.csv`)
 
 Lấy từ 4 cuốn: *Cambridge Vocabulary for IELTS*, *Check Your English Vocabulary for IELTS*, *IELTS Vocabulary Masterclass 8.5 (Book 2)* và *IELTSforFREE: IELTS Vocabulary*. Mỗi dòng ghi rõ nguồn: sách và unit, trang hoặc set.
 
-- `collocations.csv` (`word, sense, collocation, topic, source, status`): hiện trong cột **Collocations** của tray Word, đúng nghĩa ghi ở cột `sense`. Số nghĩa được gán tự động, nên có thể lệch. Thấy sai thì sửa số `sense`, hoặc đổi `status` thành `hidden`.
+- `collocations.csv` (`word, sense, collocation, topic, source, status`): hiện trong cột **Collocations** của tray Word, đúng nghĩa ghi ở cột `sense`. Số nghĩa được gán tự động: ưu tiên nghĩa đầu tiên đúng từ loại và nghĩa có định nghĩa trùng với các từ trong cụm, nên có thể lệch. Thấy sai thì sửa số `sense`, hoặc đổi `status` thành `hidden`.
 - `topics.csv` (`word, topic, source`): hiện thành dòng **IELTS topics** ở đầu tray Word. Rê chuột lên một chủ đề để xem nguồn.
 - Trang chỉ lấy cụm từ và tên chủ đề. Câu ví dụ, định nghĩa và bài tập trong sách **không** đưa lên trang. Câu ví dụ cho collocation là câu tự viết, nằm trong `examples.csv`.
 

@@ -399,14 +399,25 @@ function topicLine(list) {
   return `<div class="topicline"><b>IELTS topics</b>${[...by].map(([t, src]) => `<span class="topic" title="${esc(src.join(" · "))}">${esc(t)}</span>`).join("")}
     <span class="src">Listed in ${esc([...new Set(list.map(t => t.source.split(",")[0]))].join(" · "))}</span></div>`;
 }
-// a sentence that contains every content word of a collocation (any form)
+// a sentence that contains every content word of a collocation (any form); "a/b" means either word
+const LIGHT = /^(with|from|into|about|someone|something|somebody|oneself|come|came|lose|lost|make|made|take|took|keep|kept|give|gave|have|does|done|went|gets|your|their)$/;
+function collKeys(colloc) {
+  const alts = colloc.toLowerCase().replace(/\s*\/\s*/g, "/").split(/[^a-z'\/]+/).filter(Boolean);
+  let variants = [[]];
+  alts.forEach(t => { const opts = t.split("/"); variants = variants.flatMap(v => opts.map(o => [...v, o])); });
+  return variants.map(v => {
+    const all = v.filter(t => t.length > 3).map(t => t.slice(0, Math.max(4, t.length - 2)));
+    const strong = v.filter(t => t.length > 3 && !LIGHT.test(t)).map(t => t.slice(0, Math.max(4, t.length - 2)));
+    return strong.length ? strong : all;
+  }).filter(k => k.length);
+}
 function exampleFor(colloc, sentences) {
-  const keys = colloc.toLowerCase().split(/[^a-z']+/).filter(t => t.length > 3 && !/^(with|from|into|about|someone|something|somebody)$/.test(t)).map(t => t.slice(0, Math.max(4, t.length - 2)));
-  if (!keys.length) return null;
-  return sentences.find(x => { const l = x.toLowerCase(); return keys.every(k => new RegExp(`\\b${reEsc(k)}`).test(l)); }) || null;
+  const sets = collKeys(colloc);
+  if (!sets.length) return null;
+  return sentences.find(x => { const l = x.toLowerCase(); return sets.some(keys => keys.every(k => new RegExp(`\\b${reEsc(k)}`).test(l))); }) || null;
 }
 function markPhrase(t, colloc) {
-  const keys = colloc.toLowerCase().split(/[^a-z']+/).filter(k => k.length > 3).map(k => k.slice(0, Math.max(4, k.length - 2)));
+  const keys = [...new Set(collKeys(colloc).flat())];
   let out = esc(t);
   keys.forEach(k => { out = out.replace(new RegExp(`\\b${reEsc(k)}\\w*`, "i"), m => `<em>${m}</em>`); });
   return out;
@@ -421,7 +432,8 @@ function renderBasic() {
   // ---- tray 1: Word
   const pats = s.p === "v" ? [...new Set((s.fr || []).map(n => FRAME[n]).filter(Boolean).map(f => f.replace("{w}", w)))] : [];
   const verb = s.p === "v", adj = s.p === "a" || s.p === "s";
-  const mine = (BASIC.own || []).filter(x => x.sense === cur + 1);
+  const collShown = new Set((BASIC.coll || []).filter(c => c.sense === cur + 1).map(c => exampleFor(c.collocation, [...(BASIC.own || []).filter(x => x.sense === cur + 1).map(x => plain(x.s)), ...(s.e || []), ...(BASIC.more || [])])).filter(Boolean));
+  const mine = (BASIC.own || []).filter(x => x.sense === cur + 1 && !collShown.has(plain(x.s))).slice(0, 6);
   const wn = s.e || [], have = mine.length + wn.length;
   const more = have >= 3 ? [] : (BASIC.more || []).filter(x => !wn.includes(x)).slice(0, 4 - have);
   const ownLi = x => `<li class="item own"><p class="ex">${/\*/.test(x.s) ? emph(x.s) : markWord(x.s, w)}</p>
@@ -431,7 +443,7 @@ function renderBasic() {
   const fam = clean(s.der);
   const colls = (BASIC.coll || []).filter(c => c.sense === cur + 1);
   const otherColl = (BASIC.coll || []).length - colls.length;
-  const sentences = [...mine.map(x => plain(x.s)), ...wn, ...(BASIC.more || [])];
+  const sentences = [...(BASIC.own || []).filter(x => x.sense === cur + 1).map(x => plain(x.s)), ...wn, ...(BASIC.more || [])];
   const collItem = c => {
     const ex = exampleFor(c.collocation, sentences);
     return `<li class="item"><div class="phrase"><span>${markWord(c.collocation, w)}</span></div>

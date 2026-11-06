@@ -45,7 +45,7 @@ data,1,Technology companies collect huge amounts of personal *data* from their u
 define,2,It is hard to *define* success because it means different things to different people.,Society,Writing,draft
 define,1,Our values are often *defined* by the culture we grow up in.,Culture,Writing,draft
 derive,2,Many people *derive* great satisfaction from helping others.,Society,Writing,draft
-derive,3,"A large number of English words *derive* from Latin and French.",Language,Speaking,draft
+derive,3,A large number of English words *derive* from Latin and French.,Language,Speaking,draft
 distribute,4,Volunteers *distributed* food and water to families after the flood.,Society,Writing,draft
 distribute,2,Wealth should be *distributed* more fairly across society.,Economy,Writing,draft
 economy,1,Tourism plays a vital role in the local *economy*.,Economy,Writing,draft
@@ -59,7 +59,7 @@ establish,3,Scientists have *established* a clear link between smoking and lung 
 establish,1,"Once a habit is *established*, it can be very hard to change.",Health,Speaking,draft
 estimate,1,"According to recent *estimates*, over half of the world's population lives in cities.",Urban life,Writing,draft
 estimate,6,It is *estimated* that air pollution causes millions of early deaths every year.,Environment,Writing,draft
-estimate,6,"I'd *estimate* that I spend about two hours a day on my phone.",Technology,Speaking,draft
+estimate,6,I'd *estimate* that I spend about two hours a day on my phone.,Technology,Speaking,draft
 evident,1,It is *evident* that technology has changed the way people communicate.,Technology,Writing,draft
 evident,2,The effects of climate change are already *evident* in many coastal areas.,Environment,Writing,draft
 export,1,Rice and coffee are among Vietnam's most important *exports*.,Economy,Writing,draft
@@ -92,7 +92,7 @@ involve,3,Starting a business *involves* a great deal of risk.,Work,Writing,draf
 involve,3,My job *involves* a lot of travelling and meeting new people.,Work,Speaking,draft
 issue,1,Climate change is one of the most pressing *issues* of our time.,Environment,Writing,draft
 issue,1,Housing costs have become a major *issue* for young people in big cities.,Urban life,Writing,draft
-issue,2,"I read the latest *issue* of a science magazine every month.",Media,Speaking,draft
+issue,2,I read the latest *issue* of a science magazine every month.,Media,Speaking,draft
 labour,4,Machines have replaced much of the manual *labour* in factories.,Technology,Writing,draft
 labour,1,"Many countries face a shortage of skilled *labour*, especially in healthcare.",Work,Writing,draft
 legal,1,"In some countries, it is *legal* to drive at the age of sixteen.",Transport,Writing,draft
@@ -101,7 +101,7 @@ legislate,1,Governments should *legislate* to limit the amount of sugar in soft 
 major,6,Traffic congestion is a *major* problem in most large cities.,Transport,Writing,draft
 major,7,The internet has had a *major* impact on the way we learn.,Technology,Writing,draft
 method,1,Online learning is now a popular *method* of studying for adults.,Education,Writing,draft
-method,1,"Which teaching *methods* work best depends on the age of the learners.",Education,Speaking,draft
+method,1,Which teaching *methods* work best depends on the age of the learners.,Education,Speaking,draft
 occur,1,Most road accidents *occur* because drivers are tired or distracted.,Transport,Writing,draft
 occur,1,Floods now *occur* more frequently in many parts of Southeast Asia.,Environment,Writing,draft
 percent,1,Around 60 *percent* of the population now lives in urban areas.,Urban life,Writing,draft
@@ -147,16 +147,16 @@ theory,1,Darwin's *theory* of evolution changed the way we see the natural world
 theory,2,"In *theory*, online courses are cheaper, but they still require expensive equipment.",Education,Writing,draft
 vary,1,House prices *vary* greatly from one area to another.,Urban life,Writing,draft
 vary,1,Attitudes towards marriage *vary* widely between generations.,Society,Writing,draft
-act,6,Heavy fines can *act as a deterrent* to drivers who use their phones while driving.,Crime and law,Writing,draft
+act,1,Heavy fines can *act as a deterrent* to drivers who use their phones while driving.,Crime and law,Writing,draft
 deterrent,1,Heavy fines can *act as a deterrent* to drivers who use their phones while driving.,Crime and law,Writing,draft
-air,7,*Air quality* in many Asian cities has worsened because of traffic and industry.,Environment,Writing,draft
+air,3,*Air quality* in many Asian cities has worsened because of traffic and industry.,Environment,Writing,draft
 quality,1,*Air quality* in many Asian cities has worsened because of traffic and industry.,Environment,Writing,draft
-alternative,2,Some patients turn to *alternative healthcare* when conventional treatment does not work.,Health,Writing,draft
+alternative,1,Some patients turn to *alternative healthcare* when conventional treatment does not work.,Health,Writing,draft
 healthcare,1,Some patients turn to *alternative healthcare* when conventional treatment does not work.,Health,Writing,draft
 award,4,Universities should only *award a degree* to students who meet clear academic standards.,Education,Writing,draft
 degree,3,Universities should only *award a degree* to students who meet clear academic standards.,Education,Writing,draft
 awareness,1,Social media campaigns can *raise awareness* of environmental problems among young people.,Environment,Writing,draft
-raise,5,Social media campaigns can *raise awareness* of environmental problems among young people.,Environment,Writing,draft
+raise,1,Social media campaigns can *raise awareness* of environmental problems among young people.,Environment,Writing,draft
 ban,1,Several countries have *imposed a ban* on single-use plastic bags.,Environment,Writing,draft
 impose,1,Several countries have *imposed a ban* on single-use plastic bags.,Environment,Writing,draft
 boarding,1,Children at *boarding school* often become independent at an early age.,Education,Speaking,draft
@@ -166,61 +166,61 @@ pass,7,"When the project failed, the managers tried to *pass the buck* to their 
 carbon,1,Taking the train instead of flying is an easy way to reduce your *carbon footprint*.,Environment,Writing,draft
 footprint,1,Taking the train instead of flying is an easy way to reduce your *carbon footprint*.,Environment,Writing,draft
 care,1,Investing in *preventive care* saves money in the long run.,Health,Writing,draft
-preventive,4,Investing in *preventive care* saves money in the long run.,Health,Writing,draft
+preventive,1,Investing in *preventive care* saves money in the long run.,Health,Writing,draft
 care,1,Most health problems can be treated in *primary care* without a hospital visit.,Health,Writing,draft
-primary,5,Most health problems can be treated in *primary care* without a hospital visit.,Health,Writing,draft
-centre,2,Thousands of workers *commute into the centre* every morning by train.,Cities,Writing,draft
-commute,6,Thousands of workers *commute into the centre* every morning by train.,Cities,Writing,draft
+primary,1,Most health problems can be treated in *primary care* without a hospital visit.,Health,Writing,draft
+centre,1,Thousands of workers *commute into the centre* every morning by train.,Cities,Writing,draft
+commute,2,Thousands of workers *commute into the centre* every morning by train.,Cities,Writing,draft
 city,1,Many *inner city* areas suffer from poor housing and high unemployment.,Cities,Writing,draft
 inner,1,Many *inner city* areas suffer from poor housing and high unemployment.,Cities,Writing,draft
 commit,1,Young people who *commit a crime* for the first time should be given a second chance.,Crime and law,Writing,draft
 crime,1,Young people who *commit a crime* for the first time should be given a second chance.,Crime and law,Writing,draft
 congestion,1,Building more roads rarely helps to *ease congestion* in the long term.,Cities,Writing,draft
-ease,6,Building more roads rarely helps to *ease congestion* in the long term.,Cities,Writing,draft
+ease,1,Building more roads rarely helps to *ease congestion* in the long term.,Cities,Writing,draft
 consequence,1,Companies that pollute rivers should *face* serious *consequences*.,Environment,Writing,draft
-face,7,Companies that pollute rivers should *face* serious *consequences*.,Environment,Writing,draft
+face,1,Companies that pollute rivers should *face* serious *consequences*.,Environment,Writing,draft
 conserve,2,Local volunteers are working to *conserve* the *habitat* of rare birds.,Environment,Writing,draft
 habitat,1,Local volunteers are working to *conserve* the *habitat* of rare birds.,Environment,Writing,draft
 course,1,More adults now *enrol on* online *courses* to update their skills.,Education,Writing,draft
 crime,1,The *crime rate* fell sharply after more street lights were installed.,Crime and law,Writing,draft
 rate,1,The *crime rate* fell sharply after more street lights were installed.,Crime and law,Writing,draft
 crime,1,*Petty crime* such as shoplifting is common in crowded tourist areas.,Crime and law,Writing,draft
-petty,2,*Petty crime* such as shoplifting is common in crowded tourist areas.,Crime and law,Writing,draft
+petty,1,*Petty crime* such as shoplifting is common in crowded tourist areas.,Crime and law,Writing,draft
 crime,1,"The best way to *tackle crime* is to address its causes, such as poverty.",Crime and law,Writing,draft
-tackle,6,"The best way to *tackle crime* is to address its causes, such as poverty.",Crime and law,Writing,draft
+tackle,1,"The best way to *tackle crime* is to address its causes, such as poverty.",Crime and law,Writing,draft
 custodial,1,A *custodial sentence* is not always the most effective punishment for young offenders.,Crime and law,Writing,draft
-sentence,1,A *custodial sentence* is not always the most effective punishment for young offenders.,Crime and law,Writing,draft
-cut,7,Governments must *cut emissions* from cars and power stations.,Environment,Writing,draft
+sentence,2,A *custodial sentence* is not always the most effective punishment for young offenders.,Crime and law,Writing,draft
+cut,1,Governments must *cut emissions* from cars and power stations.,Environment,Writing,draft
 emission,1,Governments must *cut emissions* from cars and power stations.,Environment,Writing,draft
 district,1,The city plans to *regenerate* an old industrial *district* with parks and housing.,Cities,Writing,draft
 regenerate,1,The city plans to *regenerate* an old industrial *district* with parks and housing.,Cities,Writing,draft
 draw,9,"I don't mind helping my friends, but I *draw the line* at lending them money.",Phrasal verbs and idioms,Speaking,draft
 line,1,"I don't mind helping my friends, but I *draw the line* at lending them money.",Phrasal verbs and idioms,Speaking,draft
 drop,7,Some students *drop out of university* because they cannot afford the fees.,Education,Writing,draft
-university,1,Some students *drop out of university* because they cannot afford the fees.,Education,Writing,draft
+university,3,Some students *drop out of university* because they cannot afford the fees.,Education,Writing,draft
 education,1,Free *primary education* should be a right for every child.,Education,Writing,draft
-primary,5,Free *primary education* should be a right for every child.,Education,Writing,draft
+primary,1,Free *primary education* should be a right for every child.,Education,Writing,draft
 education,1,"In many countries, *secondary education* is compulsory until the age of sixteen.",Education,Writing,draft
-secondary,3,"In many countries, *secondary education* is compulsory until the age of sixteen.",Education,Writing,draft
+secondary,1,"In many countries, *secondary education* is compulsory until the age of sixteen.",Education,Writing,draft
 energy,1,Investment in *renewable energy* has grown rapidly over the last decade.,Environment,Writing,draft
-renewable,2,Investment in *renewable energy* has grown rapidly over the last decade.,Environment,Writing,draft
+renewable,1,Investment in *renewable energy* has grown rapidly over the last decade.,Environment,Writing,draft
 estate,1,The new *industrial estate* created hundreds of jobs for local people.,Cities,Writing,draft
 industrial,1,The new *industrial estate* created hundreds of jobs for local people.,Cities,Writing,draft
 exam,1,Students who *sit an exam* without proper sleep often perform badly.,Education,Speaking,draft
 sit,1,Students who *sit an exam* without proper sleep often perform badly.,Education,Speaking,draft
 expectancy,1,Better nutrition and clean water have helped to *raise life expectancy* worldwide.,Health,Writing,draft
 life,1,Better nutrition and clean water have helped to *raise life expectancy* worldwide.,Health,Writing,draft
-raise,5,Better nutrition and clean water have helped to *raise life expectancy* worldwide.,Health,Writing,draft
+raise,1,Better nutrition and clean water have helped to *raise life expectancy* worldwide.,Health,Writing,draft
 expel,1,Students who cheat in exams may *be expelled* from the university.,Education,Writing,draft
 fence,1,"When my friends argue about politics, I usually *sit on the fence*.",Phrasal verbs and idioms,Speaking,draft
 sit,1,"When my friends argue about politics, I usually *sit on the fence*.",Phrasal verbs and idioms,Speaking,draft
 fine,1,The council will *impose a fine* on anyone who drops litter in the park.,Crime and law,Writing,draft
-impose,3,The council will *impose a fine* on anyone who drops litter in the park.,Crime and law,Writing,draft
+impose,1,The council will *impose a fine* on anyone who drops litter in the park.,Crime and law,Writing,draft
 full,1,"With the right treatment, most patients *make a full recovery* within weeks.",Health,Writing,draft
 make,3,"With the right treatment, most patients *make a full recovery* within weeks.",Health,Writing,draft
-recovery,1,"With the right treatment, most patients *make a full recovery* within weeks.",Health,Writing,draft
+recovery,2,"With the right treatment, most patients *make a full recovery* within weeks.",Health,Writing,draft
 gas,1,*Greenhouse gases* trap heat in the atmosphere and cause global warming.,Environment,Writing,draft
-greenhouse,2,*Greenhouse gases* trap heat in the atmosphere and cause global warming.,Environment,Writing,draft
+greenhouse,1,*Greenhouse gases* trap heat in the atmosphere and cause global warming.,Environment,Writing,draft
 habitat,1,*Habitat loss* is the main threat to many endangered species.,Environment,Writing,draft
 loss,1,*Habitat loss* is the main threat to many endangered species.,Environment,Writing,draft
 habitat,1,National parks help to *preserve* the natural *habitat* of wild animals.,Environment,Writing,draft
@@ -230,9 +230,9 @@ protect,1,Strict laws are needed to *protect* the *habitat* of sea turtles.,Envi
 health,1,"Without *health insurance*, many families cannot afford hospital treatment.",Health,Writing,draft
 insurance,1,"Without *health insurance*, many families cannot afford hospital treatment.",Health,Writing,draft
 healthcare,1,*Private healthcare* offers shorter waiting times but is too expensive for many people.,Health,Writing,draft
-private,2,*Private healthcare* offers shorter waiting times but is too expensive for many people.,Health,Writing,draft
+private,1,*Private healthcare* offers shorter waiting times but is too expensive for many people.,Health,Writing,draft
 healthcare,1,A strong *public healthcare* system ensures that everyone can see a doctor.,Health,Writing,draft
-public,3,A strong *public healthcare* system ensures that everyone can see a doctor.,Health,Writing,draft
+public,1,A strong *public healthcare* system ensures that everyone can see a doctor.,Health,Writing,draft
 infrastructure,1,Developing countries need to *invest in infrastructure* such as roads and bridges.,Cities,Writing,draft
 invest,1,Developing countries need to *invest in infrastructure* such as roads and bridges.,Cities,Writing,draft
 introduce,2,The government plans to *introduce legislation* to limit plastic packaging.,Environment,Writing,draft
@@ -245,32 +245,1228 @@ toe,5,New employees are usually expected to *toe the line* and follow company ru
 mature,1,"As a *mature student*, she brought valuable work experience to her classes.",Education,Writing,draft
 student,1,"As a *mature student*, she brought valuable work experience to her classes.",Education,Writing,draft
 medicine,1,Many people combine *Western medicine* with traditional remedies.,Health,Writing,draft
-western,3,Many people combine *Western medicine* with traditional remedies.,Health,Writing,draft
-minor,2,Community service is a suitable punishment for a *minor offence*.,Crime and law,Writing,draft
+western,1,Many people combine *Western medicine* with traditional remedies.,Health,Writing,draft
+minor,1,Community service is a suitable punishment for a *minor offence*.,Crime and law,Writing,draft
 offence,1,Community service is a suitable punishment for a *minor offence*.,Crime and law,Writing,draft
 obesity,1,Schools can help to *tackle obesity* by offering healthier lunches.,Health,Writing,draft
-tackle,6,Schools can help to *tackle obesity* by offering healthier lunches.,Health,Writing,draft
+tackle,1,Schools can help to *tackle obesity* by offering healthier lunches.,Health,Writing,draft
 offence,1,Drink-driving is a *serious offence* in most countries.,Crime and law,Writing,draft
 serious,1,Drink-driving is a *serious offence* in most countries.,Crime and law,Writing,draft
 office,1,A new *office tower* now dominates the city skyline.,Cities,Writing,draft
 tower,1,A new *office tower* now dominates the city skyline.,Cities,Writing,draft
-play,7,Children who often *play truant* may fall behind in their studies.,Education,Writing,draft
+play,1,Children who often *play truant* may fall behind in their studies.,Education,Writing,draft
 pollution,1,Cities must work together to *tackle pollution* from traffic.,Environment,Writing,draft
-tackle,6,Cities must work together to *tackle pollution* from traffic.,Environment,Writing,draft
-private,2,Parents who send their children to *private school* often expect smaller classes.,Education,Writing,draft
+tackle,1,Cities must work together to *tackle pollution* from traffic.,Environment,Writing,draft
+private,1,Parents who send their children to *private school* often expect smaller classes.,Education,Writing,draft
 school,1,Parents who send their children to *private school* often expect smaller classes.,Education,Writing,draft
-public,3,Cheap and reliable *public transport* encourages people to leave their cars at home.,Cities,Writing,draft
+public,1,Cheap and reliable *public transport* encourages people to leave their cars at home.,Cities,Writing,draft
 transport,1,Cheap and reliable *public transport* encourages people to leave their cars at home.,Cities,Writing,draft
 rates,1,Education programmes in prison can *reduce reoffending rates*.,Crime and law,Writing,draft
 reduce,1,Education programmes in prison can *reduce reoffending rates*.,Crime and law,Writing,draft
 school,1,Some parents believe girls achieve better results at a *single-sex school*.,Education,Writing,draft
 school,1,Most children in the UK attend a *state school*.,Education,Writing,draft
-state,7,Most children in the UK attend a *state school*.,Education,Writing,draft
-seek,2,People with mental health problems should *seek treatment* as early as possible.,Health,Writing,draft
+state,1,Most children in the UK attend a *state school*.,Education,Writing,draft
+seek,1,People with mental health problems should *seek treatment* as early as possible.,Health,Writing,draft
 treatment,1,People with mental health problems should *seek treatment* as early as possible.,Health,Writing,draft
-sentence,1,The young driver received a *suspended sentence* instead of going to prison.,Crime and law,Writing,draft
+sentence,2,The young driver received a *suspended sentence* instead of going to prison.,Crime and law,Writing,draft
 suspended,1,The young driver received a *suspended sentence* instead of going to prison.,Crime and law,Writing,draft
-sentence,3,Prisoners who *serve a sentence* should also receive job training.,Crime and law,Writing,draft
+sentence,2,Prisoners who *serve a sentence* should also receive job training.,Crime and law,Writing,draft
 serve,2,Prisoners who *serve a sentence* should also receive job training.,Crime and law,Writing,draft
 suspended,1,Pupils can *be suspended* from school for violent behaviour.,Education,Writing,draft
-tackle,6,Building new towns outside the capital could *tackle overcrowding* in the city.,Cities,Writing,draft
+tackle,1,Building new towns outside the capital could *tackle overcrowding* in the city.,Cities,Writing,draft
+abiding,1,Most citizens are *law-abiding* and never get into trouble with the police.,Children & the family,Writing,draft
+law,1,Most citizens are *law-abiding* and never get into trouble with the police.,Children & the family,Writing,draft
+abstract,1,Some people find *abstract art* difficult to understand because it does not show real objects.,The arts,Writing,draft
+art,1,Some people find *abstract art* difficult to understand because it does not show real objects.,The arts,Writing,draft
+abuse,1,*Drug abuse* among teenagers is a growing concern in many cities.,Town & country,Writing,draft
+drug,1,*Drug abuse* among teenagers is a growing concern in many cities.,Town & country,Writing,draft
+abuse,1,Football fans who are caught *shouting abuse* at players should be banned from stadiums.,Sport,Writing,draft
+shouting,1,Football fans who are caught *shouting abuse* at players should be banned from stadiums.,Sport,Writing,draft
+account,1,The concert was cancelled *on account of* the heavy rain.,Reason & result,Writing,draft
+acid,1,"*Acid rain* damages forests, lakes and old stone buildings.",Environment,Writing,draft
+rain,1,"*Acid rain* damages forests, lakes and old stone buildings.",Environment,Writing,draft
+act,1,The *Sex Discrimination Act* made it illegal to treat workers unfairly because of their gender.,Men & women,Writing,draft
+discrimination,1,The *Sex Discrimination Act* made it illegal to treat workers unfairly because of their gender.,Men & women,Writing,draft
+sex,1,The *Sex Discrimination Act* made it illegal to treat workers unfairly because of their gender.,Men & women,Writing,draft
+addition,1,"*In addition to* lower costs, online courses offer greater flexibility.",Presenting an argument,Writing,draft
+adult,1,*Adult education* gives people a second chance to gain qualifications.,Education,Writing,draft
+education,1,*Adult education* gives people a second chance to gain qualifications.,Education,Writing,draft
+affairs,1,Reading the news every day helps students keep up with *current affairs*.,Media,Writing,draft
+current,1,Reading the news every day helps students keep up with *current affairs*.,Media,Writing,draft
+after,1,My sister *takes after* our mother: they are both very patient.,Phrasal verbs 4,Writing,draft
+take,1,My sister *takes after* our mother: they are both very patient.,Phrasal verbs 4,Writing,draft
+agency,1,Fewer people book holidays through a *travel agency* now that everything is online.,Travel,Writing,draft
+travel,1,Fewer people book holidays through a *travel agency* now that everything is online.,Travel,Writing,draft
+allowance,1,People who cannot work because of illness may receive a *disability allowance*.,Money & finance,Writing,draft
+disability,1,People who cannot work because of illness may receive a *disability allowance*.,Money & finance,Writing,draft
+along,1,"The library is *halfway along* the main street, opposite the bank.",Location & direction,Writing,draft
+halfway,1,"The library is *halfway along* the main street, opposite the bank.",Location & direction,Writing,draft
+angle,3,The new road runs *at right angles to* the river.,Location & direction,Writing,draft
+right,2,The new road runs *at right angles to* the river.,Location & direction,Writing,draft
+arable,1,Rising sea levels could destroy large areas of *arable land*.,Town & country,Writing,draft
+land,1,Rising sea levels could destroy large areas of *arable land*.,Town & country,Writing,draft
+avenue,2,The museum stands at the end of *a wide avenue* lined with trees.,"Size, quantity & dimension",Writing,draft
+wide,1,The museum stands at the end of *a wide avenue* lined with trees.,"Size, quantity & dimension",Writing,draft
+ballet,1,I saw *a ballet* for the first time last year and loved the music.,The arts,Speaking,draft
+bank,1,Our neighbourhood has a *bottle bank* where people can recycle glass.,Environment,Writing,draft
+bottle,1,Our neighbourhood has a *bottle bank* where people can recycle glass.,Environment,Writing,draft
+base,1,The metre is the *base unit* of length in the metric system.,Science & technology,Writing,draft
+unit,1,The metre is the *base unit* of length in the metric system.,Science & technology,Writing,draft
+battery,1,Many animal welfare groups want *battery farming* to be banned.,Environment,Writing,draft
+farming,1,Many animal welfare groups want *battery farming* to be banned.,Environment,Writing,draft
+battle,4,The film turns everyday arguments into a funny *battle of the sexes*.,Men & women,Writing,draft
+sex,1,The film turns everyday arguments into a funny *battle of the sexes*.,Men & women,Writing,draft
+belt,1,Building houses on the *green belt* would destroy valuable countryside.,Environment,Writing,draft
+green,1,Building houses on the *green belt* would destroy valuable countryside.,Environment,Writing,draft
+belt,1,*Green belts* stop cities from spreading into the surrounding farmland.,Environment,Writing,draft
+green,1,*Green belts* stop cities from spreading into the surrounding farmland.,Environment,Writing,draft
+benefit,1,Workers who fall ill for a long time can claim *sickness benefit*.,Work,Writing,draft
+sickness,1,Workers who fall ill for a long time can claim *sickness benefit*.,Work,Writing,draft
+between,1,The airport is *halfway between* the two largest cities.,Location & direction,Writing,draft
+halfway,2,The airport is *halfway between* the two largest cities.,Location & direction,Writing,draft
+biography,1,I am reading *a biography* of a famous scientist.,The arts,Speaking,draft
+biology,1,Advances in *molecular biology* have led to new treatments for cancer.,Science & technology,Writing,draft
+molecular,1,Advances in *molecular biology* have led to new treatments for cancer.,Science & technology,Writing,draft
+birth,4,The *birth rate* has fallen sharply in many developed countries.,Children & the family,Writing,draft
+rate,1,The *birth rate* has fallen sharply in many developed countries.,Children & the family,Writing,draft
+black,1,"This junction is an accident *black spot*, so the speed limit was reduced.",On the road,Writing,draft
+spot,1,"This junction is an accident *black spot*, so the speed limit was reduced.",On the road,Writing,draft
+blood,1,Eating too much salt can raise your *blood pressure*.,Health,Writing,draft
+pressure,1,Eating too much salt can raise your *blood pressure*.,Health,Writing,draft
+blue,1,*Blue-collar* jobs in factories are increasingly done by machines.,Work,Writing,draft
+collar,1,*Blue-collar* jobs in factories are increasingly done by machines.,Work,Writing,draft
+border,1,Some countries have tightened *border controls* to stop illegal immigration.,Travel,Writing,draft
+control,1,Some countries have tightened *border controls* to stop illegal immigration.,Travel,Writing,draft
+bring,1,"It is not easy to *bring up* children in a big, expensive city.",Children & the family,Writing,draft
+broad,1,The town was built on both sides of *a broad river*.,"Size, quantity & dimension",Writing,draft
+river,1,The town was built on both sides of *a broad river*.,"Size, quantity & dimension",Writing,draft
+broke,1,"Our car *broke down* on the motorway, so we were late.",Phrasal verbs 2,Speaking,draft
+broke,1,A fire *broke out* in the factory late at night.,Geography,Writing,draft
+building,1,Workers on *building sites* must wear helmets for safety.,Town & country,Writing,draft
+site,1,Workers on *building sites* must wear helmets for safety.,Town & country,Writing,draft
+building,1,She took out a mortgage with a local *building society*.,Money & finance,Writing,draft
+society,1,She took out a mortgage with a local *building society*.,Money & finance,Writing,draft
+business,1,Office rents are highest in the *central business district*.,Town & country,Writing,draft
+central,1,Office rents are highest in the *central business district*.,Town & country,Writing,draft
+district,1,Office rents are highest in the *central business district*.,Town & country,Writing,draft
+calming,1,*Traffic calming* measures such as speed bumps make streets safer for children.,On the road,Writing,draft
+traffic,1,*Traffic calming* measures such as speed bumps make streets safer for children.,On the road,Writing,draft
+camera,1,A *speed camera* was installed outside the school to slow drivers down.,On the road,Writing,draft
+speed,4,A *speed camera* was installed outside the school to slow drivers down.,On the road,Writing,draft
+capital,1,*Capital punishment* has been abolished in most European countries.,Children & the family,Writing,draft
+punishment,1,*Capital punishment* has been abolished in most European countries.,Children & the family,Writing,draft
+carbon,1,Burning fossil fuels releases large amounts of *carbon dioxide*.,Environment,Writing,draft
+dioxide,1,Burning fossil fuels releases large amounts of *carbon dioxide*.,Environment,Writing,draft
+card,1,Young people can easily get into debt with a *credit card*.,Money & finance,Writing,draft
+credit,2,Young people can easily get into debt with a *credit card*.,Money & finance,Writing,draft
+card,1,I pay for almost everything with a *debit card* these days.,Money & finance,Speaking,draft
+debit,1,I pay for almost everything with a *debit card* these days.,Money & finance,Speaking,draft
+cardiovascular,1,Regular exercise lowers the risk of *cardiovascular disease*.,Health,Writing,draft
+disease,1,Regular exercise lowers the risk of *cardiovascular disease*.,Health,Writing,draft
+carry,2,Many people *carry on* working after the official retirement age.,Phrasal verbs 2,Writing,draft
+ceiling,1,Women in many industries still face a *glass ceiling* that stops them reaching top jobs.,Men & women,Writing,draft
+glass,1,Women in many industries still face a *glass ceiling* that stops them reaching top jobs.,Men & women,Writing,draft
+central,1,The car crossed the *central reservation* and hit a lorry.,On the road,Writing,draft
+reservation,1,The car crossed the *central reservation* and hit a lorry.,On the road,Writing,draft
+centre,1,A new *shopping centre* opened near my house last month.,Architecture,Speaking,draft
+mall,2,A new *shopping centre* opened near my house last month.,Architecture,Speaking,draft
+shopping,1,A new *shopping centre* opened near my house last month.,Architecture,Speaking,draft
+chain,1,The bank's collapse started a *chain reaction* across the financial system.,Cause and effect,Writing,draft
+reaction,3,The bank's collapse started a *chain reaction* across the financial system.,Cause and effect,Writing,draft
+chart,1,The *flow chart* shows the stages in the production of paper.,Graphs and charts,Writing,draft
+flow,1,The *flow chart* shows the stages in the production of paper.,Graphs and charts,Writing,draft
+chat,1,Parents worry about children meeting strangers in online *chat rooms*.,Science & technology,Writing,draft
+rooms,1,Parents worry about children meeting strangers in online *chat rooms*.,Science & technology,Writing,draft
+check,7,We spent an hour *checking in* at the airport because of long queues.,Travel,Speaking,draft
+child,1,Ideas about *child rearing* have changed a lot over the last fifty years.,Men & women,Writing,draft
+rearing,1,Ideas about *child rearing* have changed a lot over the last fifty years.,Men & women,Writing,draft
+circle,3,The children sat in *a circle* around the teacher.,Shape & feature,Writing,draft
+civil,1,Millions of people fled the country during the *civil war*.,Geography,Writing,draft
+war,1,Millions of people fled the country during the *civil war*.,Geography,Writing,draft
+class,3,Flying *economy class* is much cheaper but less comfortable on long flights.,Travel,Writing,draft
+economy,1,Flying *economy class* is much cheaper but less comfortable on long flights.,Travel,Writing,draft
+class,3,My father takes an *evening class* in photography every Tuesday.,Education,Writing,draft
+evening,1,My father takes an *evening class* in photography every Tuesday.,Education,Writing,draft
+code,1,Every learner driver should study the *Highway Code* carefully.,On the road,Writing,draft
+highway,1,Every learner driver should study the *Highway Code* carefully.,On the road,Writing,draft
+collection,1,She has just published *a collection of short stories* about life in Hanoi.,The arts,Writing,draft
+short,1,She has just published *a collection of short stories* about life in Hanoi.,The arts,Writing,draft
+story,1,She has just published *a collection of short stories* about life in Hanoi.,The arts,Writing,draft
+colossal,1,*A colossal statue* of the king stands in the main square.,"Size, quantity & dimension",Writing,draft
+statue,1,*A colossal statue* of the king stands in the main square.,"Size, quantity & dimension",Writing,draft
+comprehensive,1,He went to a *comprehensive school* that accepted students of all abilities.,Education,Writing,draft
+school,1,He went to a *comprehensive school* that accepted students of all abilities.,Education,Writing,draft
+cone,1,The ice cream was served in *a cone*.,Shape & feature,Writing,draft
+cone,1,Workers put out *traffic cones* to close one lane of the road.,On the road,Writing,draft
+traffic,1,Workers put out *traffic cones* to close one lane of the road.,On the road,Writing,draft
+constant,1,"The number of visitors *remained constant* at about 2,000 a month.",Changes 1,Writing,draft
+remain,1,"The number of visitors *remained constant* at about 2,000 a month.",Changes 1,Writing,draft
+convention,1,Shaking hands when you meet someone is a *social convention* in many countries.,Men & women,Speaking,draft
+social,1,Shaking hands when you meet someone is a *social convention* in many countries.,Men & women,Speaking,draft
+conventional,1,Some patients combine *conventional medicine* with herbal remedies.,Health,Writing,draft
+medicine,1,Some patients combine *conventional medicine* with herbal remedies.,Health,Writing,draft
+corner,1,The café is *on the corner of* Le Loi Street and Nguyen Hue Street.,Location & direction,Writing,draft
+corporation,1,Lower *corporation tax* can attract foreign companies to a country.,Money & finance,Writing,draft
+tax,1,Lower *corporation tax* can attract foreign companies to a country.,Money & finance,Writing,draft
+counterpart,1,Female managers often earn less than their *male counterparts*.,Men & women,Writing,draft
+male,1,Female managers often earn less than their *male counterparts*.,Men & women,Writing,draft
+credit,2,Buying furniture *on credit* can be expensive in the long run.,Money & finance,Writing,draft
+crescent,1,The moon looked like *a crescent* in the evening sky.,Shape & feature,Writing,draft
+crossing,4,More *pedestrian crossings* would make the city centre safer.,On the road,Writing,draft
+pedestrian,1,More *pedestrian crossings* would make the city centre safer.,On the road,Writing,draft
+crossing,4,Wait for the green man at the *pelican crossing* before you cross.,On the road,Speaking,draft
+pelican,1,Wait for the green man at the *pelican crossing* before you cross.,On the road,Speaking,draft
+crucial,1,Clean water is *of crucial importance* for public health.,Emphasis & misunderstanding,Writing,draft
+importance,1,Clean water is *of crucial importance* for public health.,Emphasis & misunderstanding,Writing,draft
+crucially,1,Early diagnosis is *crucially important* in treating cancer.,Emphasis & misunderstanding,Writing,draft
+important,3,Early diagnosis is *crucially important* in treating cancer.,Emphasis & misunderstanding,Writing,draft
+cube,2,Each box is *a cube* measuring 30 centimetres on every side.,Shape & feature,Writing,draft
+cultural,1,"The city hosts many *cultural events*, such as music festivals and exhibitions.",Town & country,Writing,draft
+event,1,"The city hosts many *cultural events*, such as music festivals and exhibitions.",Town & country,Writing,draft
+culture,1,Many international students experience *culture shock* in their first months abroad.,Travel,Writing,draft
+shock,1,Many international students experience *culture shock* in their first months abroad.,Travel,Writing,draft
+cutting,1,We are *cutting back on* eating out to save money.,Phrasal verbs 2,Speaking,draft
+cycle,1,Building more *cycle lanes* would encourage people to leave their cars at home.,On the road,Writing,draft
+lane,1,Building more *cycle lanes* would encourage people to leave their cars at home.,On the road,Writing,draft
+cylinder,2,The tank is shaped like *a cylinder*.,Shape & feature,Writing,draft
+day,1,The company allows apprentices *day release* to study at a local college.,Education,Writing,draft
+release,1,The company allows apprentices *day release* to study at a local college.,Education,Writing,draft
+deal,3,Learning a language takes *a great deal of time* and patience.,"Size, quantity & dimension",Writing,draft
+great,2,Learning a language takes *a great deal of time* and patience.,"Size, quantity & dimension",Writing,draft
+time,1,Learning a language takes *a great deal of time* and patience.,"Size, quantity & dimension",Writing,draft
+deep,1,The village sits beside *a deep lake* surrounded by mountains.,"Size, quantity & dimension",Writing,draft
+lake,1,The village sits beside *a deep lake* surrounded by mountains.,"Size, quantity & dimension",Writing,draft
+densely,1,Ho Chi Minh City is one of the most *densely populated* cities in the region.,Geography,Writing,draft
+populated,1,Ho Chi Minh City is one of the most *densely populated* cities in the region.,Geography,Writing,draft
+detached,1,A *detached house* with a garden is too expensive for most young families.,Architecture,Writing,draft
+house,1,A *detached house* with a garden is too expensive for most young families.,Architecture,Writing,draft
+directly,1,The bus stop is *directly opposite* the hospital.,Location & direction,Writing,draft
+opposite,2,The bus stop is *directly opposite* the hospital.,Location & direction,Writing,draft
+displace,1,Thousands of people were *internally displaced* by the floods.,Travel,Writing,draft
+internally,1,Thousands of people were *internally displaced* by the floods.,Travel,Writing,draft
+disposal,1,*Waste disposal* is becoming a serious problem as cities grow.,Environment,Writing,draft
+waste,1,*Waste disposal* is becoming a serious problem as cities grow.,Environment,Writing,draft
+division,1,The traditional *role division* in families has changed as more women go out to work.,Men & women,Writing,draft
+role,1,The traditional *role division* in families has changed as more women go out to work.,Men & women,Writing,draft
+do,1,The school *did away with* uniforms last year.,Phrasal verbs 2,Writing,draft
+drug,1,Athletes who use *performance-enhancing drugs* should be banned for life.,Sport,Writing,draft
+east,1,The industrial area lies *to the east of* the city centre.,Location & direction,Writing,draft
+economic,1,*Economic migrants* move abroad to find better-paid work.,Travel,Writing,draft
+migrant,1,*Economic migrants* move abroad to find better-paid work.,Travel,Writing,draft
+education,1,*Private education* gives some children an unfair advantage.,Education,Writing,draft
+private,1,*Private education* gives some children an unfair advantage.,Education,Writing,draft
+effect,1,*The greenhouse effect* is making the planet warmer.,Environment,Writing,draft
+greenhouse,2,*The greenhouse effect* is making the planet warmer.,Environment,Writing,draft
+ended,1,We got lost and *ended up* in a small village miles from the city.,Phrasal verbs 2,Speaking,draft
+engineering,1,*Genetic engineering* could help farmers grow crops that resist disease.,Science & technology,Writing,draft
+genetic,4,*Genetic engineering* could help farmers grow crops that resist disease.,Science & technology,Writing,draft
+engineering,1,He studied *nuclear engineering* and now works at a power station.,Science & technology,Writing,draft
+nuclear,1,He studied *nuclear engineering* and now works at a power station.,Science & technology,Writing,draft
+equity,1,"When house prices fall, some owners end up in *negative equity*.",Money & finance,Writing,draft
+negative,1,"When house prices fall, some owners end up in *negative equity*.",Money & finance,Writing,draft
+error,1,Building the airport so far from the city was *a monumental error*.,"Size, quantity & dimension",Writing,draft
+monumental,3,Building the airport so far from the city was *a monumental error*.,"Size, quantity & dimension",Writing,draft
+exam,1,Students *take an exam* at the end of each term.,Education,Writing,draft
+sit,1,Students *take an exam* at the end of each term.,Education,Writing,draft
+take,1,Students *take an exam* at the end of each term.,Education,Writing,draft
+exchange,1,The *rate of exchange* is better at the bank than at the airport.,Money & finance,Writing,draft
+rate,5,The *rate of exchange* is better at the bank than at the airport.,Money & finance,Writing,draft
+explosion,1,The *population explosion* in cities has put pressure on housing.,Town & country,Writing,draft
+population,4,The *population explosion* in cities has put pressure on housing.,Town & country,Writing,draft
+extremely,1,Sleep is *extremely important* for students before exams.,Emphasis & misunderstanding,Writing,draft
+important,3,Sleep is *extremely important* for students before exams.,Emphasis & misunderstanding,Writing,draft
+facility,1,Every neighbourhood should have proper *recycling facilities*.,Environment,Writing,draft
+recycling,1,Every neighbourhood should have proper *recycling facilities*.,Environment,Writing,draft
+family,2,The child lived with a *foster family* for two years.,Children & the family,Writing,draft
+foster,1,The child lived with a *foster family* for two years.,Children & the family,Writing,draft
+fast,1,Eating too much *fast food* is one cause of rising obesity.,Food & diet,Writing,draft
+food,2,Eating too much *fast food* is one cause of rising obesity.,Food & diet,Writing,draft
+fell,1,Our plans to travel abroad *fell through* because of the pandemic.,Phrasal verbs 2,Writing,draft
+through,1,Our plans to travel abroad *fell through* because of the pandemic.,Phrasal verbs 2,Writing,draft
+film,1,We watched *a film* about climate change in class.,The arts,Speaking,draft
+fixed,1,Retired people living on a *fixed income* are hit hardest by rising prices.,Work,Writing,draft
+income,1,Retired people living on a *fixed income* are hit hardest by rising prices.,Work,Writing,draft
+fixing,1,Several players were banned for *match fixing*.,Sport,Writing,draft
+match,1,Several players were banned for *match fixing*.,Sport,Writing,draft
+floor,1,Managers should spend time on the *shop floor* talking to workers.,Business & industry,Writing,draft
+shop,1,Managers should spend time on the *shop floor* talking to workers.,Business & industry,Writing,draft
+food,1,"There was *plenty of food* at the party, so nobody went home hungry.","Size, quantity & dimension",Writing,draft
+plenty,2,"There was *plenty of food* at the party, so nobody went home hungry.","Size, quantity & dimension",Writing,draft
+forest,1,Large areas of *rain forest* are cleared every year for farming.,Environment,Writing,draft
+rain,1,Large areas of *rain forest* are cleared every year for farming.,Environment,Writing,draft
+formative,1,Children's *formative years* shape their values for life.,Children & the family,Writing,draft
+years,1,Children's *formative years* shape their values for life.,Children & the family,Writing,draft
+fossil,1,Countries need to reduce their dependence on *fossil fuels*.,Environment,Writing,draft
+fuel,1,Countries need to reduce their dependence on *fossil fuels*.,Environment,Writing,draft
+freedom,1,*Freedom of the press* is essential in a democracy.,Media,Writing,draft
+press,2,*Freedom of the press* is essential in a democracy.,Media,Writing,draft
+gender,2,Traditional *gender roles* are changing in many societies.,Men & women,Writing,draft
+role,2,Traditional *gender roles* are changing in many societies.,Men & women,Writing,draft
+general,1,"*In general terms*, young people use social media more than older people.",Generalisations & specifics,Writing,draft
+terms,1,"*In general terms*, young people use social media more than older people.",Generalisations & specifics,Writing,draft
+genetically,1,Some consumers refuse to buy *genetically modified* food.,Environment,Writing,draft
+modified,1,Some consumers refuse to buy *genetically modified* food.,Environment,Writing,draft
+gigantic,1,*A gigantic wave* destroyed several houses along the coast.,"Size, quantity & dimension",Writing,draft
+wave,1,*A gigantic wave* destroyed several houses along the coast.,"Size, quantity & dimension",Writing,draft
+go,1,The number of smokers *went down* steadily after the ban on advertising.,Changes 1,Writing,draft
+go,1,House prices *went up* by 10 percent last year.,Changes 1,Writing,draft
+graph,3,The *line graph* shows changes in the price of oil over ten years.,Graphs and charts,Writing,draft
+line,1,The *line graph* shows changes in the price of oil over ten years.,Graphs and charts,Writing,draft
+grounds,4,Some parents oppose homework *on the grounds that* children need time to play.,Reason & result,Writing,draft
+gutter,1,The *gutter press* often publishes stories about celebrities' private lives.,Media,Writing,draft
+press,2,The *gutter press* often publishes stories about celebrities' private lives.,Media,Writing,draft
+hand,1,"*On the one hand*, cars give people freedom; on the other hand, they cause pollution.",Presenting an argument,Writing,draft
+one,1,"*On the one hand*, cars give people freedom; on the other hand, they cause pollution.",Presenting an argument,Writing,draft
+hand,1,"City life is exciting. *On the other hand*, it can be very stressful.",Presenting an argument,Writing,draft
+other,1,"City life is exciting. *On the other hand*, it can be very stressful.",Presenting an argument,Writing,draft
+hard,1,Drivers should only stop on the *hard shoulder* in an emergency.,On the road,Writing,draft
+shoulder,1,Drivers should only stop on the *hard shoulder* in an emergency.,On the road,Writing,draft
+health,1,Regular sport benefits both *physical health* and mental health.,Health,Writing,draft
+physical,1,Regular sport benefits both *physical health* and mental health.,Health,Writing,draft
+health,1,*The World Health Organisation* advises people to eat at least five portions of fruit and vegetables a day.,Health,Writing,draft
+organisation,1,*The World Health Organisation* advises people to eat at least five portions of fruit and vegetables a day.,Health,Writing,draft
+world,1,*The World Health Organisation* advises people to eat at least five portions of fruit and vegetables a day.,Health,Writing,draft
+held,1,We were *held up* in traffic for nearly an hour.,Phrasal verbs 2,Speaking,draft
+high,1,The village is at the foot of *a high mountain*.,"Size, quantity & dimension",Writing,draft
+mountain,1,The village is at the foot of *a high mountain*.,"Size, quantity & dimension",Writing,draft
+holistic,1,"*Holistic medicine* treats the whole person, not just the symptoms.",Health,Writing,draft
+medicine,1,"*Holistic medicine* treats the whole person, not just the symptoms.",Health,Writing,draft
+hour,1,The roads are always jammed during *rush hour*.,Town & country,Writing,draft
+rush,1,The roads are always jammed during *rush hour*.,Town & country,Writing,draft
+hours,1,Nurses and police officers often work *unsociable hours*.,Work,Writing,draft
+house,1,The old *manor house* has been turned into a hotel.,Architecture,Writing,draft
+manor,1,The old *manor house* has been turned into a hotel.,Architecture,Writing,draft
+house,1,We live in a *semi-detached house* on the edge of town.,Architecture,Speaking,draft
+household,1,"Schools could teach basic *household management*, such as budgeting and cooking.",Men & women,Writing,draft
+management,1,"Schools could teach basic *household management*, such as budgeting and cooking.",Men & women,Writing,draft
+independent,1,*Independent travellers* prefer to plan their own trips rather than join a tour.,Travel,Writing,draft
+traveller,1,*Independent travellers* prefer to plan their own trips rather than join a tour.,Travel,Writing,draft
+industry,3,*Manufacturing industries* have moved to countries with lower labour costs.,Work,Writing,draft
+manufacturing,1,*Manufacturing industries* have moved to countries with lower labour costs.,Work,Writing,draft
+industry,3,*Secondary industries* turn raw materials into finished products.,Business & industry,Writing,draft
+secondary,1,*Secondary industries* turn raw materials into finished products.,Business & industry,Writing,draft
+industry,3,Many *state-owned industries* were privatised in the 1990s.,Business & industry,Writing,draft
+industry,2,Most jobs in modern cities are in *service industries* such as tourism and banking.,Work,Writing,draft
+service,1,Most jobs in modern cities are in *service industries* such as tourism and banking.,Work,Writing,draft
+infant,1,My son started *infant school* when he was five.,Education,Writing,draft
+school,1,My son started *infant school* when he was five.,Education,Writing,draft
+information,1,Students today suffer from *information overload* because of the internet.,Media,Writing,draft
+overload,1,Students today suffer from *information overload* because of the internet.,Media,Writing,draft
+inheritance,1,*Inheritance tax* is paid on money and property left by someone who has died.,Money & finance,Writing,draft
+tax,1,*Inheritance tax* is paid on money and property left by someone who has died.,Money & finance,Writing,draft
+injury,1,Office workers who type all day can develop *repetitive strain injury*.,Work,Writing,draft
+repetitive,1,Office workers who type all day can develop *repetitive strain injury*.,Work,Writing,draft
+strain,1,Office workers who type all day can develop *repetitive strain injury*.,Work,Writing,draft
+invasion,1,Publishing photos of people without permission is an *invasion of privacy*.,Media,Writing,draft
+privacy,1,Publishing photos of people without permission is an *invasion of privacy*.,Media,Writing,draft
+investigative,1,*Investigative journalism* can expose corruption in government.,Media,Writing,draft
+journalism,1,*Investigative journalism* can expose corruption in government.,Media,Writing,draft
+island,1,We waited on the *traffic island* in the middle of the road.,On the road,Speaking,draft
+traffic,1,We waited on the *traffic island* in the middle of the road.,On the road,Speaking,draft
+job,1,Cleaning up the beach after the oil spill was *a mammoth job*.,"Size, quantity & dimension",Writing,draft
+mammoth,1,Cleaning up the beach after the oil spill was *a mammoth job*.,"Size, quantity & dimension",Writing,draft
+job,1,Many young people value *job security* more than a high salary.,Work,Writing,draft
+security,1,Many young people value *job security* more than a high salary.,Work,Writing,draft
+journalism,1,*Chequebook journalism* means paying people for their stories.,Media,Writing,draft
+journey,1,Travelling by train is relaxing on *a long-distance journey*.,"Size, quantity & dimension",Writing,draft
+long-distance,1,Travelling by train is relaxing on *a long-distance journey*.,"Size, quantity & dimension",Writing,draft
+junior,1,I still remember my teachers from *junior school*.,Education,Speaking,draft
+school,1,I still remember my teachers from *junior school*.,Education,Speaking,draft
+land,1,Deforestation turns *productive land* into desert.,Town & country,Writing,draft
+productive,1,Deforestation turns *productive land* into desert.,Town & country,Writing,draft
+landscape,1,The painting shows *a landscape* of rice fields and mountains.,The arts,Writing,draft
+layer,1,*The ozone layer* protects the earth from harmful sunlight.,Environment,Writing,draft
+ozone,1,*The ozone layer* protects the earth from harmful sunlight.,Environment,Writing,draft
+left,1,Go straight on and the museum is *on your left*.,Location & direction,Writing,draft
+left,1,*Turn left* at the traffic lights and the station is in front of you.,Location & direction,Speaking,draft
+turn,2,*Turn left* at the traffic lights and the station is in front of you.,Location & direction,Speaking,draft
+left-hand,1,The bank is *on the left-hand side of* the road.,Location & direction,Writing,draft
+side,1,The bank is *on the left-hand side of* the road.,Location & direction,Writing,draft
+level,1,*Rising sea levels* threaten coastal cities around the world.,Environment,Writing,draft
+rising,1,*Rising sea levels* threaten coastal cities around the world.,Environment,Writing,draft
+sea,1,*Rising sea levels* threaten coastal cities around the world.,Environment,Writing,draft
+light,1,Cyclists must stop at *traffic lights* just like drivers.,On the road,Writing,draft
+traffic,1,Cyclists must stop at *traffic lights* just like drivers.,On the road,Writing,draft
+male,1,He was criticised as a *male chauvinist* after his comments about women at work.,Men & women,Writing,draft
+manual,5,A *manual worker* often earns less than an office worker.,Work,Writing,draft
+worker,1,A *manual worker* often earns less than an office worker.,Work,Writing,draft
+mass,1,*Mass tourism* can damage beaches and historic sites.,Travel,Writing,draft
+tourism,1,*Mass tourism* can damage beaches and historic sites.,Travel,Writing,draft
+meal,1,"After *a gargantuan meal* at the wedding, nobody could move.","Size, quantity & dimension",Writing,draft
+meantime,1,"The new hospital opens next year. *In the meantime*, patients travel to the next town.",Time,Writing,draft
+middle,1,The park is *in the middle of* the city.,Location & direction,Writing,draft
+mobile,1,Education allows children from poor families to become *upwardly mobile*.,Money & finance,Writing,draft
+most,1,"*For the most part*, students were happy with the new timetable.",Generalisations & specifics,Writing,draft
+part,1,"*For the most part*, students were happy with the new timetable.",Generalisations & specifics,Writing,draft
+mountain,1,The country is divided by a long *mountain range*.,Geography,Writing,draft
+range,4,The country is divided by a long *mountain range*.,Geography,Writing,draft
+narrow,1,The café is hidden down *a narrow alleyway* in the old quarter.,"Size, quantity & dimension",Writing,draft
+non,1,"After the scandal, the diplomat was declared *persona non grata*.",Travel,Writing,draft
+persona,1,"After the scandal, the diplomat was declared *persona non grata*.",Travel,Writing,draft
+north,4,The school is *on the north side of* the lake.,Location & direction,Writing,draft
+side,1,The school is *on the north side of* the lake.,Location & direction,Writing,draft
+novel,1,She is writing *a novel* about growing up in the countryside.,The arts,Writing,draft
+object,1,Advertisements should not present women as *sex objects*.,Men & women,Writing,draft
+sex,1,Advertisements should not present women as *sex objects*.,Men & women,Writing,draft
+opera,1,Tickets for *an opera* are usually more expensive than cinema tickets.,The arts,Writing,draft
+opposite,1,The post office is *diagonally opposite* the bank.,Location & direction,Writing,draft
+order,1,Many students work part-time *in order to* pay their fees.,Reason & result,Writing,draft
+other,1,"Prices rose by 50 percent. *In other words*, they increased by half.",Presenting an argument,Writing,draft
+words,1,"Prices rose by 50 percent. *In other words*, they increased by half.",Presenting an argument,Writing,draft
+oval,2,The running track is shaped like *an oval*.,Shape & feature,Writing,draft
+owing,1,The flight was delayed *owing to* bad weather.,Reason & result,Writing,draft
+package,1,"A *package tour* includes flights, hotels and meals in one price.",Travel,Writing,draft
+tour,1,"A *package tour* includes flights, hotels and meals in one price.",Travel,Writing,draft
+packaging,1,Supermarkets should switch to *biodegradable packaging*.,Environment,Writing,draft
+parallel,4,The railway runs *parallel to* the river.,Location & direction,Writing,draft
+park,1,A *park and ride* scheme lets drivers leave their cars outside the city and take a bus in.,On the road,Writing,draft
+ride,1,A *park and ride* scheme lets drivers leave their cars outside the city and take a bus in.,On the road,Writing,draft
+part,1,All students are encouraged to *take part in* sports.,Sport,Writing,draft
+take,2,All students are encouraged to *take part in* sports.,Sport,Writing,draft
+part,1,*Taking part in* community projects helps young people develop new skills.,Sport,Writing,draft
+taking,1,*Taking part in* community projects helps young people develop new skills.,Sport,Writing,draft
+pass,7,The jury needed two days to *pass a verdict*.,Children & the family,Writing,draft
+verdict,1,The jury needed two days to *pass a verdict*.,Children & the family,Writing,draft
+past,1,*Go past* the hospital and take the second road on the right.,Location & direction,Writing,draft
+peak,1,Sales *reached a peak of* 5 million units in 2020.,Changes 1,Writing,draft
+reach,5,Sales *reached a peak of* 5 million units in 2020.,Changes 1,Writing,draft
+peak,2,Train fares are higher during *peak periods*.,Town & country,Writing,draft
+period,1,Train fares are higher during *peak periods*.,Town & country,Writing,draft
+peaked,1,Unemployment *peaked at* 12 percent in 2010.,Changes 1,Writing,draft
+pick,7,Children *pick up* new languages faster than adults.,Phrasal verbs 4,Writing,draft
+pick,7,He was *picked on* at school because he was shy.,Phrasal verbs 4,Writing,draft
+pool,1,Young children can play safely in *a shallow pool*.,"Size, quantity & dimension",Writing,draft
+shallow,1,Young children can play safely in *a shallow pool*.,"Size, quantity & dimension",Writing,draft
+portrait,1,The museum has *a portrait* of the city's founder.,The arts,Writing,draft
+power,1,A *power struggle* inside the party led to a new leader.,Men & women,Writing,draft
+struggle,1,A *power struggle* inside the party led to a new leader.,Men & women,Writing,draft
+prior,2,"*Prior to* the 1990s, few households had a computer.",Time,Writing,draft
+prison,1,Courts should not *send* young first-time offenders *to prison*.,Children & the family,Writing,draft
+send,1,Courts should not *send* young first-time offenders *to prison*.,Children & the family,Writing,draft
+pull,7,The company decided to *pull out of* the project because of rising costs.,Stopping something,Writing,draft
+pull,7,The doctors were confident that the patient would *pull through*.,Phrasal verbs 2,Writing,draft
+through,1,The doctors were confident that the patient would *pull through*.,Phrasal verbs 2,Writing,draft
+pull,7,Several athletes *pulled out of* the race because of injury.,Phrasal verbs 2,Writing,draft
+pyramid,1,The new museum is shaped like *a pyramid* made of glass.,Shape & feature,Writing,draft
+radioactive,1,Storing *radioactive waste* safely is a major problem for nuclear power.,Environment,Writing,draft
+waste,1,Storing *radioactive waste* safely is a major problem for nuclear power.,Environment,Writing,draft
+rectangle,1,The garden is *a rectangle* about 20 metres long.,Shape & feature,Writing,draft
+remain,1,The price of rice *remained steady* throughout the year.,Changes 1,Writing,draft
+steady,1,The price of rice *remained steady* throughout the year.,Changes 1,Writing,draft
+right,2,Walk for two minutes and the station is *on your right*.,Location & direction,Writing,draft
+right,2,*Turn right* at the end of the street.,Location & direction,Writing,draft
+turn,2,*Turn right* at the end of the street.,Location & direction,Writing,draft
+road,1,Use the *slip road* to join the motorway.,On the road,Writing,draft
+slip,1,Use the *slip road* to join the motorway.,On the road,Writing,draft
+running,1,The project kept *running up against* problems with funding.,Phrasal verbs 4,Writing,draft
+running,1,"Without enough parks, children end up *running wild* in the streets.",Children & the family,Writing,draft
+wild,1,"Without enough parks, children end up *running wild* in the streets.",Children & the family,Writing,draft
+sculpture,2,A large *sculpture* stands at the entrance to the gallery.,The arts,Writing,draft
+security,2,*Social security* helps people who lose their jobs.,Money & finance,Writing,draft
+social,1,*Social security* helps people who lose their jobs.,Money & finance,Writing,draft
+side,1,The market is *on the south side of* the river.,Location & direction,Writing,draft
+south,4,The market is *on the south side of* the river.,Location & direction,Writing,draft
+soon,1,I will call you *as soon as* I arrive.,Time,Speaking,draft
+sort,5,We need to *sort out* the problem before the deadline.,Phrasal verbs 2,Speaking,draft
+sphere,2,The earth is not a perfect *sphere*.,Shape & feature,Writing,draft
+spiral,1,The staircase goes up in *a spiral*.,Shape & feature,Writing,draft
+split,7,Many couples *split up* because of money problems.,Phrasal verbs 2,Writing,draft
+sprawl,1,*Urban sprawl* destroys farmland around big cities.,Geography,Writing,draft
+urban,1,*Urban sprawl* destroys farmland around big cities.,Geography,Writing,draft
+square,4,Each tile is *a square* measuring ten centimetres.,Shape & feature,Writing,draft
+state,1,The *welfare state* provides free healthcare and support for the unemployed.,Health,Writing,draft
+welfare,3,The *welfare state* provides free healthcare and support for the unemployed.,Health,Writing,draft
+strategy,1,The city needs a long-term *transport strategy* to reduce congestion.,On the road,Writing,draft
+transport,1,The city needs a long-term *transport strategy* to reduce congestion.,On the road,Writing,draft
+surrounded,1,The village is *surrounded by* rice fields.,Location & direction,Writing,draft
+take,2,A large company *took over* the local factory.,Joining / becoming part of something bigger,Writing,draft
+toxic,1,Factories must not dump *toxic waste* into rivers.,Environment,Writing,draft
+waste,1,Factories must not dump *toxic waste* into rivers.,Environment,Writing,draft
+trend,3,Online shopping shows a clear *upward trend*.,Changes 1,Writing,draft
+upward,1,Online shopping shows a clear *upward trend*.,Changes 1,Writing,draft
+triangle,1,The sign is in the shape of *a triangle*.,Shape & feature,Writing,draft
+turn,7,She decided to *turn down* the job offer because of the long hours.,How something works,Writing,draft
+turned,1,His application was *turned down* because it arrived late.,Phrasal verbs 4,Writing,draft
+tycoon,1,A *media tycoon* owns several newspapers and TV channels.,Media,Writing,draft
+tycoon,1,Some people fear that *media tycoons* have too much political influence.,Media,Writing,draft
+unskilled,1,*Unskilled labourers* are often the first to lose their jobs.,Business & industry,Writing,draft
+zone,1,The old town has become a *traffic-free zone* for pedestrians.,On the road,Writing,draft
+america,1,Tourism to *Latin America* has grown rapidly.,Around the world,Writing,draft
+latin,1,Tourism to *Latin America* has grown rapidly.,Around the world,Writing,draft
+america,2,Coffee is an important export for countries in *Central America*.,Around the world,Writing,draft
+central,1,Coffee is an important export for countries in *Central America*.,Around the world,Writing,draft
+africa,1,Many countries in *southern Africa* suffer from drought.,Around the world,Writing,draft
+southern,1,Many countries in *southern Africa* suffer from drought.,Around the world,Writing,draft
+east,1,Trade with *the Far East* grew quickly in the nineteenth century.,Around the world,Writing,draft
+far,1,Trade with *the Far East* grew quickly in the nineteenth century.,Around the world,Writing,draft
+gulf,1,Many workers from Asia move to *the Gulf States* for construction jobs.,Around the world,Writing,draft
+state,3,Many workers from Asia move to *the Gulf States* for construction jobs.,Around the world,Writing,draft
+kingdom,1,*The United Kingdom* has a long history of public broadcasting.,Around the world,Writing,draft
+united,1,*The United Kingdom* has a long history of public broadcasting.,Around the world,Writing,draft
+indian,1,Monsoon rains are vital for farmers on *the Indian subcontinent*.,Around the world,Writing,draft
+above,1,Students who read every day usually score *above average* in vocabulary tests.,,Writing,draft
+average,1,Students who read every day usually score *above average* in vocabulary tests.,,Writing,draft
+absolutely,1,Cars should only be used in the city centre when *absolutely necessary*.,,Writing,draft
+necessary,2,Cars should only be used in the city centre when *absolutely necessary*.,,Writing,draft
+access,1,Students in cities have *easy access* to libraries and museums.,,Writing,draft
+easy,1,Students in cities have *easy access* to libraries and museums.,,Writing,draft
+accident,2,Many scientific discoveries began as a *happy accident*.,,Writing,draft
+happy,1,Many scientific discoveries began as a *happy accident*.,,Writing,draft
+account,1,The couple opened a *joint account* to pay their bills.,,Writing,draft
+joint,1,The couple opened a *joint account* to pay their bills.,,Writing,draft
+acquired,1,Graduates are eager to use their *newly acquired* skills at work.,,Writing,draft
+newly,1,Graduates are eager to use their *newly acquired* skills at work.,,Writing,draft
+action,1,Governments must take *immediate action* to reduce air pollution.,,Writing,draft
+immediate,1,Governments must take *immediate action* to reduce air pollution.,,Writing,draft
+action,1,I prefer a comedy to an *action movie* when I want to relax.,,Speaking,draft
+movie,1,I prefer a comedy to an *action movie* when I want to relax.,,Speaking,draft
+address,4,The minister gave the *keynote address* at the education conference.,,Writing,draft
+keynote,1,The minister gave the *keynote address* at the education conference.,,Writing,draft
+speaker,1,The minister gave the *keynote address* at the education conference.,,Writing,draft
+advantage,1,Private tutoring gives wealthy students an *unfair advantage*.,,Writing,draft
+unfair,1,Private tutoring gives wealthy students an *unfair advantage*.,,Writing,draft
+affairs,1,Teenagers should be encouraged to follow *current events*.,,Writing,draft
+current,3,Teenagers should be encouraged to follow *current events*.,,Writing,draft
+event,1,Teenagers should be encouraged to follow *current events*.,,Writing,draft
+afraid,1,Many older people are *afraid of* using new technology.,,Writing,draft
+after,1,Some parents do not let their children go out *after dark*.,,Writing,draft
+dark,4,Some parents do not let their children go out *after dark*.,,Writing,draft
+after,1,"Many employees answer emails *after hours*, which causes stress.",,Writing,draft
+hours,1,"Many employees answer emails *after hours*, which causes stress.",,Writing,draft
+after,1,"After the concert, the band invited fans to an *after party*.",,Writing,draft
+party,1,"After the concert, the band invited fans to an *after party*.",,Writing,draft
+again,1,Ticket prices have gone up *yet again* this year.,,Writing,draft
+yet,1,Ticket prices have gone up *yet again* this year.,,Writing,draft
+agency,1,An *intelligence agency* collects information about threats to national security.,,Writing,draft
+intelligence,2,An *intelligence agency* collects information about threats to national security.,,Writing,draft
+agenda,1,Some critics believe the advertising campaign has a *hidden agenda*.,,Writing,draft
+hidden,1,Some critics believe the advertising campaign has a *hidden agenda*.,,Writing,draft
+alive,1,The coach told the players to *look alive* in the second half.,,Writing,draft
+look,1,The coach told the players to *look alive* in the second half.,,Writing,draft
+allergy,1,More children *have allergies* to food than in the past.,,Writing,draft
+have,2,More children *have allergies* to food than in the past.,,Writing,draft
+aloud,1,Teachers often *read aloud* to young children to build their vocabulary.,,Writing,draft
+read,1,Teachers often *read aloud* to young children to build their vocabulary.,,Writing,draft
+alphabetical,2,The names on the list are in *alphabetical order*.,,Writing,draft
+order,1,The names on the list are in *alphabetical order*.,,Writing,draft
+alternative,1,"Some patients try *alternative medicine*, such as acupuncture.",,Writing,draft
+medicine,1,"Some patients try *alternative medicine*, such as acupuncture.",,Writing,draft
+amazed,1,Visitors are often *amazed by* the beauty of Ha Long Bay.,,Writing,draft
+amends,1,He tried to *make amends* for missing his sister's wedding.,,Writing,draft
+make,1,He tried to *make amends* for missing his sister's wedding.,,Writing,draft
+angry,1,Local residents are *angry about* the plan to build a factory nearby.,,Writing,draft
+angry,1,"I rarely *get angry*, but rude drivers annoy me.",,Speaking,draft
+get,1,"I rarely *get angry*, but rude drivers annoy me.",,Speaking,draft
+appetite,1,Stress can make people *lose* their *appetite*.,,Writing,draft
+lose,1,Stress can make people *lose* their *appetite*.,,Writing,draft
+apply,1,Graduates often *apply for a job* in several companies at once.,,Writing,draft
+job,1,Graduates often *apply for a job* in several companies at once.,,Writing,draft
+appointment,1,You can now *schedule an appointment* with your doctor online.,,Speaking,draft
+schedule,3,You can now *schedule an appointment* with your doctor online.,,Speaking,draft
+arrangement,1,Families need to *make arrangements* for childcare when both parents work.,,Writing,draft
+make,1,Families need to *make arrangements* for childcare when both parents work.,,Writing,draft
+ask,1,Tourists who cannot read the signs often *ask for directions*.,,Writing,draft
+direction,4,Tourists who cannot read the signs often *ask for directions*.,,Writing,draft
+ask,1,Children should *ask permission* before using their parents' phones.,,Writing,draft
+permission,1,Children should *ask permission* before using their parents' phones.,,Writing,draft
+asleep,1,Many students *fall asleep* in class because they stay up too late.,,Writing,draft
+fall,1,Many students *fall asleep* in class because they stay up too late.,,Writing,draft
+associate,8,Lack of exercise is *associated with* heart disease.,,Writing,draft
+attention,1,I would like to *draw* your *attention to* the main trends in the graph.,,Speaking,draft
+draw,7,I would like to *draw* your *attention to* the main trends in the graph.,,Speaking,draft
+average,1,Wages in the capital are higher than the *national average*.,,Writing,draft
+national,1,Wages in the capital are higher than the *national average*.,,Writing,draft
+bad,1,"In many cultures, using your phone during a meal is considered *bad manners*.",,Writing,draft
+manners,1,"In many cultures, using your phone during a meal is considered *bad manners*.",,Writing,draft
+bag,1,He carried his suit in a *garment bag* to keep it clean.,,Writing,draft
+garment,1,He carried his suit in a *garment bag* to keep it clean.,,Writing,draft
+baggage,1,We waited half an hour at *baggage claim* for our suitcases.,,Speaking,draft
+claim,1,We waited half an hour at *baggage claim* for our suitcases.,,Speaking,draft
+baggage,1,Most airlines charge extra for *checked baggage*.,,Writing,draft
+checked,1,Most airlines charge extra for *checked baggage*.,,Writing,draft
+battery,1,I couldn't call anyone because my phone had a *dead battery*.,,Speaking,draft
+dead,1,I couldn't call anyone because my phone had a *dead battery*.,,Speaking,draft
+become,1,"Without sleep, some people *become unhinged* and act strangely.",,Writing,draft
+unhinged,1,"Without sleep, some people *become unhinged* and act strangely.",,Writing,draft
+belief,2,"Contrary to *popular belief*, most teenagers do read books.",,Writing,draft
+opinion,3,"Contrary to *popular belief*, most teenagers do read books.",,Writing,draft
+popular,1,"Contrary to *popular belief*, most teenagers do read books.",,Writing,draft
+believe,1,The advert *led* customers *to believe* the product was organic.,,Writing,draft
+lead,7,The advert *led* customers *to believe* the product was organic.,,Writing,draft
+belongings,1,Passengers should keep their *personal belongings* with them at all times.,,Writing,draft
+personal,1,Passengers should keep their *personal belongings* with them at all times.,,Writing,draft
+best,1,Students should *do their best* even when a subject is difficult.,,Writing,draft
+best,1,Schools can share *best practices* to improve teaching quality.,,Writing,draft
+practice,2,Schools can share *best practices* to improve teaching quality.,,Writing,draft
+best,1,My colleagues sent me their *best wishes* when I left the company.,,Speaking,draft
+wish,1,My colleagues sent me their *best wishes* when I left the company.,,Speaking,draft
+better,1,Children who sleep well tend to *do better* at school.,,Writing,draft
+worse,1,Children who sleep well tend to *do better* at school.,,Writing,draft
+better,1,He should *know better* than to drive after drinking.,,Writing,draft
+know,2,He should *know better* than to drive after drinking.,,Writing,draft
+big,1,Politicians must look at *the big picture* rather than short-term gains.,,Writing,draft
+picture,1,Politicians must look at *the big picture* rather than short-term gains.,,Writing,draft
+bike,1,Most people in Vietnam *ride a motorbike* to work.,,Writing,draft
+motorcycle,1,Most people in Vietnam *ride a motorbike* to work.,,Writing,draft
+ride,3,Most people in Vietnam *ride a motorbike* to work.,,Writing,draft
+bird,1,"I'm an *early bird*, so I like to study before breakfast.",,Speaking,draft
+early,1,"I'm an *early bird*, so I like to study before breakfast.",,Speaking,draft
+bite,1,We grabbed a *quick bite* before the film started.,,Speaking,draft
+quick,1,We grabbed a *quick bite* before the film started.,,Speaking,draft
+black,1,He came home with *a black eye* after a fight at school.,,Writing,draft
+eye,1,He came home with *a black eye* after a fight at school.,,Writing,draft
+black,1,I drink *black coffee* every morning to wake up.,,Speaking,draft
+coffee,1,I drink *black coffee* every morning to wake up.,,Speaking,draft
+black,1,*Black ice* on the roads causes many accidents in winter.,,Writing,draft
+ice,1,*Black ice* on the roads causes many accidents in winter.,,Writing,draft
+black,1,The company was put on a *black list* for breaking safety rules.,,Writing,draft
+list,1,The company was put on a *black list* for breaking safety rules.,,Writing,draft
+black,1,He was the *black sheep* of the family because he left school early.,,Writing,draft
+sheep,1,He was the *black sheep* of the family because he left school early.,,Writing,draft
+black,1,The invitation said the dinner was *black tie*.,,Writing,draft
+tie,1,The invitation said the dinner was *black tie*.,,Writing,draft
+black,1,Strict controls on currency can lead to a *black market*.,,Writing,draft
+market,1,Strict controls on currency can lead to a *black market*.,,Writing,draft
+blue,1,The company encouraged *blue-sky* thinking to find new ideas.,,Writing,draft
+sky,1,The company encouraged *blue-sky* thinking to find new ideas.,,Writing,draft
+bode,1,Falling student numbers do not *bode well* for the university's future.,,Writing,draft
+well,1,Falling student numbers do not *bode well* for the university's future.,,Writing,draft
+book,10,It is cheaper to *book a hotel* several months in advance.,,Writing,draft
+hotel,1,It is cheaper to *book a hotel* several months in advance.,,Writing,draft
+bounce,1,Working in groups lets students *bounce ideas off each other*.,,Writing,draft
+each,1,Working in groups lets students *bounce ideas off each other*.,,Writing,draft
+idea,1,Working in groups lets students *bounce ideas off each other*.,,Writing,draft
+other,1,Working in groups lets students *bounce ideas off each other*.,,Writing,draft
+bouquet,1,He gave his mother a *bouquet of flowers* on her birthday.,,Writing,draft
+flower,1,He gave his mother a *bouquet of flowers* on her birthday.,,Writing,draft
+break,7,Politicians who *break a promise* quickly lose voters' trust.,,Writing,draft
+promise,1,Politicians who *break a promise* quickly lose voters' trust.,,Writing,draft
+breakdown,1,Extreme stress at work can lead to a *nervous breakdown*.,,Writing,draft
+nervous,1,Extreme stress at work can lead to a *nervous breakdown*.,,Writing,draft
+brow,1,She read the exam question with a *furrowed brow*.,,Writing,draft
+build,3,We learned to *build a fire* on a camping trip.,,Speaking,draft
+fire,1,We learned to *build a fire* on a camping trip.,,Speaking,draft
+busy,2,Retired people who *keep busy* tend to be healthier.,,Writing,draft
+keep,1,Retired people who *keep busy* tend to be healthier.,,Writing,draft
+button,2,Today you can order almost anything if you *press a button* on your phone.,,Speaking,draft
+press,7,Today you can order almost anything if you *press a button* on your phone.,,Speaking,draft
+cab,1,"It was late, so we decided to *call a cab*.",,Speaking,draft
+call,7,"It was late, so we decided to *call a cab*.",,Speaking,draft
+cab,1,It is hard to *hail a cab* in the city centre when it rains.,,Writing,draft
+hail,4,It is hard to *hail a cab* in the city centre when it rains.,,Writing,draft
+call,1,Students are not allowed to *make a phone call* during the exam.,,Writing,draft
+make,3,Students are not allowed to *make a phone call* during the exam.,,Writing,draft
+phone,1,Students are not allowed to *make a phone call* during the exam.,,Writing,draft
+call,7,International students often *call home* once a week.,,Writing,draft
+home,1,International students often *call home* once a week.,,Writing,draft
+call,7,Employees who feel stressed may *call in sick* more often.,,Writing,draft
+sick,1,Employees who feel stressed may *call in sick* more often.,,Writing,draft
+can,1,We forgot the *can opener* on our camping trip.,,Speaking,draft
+opener,1,We forgot the *can opener* on our camping trip.,,Speaking,draft
+candle,1,People *light a candle* to remember the victims.,,Writing,draft
+light,1,People *light a candle* to remember the victims.,,Writing,draft
+candle,2,*Scented candles* are a popular gift.,,Writing,draft
+scented,1,*Scented candles* are a popular gift.,,Writing,draft
+car,1,An *electric car* produces no exhaust fumes.,,Writing,draft
+electric,1,An *electric car* produces no exhaust fumes.,,Writing,draft
+cards,1,All you need for this game is a *deck of cards*.,,Speaking,draft
+deck,5,All you need for this game is a *deck of cards*.,,Speaking,draft
+care,1,*Take care* when you cross busy roads.,,Speaking,draft
+take,1,*Take care* when you cross busy roads.,,Speaking,draft
+cast,7,Young people should be encouraged to *cast a vote* in elections.,,Writing,draft
+vote,1,Young people should be encouraged to *cast a vote* in elections.,,Writing,draft
+catch,7,Children *catch a cold* more easily in winter.,,Writing,draft
+cold,1,Children *catch a cold* more easily in winter.,,Writing,draft
+catch,7,I *catch the train* to work every morning.,,Speaking,draft
+train,1,I *catch the train* to work every morning.,,Speaking,draft
+cause,1,The money raised will go to a *good cause*.,,Writing,draft
+good,1,The money raised will go to a *good cause*.,,Writing,draft
+cause,6,The angry passenger began to *cause a scene* at the airport.,,Writing,draft
+commotion,1,The angry passenger began to *cause a scene* at the airport.,,Writing,draft
+scene,1,The angry passenger began to *cause a scene* at the airport.,,Writing,draft
+change,1,The taxi driver was delighted when I told him to *keep the change*.,,Speaking,draft
+keep,4,The taxi driver was delighted when I told him to *keep the change*.,,Speaking,draft
+chore,1,Children should help to *do chores* at home.,,Writing,draft
+housework,1,Children should help to *do chores* at home.,,Writing,draft
+clean,1,The company finally *came clean* about the safety problem.,,Writing,draft
+come,1,The company finally *came clean* about the safety problem.,,Writing,draft
+clothes,1,Many teenagers *dye* their *hair* bright colours.,,Writing,draft
+dye,2,Many teenagers *dye* their *hair* bright colours.,,Writing,draft
+hair,1,Many teenagers *dye* their *hair* bright colours.,,Writing,draft
+clothes,1,*Put on* warm *clothes* before you go out.,,Speaking,draft
+put,2,*Put on* warm *clothes* before you go out.,,Speaking,draft
+shoes,1,*Put on* warm *clothes* before you go out.,,Speaking,draft
+clothes,1,"In Vietnamese homes, guests usually *take off* their *shoes*.",,Writing,draft
+shoes,1,"In Vietnamese homes, guests usually *take off* their *shoes*.",,Writing,draft
+take,3,"In Vietnamese homes, guests usually *take off* their *shoes*.",,Writing,draft
+clothes,1,Students living alone must learn to *wash* their own *clothes*.,,Writing,draft
+wash,1,Students living alone must learn to *wash* their own *clothes*.,,Writing,draft
+clothing,1,I had to *take in* the trousers because they were too big.,,Speaking,draft
+take,3,I had to *take in* the trousers because they were too big.,,Speaking,draft
+cocktail,1,The company held a *cocktail party* to celebrate its anniversary.,,Writing,draft
+party,1,The company held a *cocktail party* to celebrate its anniversary.,,Writing,draft
+come,2,Many graduates *come back* to their home town after university.,,Writing,draft
+come,2,These shoes *come in* three colours.,,Writing,draft
+come,2,"When I think of my childhood, the beach is the first thing that *comes to mind*.",,Speaking,draft
+mind,1,"When I think of my childhood, the beach is the first thing that *comes to mind*.",,Speaking,draft
+come,1,"For most parents, their children's safety *comes first*.",,Writing,draft
+first,1,"For most parents, their children's safety *comes first*.",,Writing,draft
+come,1,Winning the scholarship made my dream *come true*.,,Speaking,draft
+true,1,Winning the scholarship made my dream *come true*.,,Speaking,draft
+comeback,1,Vinyl records have *made a comeback* in recent years.,,Writing,draft
+make,3,Vinyl records have *made a comeback* in recent years.,,Writing,draft
+comfort,1,Noodle soup is my favourite *comfort food* on a rainy day.,,Speaking,draft
+food,1,Noodle soup is my favourite *comfort food* on a rainy day.,,Speaking,draft
+common,1,My best friend and I share a *common interest* in photography.,,Speaking,draft
+interest,1,My best friend and I share a *common interest* in photography.,,Speaking,draft
+company,1,My grandfather is *good company*: he tells wonderful stories.,,Writing,draft
+good,1,My grandfather is *good company*: he tells wonderful stories.,,Writing,draft
+concern,1,The rise in youth unemployment has *raised concern* among economists.,,Writing,draft
+raise,1,The rise in youth unemployment has *raised concern* among economists.,,Writing,draft
+conduct,1,Scientists *conduct research* to find cures for diseases.,,Writing,draft
+research,1,Scientists *conduct research* to find cures for diseases.,,Writing,draft
+connection,1,Online lessons are frustrating when you *lose connection*.,,Speaking,draft
+lose,1,Online lessons are frustrating when you *lose connection*.,,Speaking,draft
+connection,1,"Our flight was late, so we *missed a connection* in Bangkok.",,Speaking,draft
+miss,4,"Our flight was late, so we *missed a connection* in Bangkok.",,Speaking,draft
+conscience,1,He returned the wallet because he had a *guilty conscience*.,,Writing,draft
+guilty,1,He returned the wallet because he had a *guilty conscience*.,,Writing,draft
+control,1,The driver *lost control* of the car on the wet road.,,Writing,draft
+lose,1,The driver *lost control* of the car on the wet road.,,Writing,draft
+control,1,Strict *quality control* ensures that products are safe.,,Writing,draft
+quality,1,Strict *quality control* ensures that products are safe.,,Writing,draft
+convenience,1,There is a *convenience store* on almost every street in the city.,,Writing,draft
+store,1,There is a *convenience store* on almost every street in the city.,,Writing,draft
+cookie,1,The children were caught with their hands in the *cookie jar*.,,Writing,draft
+jar,1,The children were caught with their hands in the *cookie jar*.,,Writing,draft
+copy,1,Students should not *copy and paste* text from the internet into their essays.,,Writing,draft
+paste,1,Students should not *copy and paste* text from the internet into their essays.,,Writing,draft
+couple,1,The *married couple* moved to the countryside after retiring.,,Writing,draft
+married,1,The *married couple* moved to the countryside after retiring.,,Writing,draft
+coverage,1,This insurance policy gives *full coverage* for medical costs abroad.,,Writing,draft
+full,1,This insurance policy gives *full coverage* for medical costs abroad.,,Writing,draft
+crazy,1,Fans *go crazy* when their team scores.,,Writing,draft
+creative,1,The film takes some *creative license* with historical facts.,,Writing,draft
+license,1,The film takes some *creative license* with historical facts.,,Writing,draft
+crisis,1,Some people go through an *existential crisis* in their thirties.,,Writing,draft
+existential,1,Some people go through an *existential crisis* in their thirties.,,Writing,draft
+crisis,1,Moving to a new country can cause an *identity crisis*.,,Writing,draft
+identity,1,Moving to a new country can cause an *identity crisis*.,,Writing,draft
+cutting,1,The hospital uses *cutting-edge* technology to treat patients.,,Writing,draft
+edge,1,The hospital uses *cutting-edge* technology to treat patients.,,Writing,draft
+damage,1,Oil spills can cause *irreparable damage* to marine life.,,Writing,draft
+dance,1,We learned a *square dance* at a cultural festival.,,Speaking,draft
+square,4,We learned a *square dance* at a cultural festival.,,Speaking,draft
+date,1,Students who miss the *due date* lose marks.,,Writing,draft
+due,1,Students who miss the *due date* lose marks.,,Writing,draft
+day,1,It is wise to save money for a *rainy day*.,,Writing,draft
+rainy,1,It is wise to save money for a *rainy day*.,,Writing,draft
+day,1,"The flight was cancelled, so we left *the following day*.",,Speaking,draft
+following,1,"The flight was cancelled, so we left *the following day*.",,Speaking,draft
+month,1,"The flight was cancelled, so we left *the following day*.",,Speaking,draft
+year,1,"The flight was cancelled, so we left *the following day*.",,Speaking,draft
+days,1,"It is still *early days*, but the new policy seems to be working.",,Writing,draft
+early,1,"It is still *early days*, but the new policy seems to be working.",,Writing,draft
+deal,7,Teachers need to learn how to *deal with* difficult students.,,Writing,draft
+death,1,"After a *near-death experience*, he decided to change his lifestyle.",,Writing,draft
+experience,1,"After a *near-death experience*, he decided to change his lifestyle.",,Writing,draft
+near,1,"After a *near-death experience*, he decided to change his lifestyle.",,Writing,draft
+decision,1,It is hard to *make a decision* about which university to choose.,,Writing,draft
+make,3,It is hard to *make a decision* about which university to choose.,,Writing,draft
+deep,1,New teachers are often thrown *in the deep end* in their first year.,,Writing,draft
+end,1,New teachers are often thrown *in the deep end* in their first year.,,Writing,draft
+deep,1,Children need plenty of *deep sleep* to grow properly.,,Writing,draft
+sleep,1,Children need plenty of *deep sleep* to grow properly.,,Writing,draft
+deep,1,He was *deep in thought* and didn't hear me come in.,,Speaking,draft
+thought,1,He was *deep in thought* and didn't hear me come in.,,Speaking,draft
+destination,1,Our *final destination* was a small island in the south.,,Writing,draft
+final,1,Our *final destination* was a small island in the south.,,Writing,draft
+development,1,Companies that invest in *research and development* produce more new products.,,Writing,draft
+research,1,Companies that invest in *research and development* produce more new products.,,Writing,draft
+diary,1,Many language learners *keep a diary* in English.,,Writing,draft
+keep,4,Many language learners *keep a diary* in English.,,Writing,draft
+difference,1,Small changes in daily habits can *make a difference* to the environment.,,Writing,draft
+make,3,Small changes in daily habits can *make a difference* to the environment.,,Writing,draft
+dining,1,The family eats together in the *dining room* every evening.,,Writing,draft
+room,1,The family eats together in the *dining room* every evening.,,Writing,draft
+dispute,1,The police were called to a *domestic dispute* next door.,,Writing,draft
+domestic,1,The police were called to a *domestic dispute* next door.,,Writing,draft
+distribute,1,Wealth is not *evenly distributed* in most societies.,,Writing,draft
+evenly,1,Wealth is not *evenly distributed* in most societies.,,Writing,draft
+divorced,1,Young people today *get married* later than their parents did.,,Writing,draft
+get,1,Young people today *get married* later than their parents did.,,Writing,draft
+married,1,Young people today *get married* later than their parents did.,,Writing,draft
+dog,1,I *walk the dog* every morning before work.,,Speaking,draft
+walk,1,I *walk the dog* every morning before work.,,Speaking,draft
+door,1,Always *lock the door* when you leave the house.,,Speaking,draft
+lock,1,Always *lock the door* when you leave the house.,,Speaking,draft
+dough,1,You need to *knead* the *dough* for ten minutes to make good bread.,,Speaking,draft
+draft,3,Write a *rough draft* of your essay before writing the final version.,,Writing,draft
+rough,1,Write a *rough draft* of your essay before writing the final version.,,Writing,draft
+draw,1,Young children love to *draw pictures* of their families.,,Writing,draft
+picture,3,Young children love to *draw pictures* of their families.,,Writing,draft
+draw,1,The novel *draws heavily from* the author's own childhood.,,Writing,draft
+heavily,1,The novel *draws heavily from* the author's own childhood.,,Writing,draft
+dream,1,My parents always told me to *follow* my *dreams*.,,Speaking,draft
+follow,1,My parents always told me to *follow* my *dreams*.,,Speaking,draft
+heart,1,My parents always told me to *follow* my *dreams*.,,Speaking,draft
+dream,4,Travelling around the world let him *live out* a childhood *dream*.,,Writing,draft
+fantasy,1,Travelling around the world let him *live out* a childhood *dream*.,,Writing,draft
+live,1,Travelling around the world let him *live out* a childhood *dream*.,,Writing,draft
+dressed,1,It takes my little brother ages to *get dressed* in the morning.,,Speaking,draft
+get,1,It takes my little brother ages to *get dressed* in the morning.,,Speaking,draft
+early,1,He is an *early adopter* who always buys the latest phone.,,Writing,draft
+early,1,I'm having an *early night* because I have an exam tomorrow.,,Speaking,draft
+night,1,I'm having an *early night* because I have an exam tomorrow.,,Speaking,draft
+earn,1,Many artists find it hard to *earn a living* from their work.,,Writing,draft
+living,1,Many artists find it hard to *earn a living* from their work.,,Writing,draft
+salary,1,Many artists find it hard to *earn a living* from their work.,,Writing,draft
+easy,1,Online gambling promises *easy money* but often leads to debt.,,Writing,draft
+money,1,Online gambling promises *easy money* but often leads to debt.,,Writing,draft
+eating,1,Children's *eating habits* are formed at an early age.,,Writing,draft
+habit,1,Children's *eating habits* are formed at an early age.,,Writing,draft
+education,1,Access to *higher education* should not depend on family income.,,Writing,draft
+higher,2,Access to *higher education* should not depend on family income.,,Writing,draft
+effect,1,The *overall effect* of the new policy has been positive.,,Writing,draft
+overall,1,The *overall effect* of the new policy has been positive.,,Writing,draft
+effort,1,Cleaning the beach was a *group effort* by the whole community.,,Writing,draft
+group,1,Cleaning the beach was a *group effort* by the whole community.,,Writing,draft
+effort,1,Protecting the environment requires a *joint effort* by all countries.,,Writing,draft
+joint,1,Protecting the environment requires a *joint effort* by all countries.,,Writing,draft
+effort,1,Students must *make an effort* to speak English outside class.,,Writing,draft
+make,3,Students must *make an effort* to speak English outside class.,,Writing,draft
+elevator,1,Every job seeker should prepare a short *elevator pitch* about themselves.,,Writing,draft
+pitch,1,Every job seeker should prepare a short *elevator pitch* about themselves.,,Writing,draft
+empty,1,Voters are tired of *empty promises* from politicians.,,Writing,draft
+promise,1,Voters are tired of *empty promises* from politicians.,,Writing,draft
+end,1,Poor countries are often on the *receiving end* of climate change.,,Writing,draft
+receive,1,Poor countries are often on the *receiving end* of climate change.,,Writing,draft
+ending,4,Children's stories usually have a *happy ending*.,,Writing,draft
+happy,1,Children's stories usually have a *happy ending*.,,Writing,draft
+entry,1,Visitors must show a ticket to *gain entry* to the museum.,,Writing,draft
+gain,1,Visitors must show a ticket to *gain entry* to the museum.,,Writing,draft
+entry,1,Each student writes a short *journal entry* after every lesson.,,Writing,draft
+journal,1,Each student writes a short *journal entry* after every lesson.,,Writing,draft
+error,1,Most plane crashes are caused by *human error*.,,Writing,draft
+human,1,Most plane crashes are caused by *human error*.,,Writing,draft
+ethnic,1,Vietnam has 54 officially recognised *ethnic groups*.,,Writing,draft
+group,1,Vietnam has 54 officially recognised *ethnic groups*.,,Writing,draft
+even,1,"Two, four and six are each an *even number*.",,Writing,draft
+number,1,"Two, four and six are each an *even number*.",,Writing,draft
+evening,1,She wore a long *evening gown* to the awards ceremony.,,Writing,draft
+gown,1,She wore a long *evening gown* to the awards ceremony.,,Writing,draft
+evenly,1,"The two teams were *evenly matched*, so the game was exciting.",,Writing,draft
+matched,1,"The two teams were *evenly matched*, so the game was exciting.",,Writing,draft
+exact,1,The statue is an *exact likeness* of the famous poet.,,Writing,draft
+likeness,1,The statue is an *exact likeness* of the famous poet.,,Writing,draft
+exaggerated,1,Some news stories about crime are *overly exaggerated*.,,Writing,draft
+overly,1,Some news stories about crime are *overly exaggerated*.,,Writing,draft
+exceed,1,"The festival *exceeded expectations*, with twice as many visitors as planned.",,Writing,draft
+expectation,1,"The festival *exceeded expectations*, with twice as many visitors as planned.",,Writing,draft
+face,1,I *wash my face* with cold water to wake up.,,Speaking,draft
+wash,1,I *wash my face* with cold water to wake up.,,Speaking,draft
+face,1,It was nice to see a *familiar face* on my first day at university.,,Speaking,draft
+familiar,1,It was nice to see a *familiar face* on my first day at university.,,Speaking,draft
+face,7,Learning to swim helped me *face a fear* of water.,,Speaking,draft
+fear,1,Learning to swim helped me *face a fear* of water.,,Speaking,draft
+face,7,We have to *face the facts*: the planet is getting warmer.,,Speaking,draft
+fact,1,We have to *face the facts*: the planet is getting warmer.,,Speaking,draft
+face,1,This *face wash* is designed for sensitive skin.,,Writing,draft
+wash,1,This *face wash* is designed for sensitive skin.,,Writing,draft
+fair,1,Buying *fair trade* coffee helps farmers earn a fair price.,,Writing,draft
+trade,1,Buying *fair trade* coffee helps farmers earn a fair price.,,Writing,draft
+fall,1,The economy went into *free fall* after the crisis.,,Writing,draft
+free,1,The economy went into *free fall* after the crisis.,,Writing,draft
+fall,7,Many visitors *fall in love* with Hoi An's old town.,,Writing,draft
+love,1,Many visitors *fall in love* with Hoi An's old town.,,Writing,draft
+family,1,Only the *immediate family* attended the ceremony.,,Writing,draft
+immediate,1,Only the *immediate family* attended the ceremony.,,Writing,draft
+family,1,The *royal family* attracts many tourists to London.,,Writing,draft
+royal,1,The *royal family* attracts many tourists to London.,,Writing,draft
+fashion,1,*High fashion* is too expensive for most young people.,,Writing,draft
+high,1,*High fashion* is too expensive for most young people.,,Writing,draft
+favour,1,Could you *do me a favour* and water my plants?,,Speaking,draft
+fee,1,Some airlines charge *hidden fees* for seats and luggage.,,Writing,draft
+hidden,1,Some airlines charge *hidden fees* for seats and luggage.,,Writing,draft
+feed,1,Children can learn responsibility by helping to *feed* their *pets*.,,Writing,draft
+pet,1,Children can learn responsibility by helping to *feed* their *pets*.,,Writing,draft
+feel,1,*Feel free* to ask questions at any time.,,Writing,draft
+free,1,*Feel free* to ask questions at any time.,,Writing,draft
+field,1,The class went on a *field trip* to a science museum.,,Writing,draft
+trip,1,The class went on a *field trip* to a science museum.,,Writing,draft
+fight,1,Volunteers helped to *fight* the forest *fire*.,,Writing,draft
+fire,1,Volunteers helped to *fight* the forest *fire*.,,Writing,draft
+finger,1,"The party had plenty of *finger food*, such as spring rolls.",,Writing,draft
+food,1,"The party had plenty of *finger food*, such as spring rolls.",,Writing,draft
+fired,1,Graduates with work experience *get hired* more quickly.,,Writing,draft
+get,1,Graduates with work experience *get hired* more quickly.,,Writing,draft
+hired,1,Graduates with work experience *get hired* more quickly.,,Writing,draft
+flight,1,A *non-stop flight* to London takes about thirteen hours.,,Writing,draft
+food,1,Busy families often rely on *frozen food*.,,Writing,draft
+frozen,1,Busy families often rely on *frozen food*.,,Writing,draft
+food,1,Schools should ban the sale of *junk food*.,,Writing,draft
+junk,1,Schools should ban the sale of *junk food*.,,Writing,draft
+fool,1,Many learners are afraid to *make a fool of themselves* when speaking English.,,Writing,draft
+make,3,Many learners are afraid to *make a fool of themselves* when speaking English.,,Writing,draft
+force,7,"I check my phone as soon as I wake up, out of *force of habit*.",,Speaking,draft
+habit,1,"I check my phone as soon as I wake up, out of *force of habit*.",,Speaking,draft
+foreign,1,The new government changed its *foreign policy*.,,Writing,draft
+policy,1,The new government changed its *foreign policy*.,,Writing,draft
+forever,1,Natural resources will not *last forever*.,,Writing,draft
+last,1,Natural resources will not *last forever*.,,Writing,draft
+fortune,1,He *made a fortune* by selling software.,,Writing,draft
+make,3,He *made a fortune* by selling software.,,Writing,draft
+forward,1,I *look forward to* hearing from you.,,Speaking,draft
+look,1,I *look forward to* hearing from you.,,Speaking,draft
+foundation,3,Good primary education *lays the foundation* for later learning.,,Writing,draft
+groundwork,1,Good primary education *lays the foundation* for later learning.,,Writing,draft
+lay,1,Good primary education *lays the foundation* for later learning.,,Writing,draft
+free,1,*Free speech* is a basic right in a democracy.,,Writing,draft
+speech,1,*Free speech* is a basic right in a democracy.,,Writing,draft
+free,1,Most teenagers spend their *free time* online.,,Writing,draft
+time,1,Most teenagers spend their *free time* online.,,Writing,draft
+freeze,1,The company announced a *hiring freeze* because of falling profits.,,Writing,draft
+hire,2,The company announced a *hiring freeze* because of falling profits.,,Writing,draft
+friend,1,Joining a club is a good way to *make friends* at university.,,Writing,draft
+make,1,Joining a club is a good way to *make friends* at university.,,Writing,draft
+frozen,1,"In winter, the lake is *frozen solid*.",,Writing,draft
+solid,1,"In winter, the lake is *frozen solid*.",,Writing,draft
+full,1,The concert played to a *full house* every night.,,Writing,draft
+house,1,The concert played to a *full house* every night.,,Writing,draft
+full,1,The film is a *full-length* documentary about climate change.,,Writing,draft
+length,1,The film is a *full-length* documentary about climate change.,,Writing,draft
+full,1,The festival is held on the night of the *full moon*.,,Writing,draft
+moon,1,The festival is held on the night of the *full moon*.,,Writing,draft
+fuss,1,My grandmother likes to *make a fuss* of us when we visit.,,Speaking,draft
+make,3,My grandmother likes to *make a fuss* of us when we visit.,,Speaking,draft
+future,1,Electric cars will become cheaper in the *near future*.,,Writing,draft
+near,1,Electric cars will become cheaper in the *near future*.,,Writing,draft
+gain,1,People who sit all day are more likely to *gain weight*.,,Writing,draft
+weight,1,People who sit all day are more likely to *gain weight*.,,Writing,draft
+game,2,Many children *play games* online for hours every day.,,Writing,draft
+play,1,Many children *play games* online for hours every day.,,Writing,draft
+general,1,Reading newspapers improves your *general knowledge*.,,Writing,draft
+knowledge,1,Reading newspapers improves your *general knowledge*.,,Writing,draft
+get,2,I didn't *get the joke* because I didn't know the film.,,Speaking,draft
+joke,1,I didn't *get the joke* because I didn't know the film.,,Speaking,draft
+get,2,We need to *get rid of* old furniture before we move.,,Speaking,draft
+rid,1,We need to *get rid of* old furniture before we move.,,Speaking,draft
+get,2,Teenagers who skip school often *get into trouble*.,,Writing,draft
+trouble,1,Teenagers who skip school often *get into trouble*.,,Writing,draft
+give,2,The students will *give a performance* at the end of term.,,Writing,draft
+performance,1,The students will *give a performance* at the end of term.,,Writing,draft
+give,2,Could you *give me a hand* with these boxes?,,Speaking,draft
+hand,1,Could you *give me a hand* with these boxes?,,Speaking,draft
+give,4,"I had never tried rock climbing, but I decided to *give it a go*.",,Speaking,draft
+glasses,1,I need a new *pair of glasses* because my eyesight has changed.,,Speaking,draft
+pair,5,I need a new *pair of glasses* because my eyesight has changed.,,Speaking,draft
+pants,1,I need a new *pair of glasses* because my eyesight has changed.,,Speaking,draft
+going,1,"Even when the course got difficult, she decided to *keep going*.",,Writing,draft
+keep,1,"Even when the course got difficult, she decided to *keep going*.",,Writing,draft
+good,1,A trip to the beach this weekend *sounds good* to me.,,Speaking,draft
+sound,1,A trip to the beach this weekend *sounds good* to me.,,Speaking,draft
+good,1,He studied hard to get a *good grade* in maths.,,Writing,draft
+grade,1,He studied hard to get a *good grade* in maths.,,Writing,draft
+good,1,Advertisements often use *good-looking* models.,,Writing,draft
+looking,1,Advertisements often use *good-looking* models.,,Writing,draft
+good,1,*Good luck* with your exam tomorrow!,,Writing,draft
+luck,1,*Good luck* with your exam tomorrow!,,Writing,draft
+graduate,1,"As a *recent graduate*, she is looking for her first job.",,Writing,draft
+recent,1,"As a *recent graduate*, she is looking for her first job.",,Writing,draft
+group,1,Powerful *interest groups* try to influence government policy.,,Writing,draft
+interest,1,Powerful *interest groups* try to influence government policy.,,Writing,draft
+habit,1,Biting your nails is a *nasty habit*.,,Writing,draft
+nasty,1,Biting your nails is a *nasty habit*.,,Writing,draft
+hair,1,She *does* her own *hair* before every performance.,,Writing,draft
+makeup,1,She *does* her own *hair* before every performance.,,Writing,draft
+nail,1,She *does* her own *hair* before every performance.,,Writing,draft
+handle,2,Good managers know how to *handle a difficult situation*.,,Writing,draft
+problem,1,Good managers know how to *handle a difficult situation*.,,Writing,draft
+situation,1,Good managers know how to *handle a difficult situation*.,,Writing,draft
+hands,1,Young couples often *hold hands* in the park.,,Writing,draft
+hold,1,Young couples often *hold hands* in the park.,,Writing,draft
+hands,1,"In business, people usually *shake hands* when they meet.",,Writing,draft
+shake,4,"In business, people usually *shake hands* when they meet.",,Writing,draft
+hang,4,Don't *hang up the phone*; I'll put you through.,,Speaking,draft
+phone,1,Don't *hang up the phone*; I'll put you through.,,Speaking,draft
+happy,1,Many bars offer cheaper drinks during *happy hour*.,,Writing,draft
+hour,1,Many bars offer cheaper drinks during *happy hour*.,,Writing,draft
+hard,1,"If you *study hard*, you will pass the exam.",,Speaking,draft
+study,1,"If you *study hard*, you will pass the exam.",,Speaking,draft
+hard,1,"Success usually comes from *hard work*, not luck.",,Writing,draft
+work,1,"Success usually comes from *hard work*, not luck.",,Writing,draft
+haunted,1,The children were scared to go near the *haunted house*.,,Writing,draft
+house,1,The children were scared to go near the *haunted house*.,,Writing,draft
+have,2,Families should *have a meal* together at least once a day.,,Writing,draft
+meal,1,Families should *have a meal* together at least once a day.,,Writing,draft
+have,1,We don't *have room* for a piano in our small flat.,,Speaking,draft
+room,1,We don't *have room* for a piano in our small flat.,,Speaking,draft
+have,1,Busy parents rarely *have time* to read to their children.,,Writing,draft
+time,1,Busy parents rarely *have time* to read to their children.,,Writing,draft
+have,2,I *have an idea* for our group project.,,Speaking,draft
+idea,1,I *have an idea* for our group project.,,Speaking,draft
+hazard,1,Back pain is an *occupational hazard* for office workers.,,Writing,draft
+occupational,1,Back pain is an *occupational hazard* for office workers.,,Writing,draft
+head,1,The documentary was boring because it was mostly *talking heads*.,,Writing,draft
+talking,1,The documentary was boring because it was mostly *talking heads*.,,Writing,draft
+heavy,1,A *heavy smoker* has a much higher risk of lung cancer.,,Writing,draft
+smoker,1,A *heavy smoker* has a much higher risk of lung cancer.,,Writing,draft
+heavy,1,*Heavy traffic* makes my journey to work twice as long.,,Speaking,draft
+traffic,1,*Heavy traffic* makes my journey to work twice as long.,,Speaking,draft
+heavy,1,*Heavy rain* caused flooding in the city centre.,,Writing,draft
+rain,1,*Heavy rain* caused flooding in the city centre.,,Writing,draft
+high,1,She got a *high score* in the IELTS reading test.,,Writing,draft
+score,1,She got a *high score* in the IELTS reading test.,,Writing,draft
+high,3,Doctors and lawyers enjoy *high status* in most societies.,,Writing,draft
+status,1,Doctors and lawyers enjoy *high status* in most societies.,,Writing,draft
+high,1,The children stayed at home because they had a *high temperature*.,,Writing,draft
+temperature,1,The children stayed at home because they had a *high temperature*.,,Writing,draft
+highly,1,Former students *speak highly* of the teacher.,,Writing,draft
+speak,1,Former students *speak highly* of the teacher.,,Writing,draft
+hold,7,Fear of making mistakes can *hold back* language learners.,,Writing,draft
+hold,1,The president can *hold office* for a maximum of two terms.,,Writing,draft
+office,1,The president can *hold office* for a maximum of two terms.,,Writing,draft
+homework,1,Most children *do homework* for at least an hour a day.,,Writing,draft
+horse,1,I learned to *ride a horse* on holiday in the mountains.,,Speaking,draft
+ride,3,I learned to *ride a horse* on holiday in the mountains.,,Speaking,draft
+hours,1,The library has extended its *operating hours* during the exam period.,,Writing,draft
+operating,1,The library has extended its *operating hours* during the exam period.,,Writing,draft
+hours,1,*Visiting hours* at the hospital are from 2pm to 8pm.,,Writing,draft
+visiting,1,*Visiting hours* at the hospital are from 2pm to 8pm.,,Writing,draft
+human,1,It is *human nature* to want to be liked.,,Writing,draft
+nature,1,It is *human nature* to want to be liked.,,Writing,draft
+ignorance,1,Refusing to read the safety report was *wilful ignorance*.,,Writing,draft
+image,1,The two buildings are a *mirror image* of each other.,,Writing,draft
+mirror,1,The two buildings are a *mirror image* of each other.,,Writing,draft
+information,1,Students *look up information* online instead of using encyclopaedias.,,Writing,draft
+look,1,Students *look up information* online instead of using encyclopaedias.,,Writing,draft
+initial,1,"In the *initial stages* of learning a language, listening is very important.",,Writing,draft
+stage,4,"In the *initial stages* of learning a language, listening is very important.",,Writing,draft
+innocent,1,Forgetting to sign the form was an *innocent mistake*.,,Writing,draft
+mistake,1,Forgetting to sign the form was an *innocent mistake*.,,Writing,draft
+inquiry,1,The government has launched *an inquiry into* the causes of the accident.,,Writing,draft
+inside,1,The police believe the bank robbery was an *inside job*.,,Writing,draft
+job,1,The police believe the bank robbery was an *inside job*.,,Writing,draft
+inside,1,My friends and I have an *inside joke* about our teacher's favourite word.,,Speaking,draft
+joke,1,My friends and I have an *inside joke* about our teacher's favourite word.,,Speaking,draft
+inspired,1,Many young people are *inspired by* successful athletes.,,Writing,draft
+interest,1,Students *lose interest* when lessons are too long.,,Writing,draft
+lose,1,Students *lose interest* when lessons are too long.,,Writing,draft
+internal,1,She specialises in *internal medicine* at a large hospital.,,Writing,draft
+medicine,1,She specialises in *internal medicine* at a large hospital.,,Writing,draft
+interview,1,Dress smartly for a *job interview*.,,Writing,draft
+job,1,Dress smartly for a *job interview*.,,Writing,draft
+issue,1,Teamwork helps students *solve a problem* more creatively.,,Writing,draft
+problem,1,Teamwork helps students *solve a problem* more creatively.,,Writing,draft
+solve,1,Teamwork helps students *solve a problem* more creatively.,,Writing,draft
+issue,7,The weather service *issued a warning* about the typhoon.,,Writing,draft
+warning,1,The weather service *issued a warning* about the typhoon.,,Writing,draft
+job,1,An *entry-level job* is a good way to gain experience.,,Writing,draft
+junk,1,Most of the *junk mail* we receive goes straight in the bin.,,Speaking,draft
+mail,1,Most of the *junk mail* we receive goes straight in the bin.,,Speaking,draft
+keep,1,Please *keep quiet* in the library.,,Writing,draft
+quiet,1,Please *keep quiet* in the library.,,Writing,draft
+keep,1,My younger brother likes to *keep score* when we play cards.,,Speaking,draft
+score,1,My younger brother likes to *keep score* when we play cards.,,Speaking,draft
+keep,4,My new neighbour tends to *keep to himself*.,,Writing,draft
+key,1,Exercise plays a *key role* in staying healthy.,,Writing,draft
+part,4,Exercise plays a *key role* in staying healthy.,,Writing,draft
+role,1,Exercise plays a *key role* in staying healthy.,,Writing,draft
+kill,1,I read a book to *kill time* at the airport.,,Speaking,draft
+time,1,I read a book to *kill time* at the airport.,,Speaking,draft
+knit,4,My grandmother likes to *knit a sweater* for each grandchild.,,Writing,draft
+sweater,1,My grandmother likes to *knit a sweater* for each grandchild.,,Writing,draft
+know,2,How much do young people *know about* their own history?,,Writing,draft
+know,2,Few teenagers *know how* to cook a proper meal.,,Writing,draft
+known,1,Da Nang is *known for* its beautiful beaches.,,Writing,draft
+language,1,Children should keep using their *native language* at home.,,Writing,draft
+native,1,Children should keep using their *native language* at home.,,Writing,draft
+tongue,2,Children should keep using their *native language* at home.,,Writing,draft
+lap,1,The winner ran a *victory lap* around the stadium.,,Writing,draft
+victory,1,The winner ran a *victory lap* around the stadium.,,Writing,draft
+large,1,Farming on a *large scale* can damage the soil.,,Writing,draft
+scale,1,Farming on a *large scale* can damage the soil.,,Writing,draft
+laugh,4,The comedy made the whole audience *laugh out loud*.,,Writing,draft
+loud,1,The comedy made the whole audience *laugh out loud*.,,Writing,draft
+laundry,1,I usually *do* the *laundry* on Sunday mornings.,,Speaking,draft
+law,1,The police are responsible for maintaining *law and order*.,,Writing,draft
+order,1,The police are responsible for maintaining *law and order*.,,Writing,draft
+leading,1,Women now play a *leading role* in many industries.,,Writing,draft
+role,1,Women now play a *leading role* in many industries.,,Writing,draft
+less,1,The project is *more or less* finished.,,Writing,draft
+more,1,The project is *more or less* finished.,,Writing,draft
+liar,1,Nobody believed him because he was a *pathological liar*.,,Writing,draft
+pathological,1,Nobody believed him because he was a *pathological liar*.,,Writing,draft
+life,1,Green spaces improve the *quality of life* in cities.,,Writing,draft
+quality,1,Green spaces improve the *quality of life* in cities.,,Writing,draft
+life,1,Working long hours leaves little time for a *social life*.,,Writing,draft
+social,1,Working long hours leaves little time for a *social life*.,,Writing,draft
+light,1,"He tried to *make light of* his injury, but it was serious.",,Writing,draft
+make,1,"He tried to *make light of* his injury, but it was serious.",,Writing,draft
+like,1,Could you *say something like* that in the speaking test?,,Speaking,draft
+say,2,Could you *say something like* that in the speaking test?,,Speaking,draft
+list,1,I always *make a list* before I go shopping.,,Speaking,draft
+make,3,I always *make a list* before I go shopping.,,Speaking,draft
+live,1,Watching a *live performance* is more exciting than listening to a recording.,,Writing,draft
+performance,1,Watching a *live performance* is more exciting than listening to a recording.,,Writing,draft
+living,1,We watch TV together in the *living room*.,,Speaking,draft
+room,1,We watch TV together in the *living room*.,,Speaking,draft
+lose,1,Many people *lose touch with* school friends after graduation.,,Writing,draft
+touch,1,Many people *lose touch with* school friends after graduation.,,Writing,draft
+lose,1,Cutting sugar is one of the easiest ways to *lose weight*.,,Writing,draft
+weight,1,Cutting sugar is one of the easiest ways to *lose weight*.,,Writing,draft
+lose,1,Good teachers rarely *lose their temper* in class.,,Writing,draft
+temper,1,Good teachers rarely *lose their temper* in class.,,Writing,draft
+lose,1,I felt like I was *losing my mind* during exam week.,,Speaking,draft
+mind,1,I felt like I was *losing my mind* during exam week.,,Speaking,draft
+lose,1,Many investors *lost money* when the market crashed.,,Writing,draft
+money,1,Many investors *lost money* when the market crashed.,,Writing,draft
+lottery,1,"If I *won the lottery*, I would travel around the world.",,Speaking,draft
+win,3,"If I *won the lottery*, I would travel around the world.",,Speaking,draft
+loved,1,Losing a *loved one* is one of the hardest experiences in life.,,Writing,draft
+one,1,Losing a *loved one* is one of the hardest experiences in life.,,Writing,draft
+machine,1,The *washing machine* saved women many hours of housework.,,Writing,draft
+washing,1,The *washing machine* saved women many hours of housework.,,Writing,draft
+majority,1,The *vast majority* of students own a smartphone.,,Writing,draft
+vast,1,The *vast majority* of students own a smartphone.,,Writing,draft
+make,3,Learning to *make a meal* from fresh ingredients is a useful skill.,,Writing,draft
+meal,1,Learning to *make a meal* from fresh ingredients is a useful skill.,,Writing,draft
+make,3,Use examples to *make a point* clearly in your essay.,,Writing,draft
+point,1,Use examples to *make a point* clearly in your essay.,,Writing,draft
+make,3,It's best to *make a reservation* at popular restaurants.,,Writing,draft
+reservation,1,It's best to *make a reservation* at popular restaurants.,,Writing,draft
+make,1,Many young people want to *make money* quickly through social media.,,Writing,draft
+money,1,Many young people want to *make money* quickly through social media.,,Writing,draft
+make,1,Hundreds of workers were *made redundant* when the factory closed.,,Writing,draft
+redundant,1,Hundreds of workers were *made redundant* when the factory closed.,,Writing,draft
+make,1,We moved the sofa to *make room* for a bookshelf.,,Speaking,draft
+room,1,We moved the sofa to *make room* for a bookshelf.,,Speaking,draft
+make,1,It *makes sense* to save money while you are young.,,Speaking,draft
+sense,1,It *makes sense* to save money while you are young.,,Speaking,draft
+make,3,Both partners need to compromise to *make* a marriage *work*.,,Writing,draft
+work,1,Both partners need to compromise to *make* a marriage *work*.,,Writing,draft
+make,3,Young children always *make a mess* when they eat.,,Writing,draft
+mess,1,Young children always *make a mess* when they eat.,,Writing,draft
+maker,1,Tourism is a big *money maker* for coastal towns.,,Writing,draft
+money,1,Tourism is a big *money maker* for coastal towns.,,Writing,draft
+man,1,My grandmother was a *wise woman* who gave great advice.,,Writing,draft
+wise,1,My grandmother was a *wise woman* who gave great advice.,,Writing,draft
+woman,1,My grandmother was a *wise woman* who gave great advice.,,Writing,draft
+man,1,The *young woman* who won the competition is only nineteen.,,Writing,draft
+woman,1,The *young woman* who won the competition is only nineteen.,,Writing,draft
+young,1,The *young woman* who won the competition is only nineteen.,,Writing,draft
+management,1,Decisions about salaries are made by *upper management*.,,Writing,draft
+upper,1,Decisions about salaries are made by *upper management*.,,Writing,draft
+market,1,Cheap airlines brought air travel to the *mass market*.,,Writing,draft
+mass,1,Cheap airlines brought air travel to the *mass market*.,,Writing,draft
+math,1,"If you *do the math*, buying a car costs more than taking the bus.",,Speaking,draft
+meal,1,Students who *skip a meal* often find it hard to concentrate.,,Writing,draft
+skip,3,Students who *skip a meal* often find it hard to concentrate.,,Writing,draft
+mean,1,"My parents *mean well*, but they sometimes give me too much advice.",,Speaking,draft
+well,1,"My parents *mean well*, but they sometimes give me too much advice.",,Speaking,draft
+memory,1,I have only a *vague memory* of my first day at school.,,Speaking,draft
+vague,1,I have only a *vague memory* of my first day at school.,,Speaking,draft
+minor,1,Failing the driving test was only a *minor setback*.,,Writing,draft
+setback,1,Failing the driving test was only a *minor setback*.,,Writing,draft
+music,1,This *piece of music* always makes me feel calm.,,Speaking,draft
+piece,7,This *piece of music* always makes me feel calm.,,Speaking,draft
+nasty,1,The match was cancelled because of *nasty weather*.,,Writing,draft
+weather,1,The match was cancelled because of *nasty weather*.,,Writing,draft
+native,1,You don't need to sound like a *native speaker* to get a high band.,,Speaking,draft
+speaker,1,You don't need to sound like a *native speaker* to get a high band.,,Speaking,draft
+natural,1,Countries rich in *natural resources* are not always wealthy.,,Writing,draft
+resource,3,Countries rich in *natural resources* are not always wealthy.,,Writing,draft
+near,2,The new bridge is *nowhere near* finished.,,Writing,draft
+nowhere,1,The new bridge is *nowhere near* finished.,,Writing,draft
+nervous,1,Many candidates feel *nervous about* the speaking test.,,Writing,draft
+next,1,"*Next time* I travel, I'll pack lighter.",,Speaking,draft
+time,1,"*Next time* I travel, I'll pack lighter.",,Speaking,draft
+night,1,"After a busy week, I prefer a *quiet night in* with a book.",,Speaking,draft
+quiet,1,"After a busy week, I prefer a *quiet night in* with a book.",,Speaking,draft
+nose,1,A *runny nose* is a common symptom of a cold.,,Writing,draft
+null,2,The contract was declared *null and void*.,,Writing,draft
+void,1,The contract was declared *null and void*.,,Writing,draft
+nutritional,1,Fast food has very little *nutritional value*.,,Writing,draft
+value,1,Fast food has very little *nutritional value*.,,Writing,draft
+occasion,2,We only go to that restaurant on a *special occasion*.,,Speaking,draft
+special,1,We only go to that restaurant on a *special occasion*.,,Speaking,draft
+office,1,Fewer people use the *post office* now that we send emails.,,Speaking,draft
+post,3,Fewer people use the *post office* now that we send emails.,,Speaking,draft
+opinion,1,It is wise to get a *second opinion* before having surgery.,,Writing,draft
+second,1,It is wise to get a *second opinion* before having surgery.,,Writing,draft
+opinion,3,Social media allows everyone to *voice their opinion*.,,Writing,draft
+voice,7,Social media allows everyone to *voice their opinion*.,,Writing,draft
+paper,1,Write your answer on a *piece of paper*.,,Writing,draft
+piece,7,Write your answer on a *piece of paper*.,,Writing,draft
+part,1,Everyone must *do their part* to reduce waste.,,Writing,draft
+pass,7,You must *pass a test* before you can drive.,,Speaking,draft
+test,1,You must *pass a test* before you can drive.,,Speaking,draft
+pay,1,The workers finally received their *back pay* after the strike.,,Writing,draft
+peace,1,I moved to the countryside for some *peace and quiet*.,,Speaking,draft
+quiet,1,I moved to the countryside for some *peace and quiet*.,,Speaking,draft
+perfect,1,You arrived just as dinner was ready: *perfect timing*!,,Speaking,draft
+timing,1,You arrived just as dinner was ready: *perfect timing*!,,Speaking,draft
+photo,1,Tourists *take a photo* of almost everything they see.,,Writing,draft
+take,3,Tourists *take a photo* of almost everything they see.,,Writing,draft
+pleasant,1,The high quality of the food was a *pleasant surprise*.,,Writing,draft
+surprise,1,The high quality of the food was a *pleasant surprise*.,,Writing,draft
+point,1,"From an economic *point of view*, tourism is very important.",,Writing,draft
+view,1,"From an economic *point of view*, tourism is very important.",,Writing,draft
+prepare,1,Coastal towns must *prepare for the worst* during the storm season.,,Writing,draft
+worst,1,Coastal towns must *prepare for the worst* during the storm season.,,Writing,draft
+present,2,Children *receive presents* at Tet and on their birthdays.,,Writing,draft
+receive,1,Children *receive presents* at Tet and on their birthdays.,,Writing,draft
+present,1,I always ask the shop to *wrap a present* for me.,,Speaking,draft
+wrap,4,I always ask the shop to *wrap a present* for me.,,Speaking,draft
+push,6,The meeting was *pushed back* to next week.,,Writing,draft
+raise,5,Teachers should not *raise their voice* at students.,,Writing,draft
+voice,1,Teachers should not *raise their voice* at students.,,Writing,draft
+reason,1,"Students can choose their own topics, *within reason*.",,Writing,draft
+within,1,"Students can choose their own topics, *within reason*.",,Writing,draft
+review,1,Every employee has a *yearly review* with their manager.,,Writing,draft
+yearly,1,Every employee has a *yearly review* with their manager.,,Writing,draft
+right,4,"Even when nobody is watching, we should *do the right thing*.",,Speaking,draft
+thing,1,"Even when nobody is watching, we should *do the right thing*.",,Speaking,draft
+road,1,We took a *back road* to avoid the traffic.,,Speaking,draft
+room,1,We turned the *spare room* into a home office.,,Speaking,draft
+spare,1,We turned the *spare room* into a home office.,,Speaking,draft
+run,1,I *go for a run* in the park every morning.,,Speaking,draft
+walk,1,I *go for a run* in the park every morning.,,Speaking,draft
+running,1,Many villages still have no *running water*.,,Writing,draft
+water,1,Many villages still have no *running water*.,,Writing,draft
+see,1,Most voters can *see through* empty promises.,,Writing,draft
+through,1,Most voters can *see through* empty promises.,,Writing,draft
+serving,1,Check the *serving size* on the label before you count calories.,,Speaking,draft
+size,1,Check the *serving size* on the label before you count calories.,,Speaking,draft
+set,7,Children can help to *set the table* before dinner.,,Writing,draft
+table,1,Children can help to *set the table* before dinner.,,Writing,draft
+shelf,1,*Shelf-stable* foods such as rice can be stored for months.,,Writing,draft
+stable,1,*Shelf-stable* foods such as rice can be stored for months.,,Writing,draft
+sore,1,"I have a *sore throat*, so I can't sing today.",,Speaking,draft
+throat,1,"I have a *sore throat*, so I can't sing today.",,Speaking,draft
+spend,1,Parents should *spend time* with their children every day.,,Writing,draft
+time,1,Parents should *spend time* with their children every day.,,Writing,draft
+stomach,1,Eating street food gave him an *upset stomach*.,,Writing,draft
+upset,1,Eating street food gave him an *upset stomach*.,,Writing,draft
+surgery,1,She had to *undergo surgery* after the accident.,,Writing,draft
+undergo,1,She had to *undergo surgery* after the accident.,,Writing,draft
+survey,1,Researchers asked 500 students to *take a survey* about their study habits.,,Writing,draft
+take,3,Researchers asked 500 students to *take a survey* about their study habits.,,Writing,draft
+take,3,It is faster to *take a taxi* than the bus at night.,,Writing,draft
+taxi,1,It is faster to *take a taxi* than the bus at night.,,Writing,draft
+take,3,All applicants must *take a test* in English.,,Writing,draft
+test,1,All applicants must *take a test* in English.,,Writing,draft
+take,1,Long working hours *take* their *toll* on people's health.,,Writing,draft
+toll,1,Long working hours *take* their *toll* on people's health.,,Writing,draft
+tell,1,Young children learn to *tell time* at primary school.,,Writing,draft
+time,1,Young children learn to *tell time* at primary school.,,Writing,draft
+thinking,1,Believing that the problem will disappear by itself is *wishful thinking*.,,Writing,draft
+wishful,1,Believing that the problem will disappear by itself is *wishful thinking*.,,Writing,draft
+time,1,It's *about time* the government did something about traffic.,,Writing,draft
+time,1,Don't *waste time* on questions you can't answer.,,Speaking,draft
+waste,1,Don't *waste time* on questions you can't answer.,,Speaking,draft
+upset,7,Residents are *upset about* the noise from the new airport.,,Writing,draft
+variety,1,The market sells a *wide variety* of fresh fruit.,,Writing,draft
+wide,1,The market sells a *wide variety* of fresh fruit.,,Writing,draft
+wake,5,I *wake up* at six every morning.,,Speaking,draft
+wrong,1,"If anything *goes wrong*, call me immediately.",,Speaking,draft
