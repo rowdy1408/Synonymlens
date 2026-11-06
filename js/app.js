@@ -85,6 +85,8 @@ function relSvg(x) {
     <text class="tk" x="360" y="80">−</text><text class="tk" x="420" y="80">0</text><text class="tk" x="482" y="80">+</text>
     <path class="ma" d="M419 64 l6 -8 l6 8 z"/>${x.att === "?" ? `<text class="tk q" x="425" y="44" text-anchor="middle">?</text>` : `<path class="mb" d="M${ax - 6} 48 l6 8 l6 -8 z"/>`}
     <text class="rc" x="360" y="108">${SYM.att[x.att]}</text>`;
+  if (x.degree == null && x.att == null)
+    return `<svg class="rel solo" viewBox="182 0 170 132" role="img" aria-label="${esc(W)} compared with ${base}: scope ${SYM.scope[x.scope]}">${g2}</svg>`;
   return `<svg class="rel" viewBox="0 0 500 132" role="img" aria-label="${esc(W)} compared with ${base}: degree ${SYM.degree[x.degree]}, scope ${SYM.scope[x.scope]}, attitude ${SYM.att[x.att]}">${g1}${g2}${g3}</svg>`;
 }
 
@@ -383,7 +385,7 @@ function levelOf(i) { const r = levelRow(i); return r ? r.level : null; }
 const levelChip = i => {
   const r = levelRow(i);
   return r ? `<span class="lvl auto" title="CEFR level from ${esc(r.source || "English Profile")}${r.status === "approved" ? "" : ", matched to this meaning automatically"}">${esc(r.level)}</span>`
-    : `<span class="lvl unk" title="CEFR level not checked yet">?</span>`;
+    : "";
 };
 // meanings with a CEFR level come first (easiest level first); the rest keep WordNet order. Numbers stay the WordNet numbers.
 const LRANK = { A1: 1, A2: 2, B1: 3, B2: 4, C1: 5, C2: 6 };
@@ -441,11 +443,10 @@ function markPhrase(t, colloc) {
   keys.forEach(k => { out = out.replace(new RegExp(`\\b${reEsc(k)}\\w*`, "i"), m => `<em>${m}</em>`); });
   return out;
 }
-const unchecked = (what) => `<li class="item unk-item"><p class="ex">${what} for this word are not checked yet.</p></li>`;
 const reEsc = w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const markWord = (t, w) => esc(t).replace(new RegExp(`\\b${reEsc(w)}\\w*`, "i"), m => `<em>${m}</em>`);
 
-/* basic entry, same card format as a full entry; what WordNet cannot tell us is shown as "?" (not checked yet) */
+/* basic entry, same card format as a full entry; parts we have no data for are left out */
 function renderBasic() {
   const w = BASIC.word, s = BASIC.senses[cur];
   // ---- tray 1: Word
@@ -469,28 +470,26 @@ function renderBasic() {
       ${ex ? `<p class="ex">${markPhrase(ex, c.collocation)}</p>` : ""}
       <p class="exmeta">${c.topic ? `<span class="topic">${esc(c.topic)}</span>` : ""}<span title="Source">${esc(c.source)}</span>${c.status === "draft" ? `<span class="draft">draft</span>` : ""}</p></li>`;
   };
+  const collSec = colls.length ? `<section><h2>Collocations <span class="count">${colls.length}</span></h2><ul class="list">${colls.map(collItem).join("")}</ul></section>` : "";
+  const patSec = pats.length ? `<section><h2>${verb ? "Phrasal verbs &amp; patterns" : "Sentence patterns"} <span class="count">${pats.length}</span></h2>
+      <ul class="list">${pats.map(p => `<li class="item"><div class="phrase">${phrase(p)}</div></li>`).join("")}</ul></section>` : "";
+  const elsewhere = !colls.length && otherColl ? (() => {
+    const n = [...new Set((BASIC.coll || []).map(c => c.sense))].sort((a, b) => a - b).slice(0, 3);
+    return `<p class="note">Collocations for this word are under meaning ${n.join(", ")}.</p>`;
+  })() : "";
+  const legend = [levelRow(cur) || BASIC.senses.some((_, i) => levelRow(i)) ? `<span><span class="lvl auto">B1</span>CEFR level (A1–B1 English Profile · B2–C1 Oxford)</span>` : "",
+    pats.length || colls.length ? `<span><span class="slot">+ N</span>slot: what comes next</span>` : ""].join("");
   document.getElementById("tray1").innerHTML = `
-    <p class="basic-note"><b>Basic entry</b> from WordNet 3.1. Parts marked <span class="lvl unk">?</span> are not checked for IELTS yet.</p>
+    <p class="basic-note"><b>Basic entry</b> from WordNet 3.1 · not reviewed for IELTS yet.</p>
     ${topicLine([...(BASIC.topics || []), ...(BASIC.coll || []).filter(c => c.topic !== "General collocations")])}
     ${basicTabs("btabs1")}
-    <div class="def">${levelChip(cur, true)}
+    <div class="def">${levelChip(cur)}
       <p>${esc(s.d)}<small>${POS[s.p]} · meaning ${cur + 1} of ${BASIC.senses.length}${levelRow(cur) ? ` · CEFR from ${esc(levelRow(cur).source || "English Profile")}` : ""}</small></p></div>
-    <div class="cols">
-      <section><h2>Collocations <span class="count">${colls.length || "?"}</span></h2>
-        <ul class="list">${colls.length ? colls.map(collItem).join("") : unchecked("Collocations")}</ul>
-        ${!colls.length && otherColl ? `<p class="note">${otherColl} collocation${otherColl > 1 ? "s" : ""} under other meanings of this word.</p>` : ""}</section>
-      <section><h2>${verb ? "Phrasal verbs &amp; patterns" : "Sentence patterns"} <span class="count">${pats.length || "?"}</span></h2>
-        ${adj ? `<p class="note">Adjectives have no phrasal verbs, so this card shows sentence patterns instead.</p>` : ""}
-        <ul class="list">${pats.length ? pats.map(p => `<li class="item"><div class="phrase">${phrase(p)}</div></li>`).join("") : unchecked("Sentence patterns")}</ul></section>
-    </div>
-    <section class="exsec"><h2>Examples <span class="count">${mine.length + wn.length + more.length}</span></h2>
-      ${exItems ? `<ul class="list ex-grid">${exItems}</ul>` : `<p class="note">No example sentence for this word yet.</p>`}
-      ${fam.length ? `<p class="famline"><b>Word family</b>${fam.map(([x]) => wordLink(x)).join("")}</p>` : ""}</section>
-    <div class="legend" aria-label="Legend">
-      <span><span class="lvl auto">B1</span>CEFR level (A1–B1 English Profile · B2–C1 Oxford 5000)</span>
-      <span><span class="lvl unk">?</span>not checked yet</span>
-      <span><span class="slot">+ N</span>slot: what comes next</span>
-    </div>`;
+    ${elsewhere}
+    ${collSec || patSec ? `<div class="cols${collSec && patSec ? "" : " one"}">${collSec}${patSec}</div>` : ""}
+    ${exItems ? `<section class="exsec"><h2>Examples <span class="count">${mine.length + wn.length + more.length}</span></h2><ul class="list ex-grid">${exItems}</ul></section>` : ""}
+    ${fam.length ? `<p class="famline"><b>Word family</b>${fam.map(([x]) => wordLink(x)).join("")}</p>` : ""}
+    ${legend ? `<div class="legend" aria-label="Legend">${legend}</div>` : ""}`;
 
   // ---- tray 2: Synonyms & antonyms, same table and detail as a full entry
   const rows = basicRows(s, w);
@@ -502,58 +501,47 @@ function renderBasic() {
   BASIC.shown = shown; BASIC.ants = ants;
   const row = (r, i) => `
     <tr class="row brow${i === bsel ? " on" : ""}" data-i="${i}" tabindex="0" aria-selected="${i === bsel}">
-      <td><span class="vd unk" title="Not checked yet" aria-label="Verdict not checked yet"></span></td>
       <th scope="row">${esc(r.w)}</th>
-      <td>${chip("degree", "?")}</td><td>${chip("scope", r.scope)}</td><td>${chip("att", "?")}</td>
+      <td>${chip("scope", r.scope)}</td>
       <td class="chev" aria-hidden="true">›</td>
     </tr>`;
-  let body = shown.map((r, i) => (bmore && i === main.length && extra.length ? `<tr class="sep"><td colspan="6">Wider and narrower words · the meaning changes</td></tr>` : "") + row(r, i)).join("");
-  const moreBtn = extra.length ? `<button type="button" class="more" id="bmore">${bmore ? "Show fewer" : `Show ${extra.length} more`}</button>` : "";
+  const body = shown.map(row).join("");
+  const moreBtn = extra.length ? `<button type="button" class="more" id="bmore">${bmore ? "Show fewer" : `Show ${extra.length} wider or narrower word${extra.length > 1 ? "s" : ""}`}</button>` : "";
   const arow = (a, i) => `
     <tr class="row arow barow${i === bant ? " on" : ""}" data-i="${i}" tabindex="0" aria-selected="${i === bant}">
-      <td><span class="vd unk" title="Not checked yet"></span></td>
       <th scope="row">${esc(a.w)}</th>
-      <td><span class="opp unk">?</span></td><td>${chip("att", "?")}</td><td>${chip("degree", "?")}</td>
       <td class="chev" aria-hidden="true">›</td>
     </tr>`;
   document.getElementById("tray2").innerHTML = `
     ${basicTabs("btabs2")}
-    <div class="keybox" aria-label="Legend">
-      <div><h4>Verdict</h4><span><span class="vd pass"></span>Swap freely</span><span><span class="vd warn"></span>Swap with care</span><span><span class="vd fail"></span>Don't swap</span></div>
-      <div><h4>Degree</h4><span><span class="sym">▲</span>stronger</span><span><span class="sym">▼</span>weaker</span><span><span class="sym off">—</span>can't compare</span></div>
-      <div><h4>Scope</h4><span><span class="sym">⊂</span>narrower</span><span><span class="sym">⊃</span>wider</span><span><span class="sym">≈</span>close meaning</span></div>
-      <div><h4>Attitude</h4><span><span class="sym">+</span>more positive</span><span><span class="sym off">−</span>more negative</span><span><span class="sym same">=</span>same as ${esc(w)}</span></div>
-      <p class="compare">Every word is compared with <b>${esc(w)}</b>. <span class="sym unk">?</span> and <span class="vd unk"></span> mean not checked yet: this is a basic entry from WordNet.</p>
-    </div>
+    ${shown.length ? `<div class="keyline">
+      <span><b>Scope</b> compared with ${esc(w)}:</span>
+      <span><span class="sym same">=</span>same</span><span><span class="sym">≈</span>close</span>
+      ${extra.length ? `<span><span class="sym">⊃</span>wider</span><span><span class="sym">⊂</span>narrower</span>` : ""}
+    </div>` : ""}
     ${shown.length ? `
     <div class="c2">
       <div class="c2-list">
-        <table class="syn" aria-label="Synonyms of ${esc(w)}, meaning ${cur + 1}">
-          <thead><tr><th><span class="sr-only">Verdict</span></th><th>Word</th><th>Degree</th><th>Scope</th><th>Attitude</th><th></th></tr></thead>
+        <table class="syn bsyn2" aria-label="Synonyms of ${esc(w)}, meaning ${cur + 1}">
+          <thead><tr><th>Word</th><th>Scope</th><th></th></tr></thead>
           <tbody>${body}</tbody>
         </table>
         ${moreBtn}
       </div>
       <div class="c2-detail" id="bdetail" aria-live="polite"></div>
-    </div>` : `<p class="note">WordNet lists no synonym for this meaning.${extra.length ? "" : ""}</p>${moreBtn}`}
+    </div>` : extra.length ? `<p class="note">No synonym for this meaning, only wider or narrower words.</p>${moreBtn}` : `<p class="note">No synonym for this meaning.</p>`}
     <section class="ants">
       <h2>Antonyms <span class="count">${ants.length}</span></h2>
       ${ants.length ? `
-      <div class="keyline">
-        <span><span class="vd pass"></span>good for a negation paraphrase</span>
-        <span><span class="vd warn"></span>negation changes the strength</span>
-        <span><b>Opposite</b> how far from ${esc(w)}</span>
-        <span><b>Negated</b> the negative form, compared with ${esc(w)}</span>
-      </div>
       <div class="c2">
         <div class="c2-list">
           <table class="syn ant" aria-label="Antonyms of ${esc(w)}, meaning ${cur + 1}">
-            <thead><tr><th><span class="sr-only">Verdict</span></th><th>Word</th><th>Opposite</th><th>Attitude</th><th>Negated</th><th></th></tr></thead>
+            <thead><tr><th>Word</th><th></th></tr></thead>
             <tbody>${ants.map(arow).join("")}</tbody>
           </table>
         </div>
         <div class="c2-detail" id="badetail" aria-live="polite"></div>
-      </div>` : `<p class="note">WordNet lists no antonym for this meaning.</p>`}
+      </div>` : `<p class="note">No antonym for this meaning.</p>`}
     </section>`;
 
   const narrow = () => matchMedia("(max-width:760px)").matches;
@@ -614,7 +602,6 @@ async function basicDetail(r) {
   const box = document.getElementById("bdetail");
   if (!box || !r) return;
   const token = detailTokens.s = (detailTokens.s || 0) + 1, word = BASIC.word;
-  const x = { w: r.w, degree: "?", scope: r.scope, att: "?" };
   const swap = r.scope === "=" || r.scope === "≈" ? swapIn(word, r.w, pool()) : null;
   const avoid = {
     "⊃": `You need the exact meaning. ${r.w} is a more general word.`,
@@ -624,39 +611,48 @@ async function basicDetail(r) {
     <div class="dt">
       <div class="dt-head">
         <h3>${esc(r.w)}</h3>
-        <span class="pill"><span class="vd unk"></span>Not checked yet</span>
-        <span class="reg unk">Register ?</span>
+        <span class="pill">${chip("scope", r.scope)}${SYM.scope[r.scope]}</span>
       </div>
       <p class="key"><span class="k a"></span>${esc(word)}<span class="k b"></span>${esc(r.w)}</p>
-      ${relSvg(x)}
-      <div class="pair">
-        ${swap ? `<p><span class="pl">Original</span>${markWord(swap.from, word)}</p><p><span class="pl">Swap test</span>${markWord(swap.to, r.w)}</p>
-          <p class="unote">Read it aloud: does it keep the meaning and sound natural?</p>`
-          : `<p class="unote">${r.scope === "⊃" || r.scope === "⊂" ? "A wider or narrower word changes the meaning, so there is no swap test." : "No sentence to test the swap yet."}</p>`}
-      </div>
-      <div class="when">
+      ${relSvg({ w: r.w, scope: r.scope })}
+      ${swap ? `<div class="pair">
+        <p><span class="pl">Original</span>${markWord(swap.from, word)}</p><p><span class="pl">Swap test</span>${markWord(swap.to, r.w)}</p>
+        <p class="unote">Read it aloud: does it keep the meaning and sound natural?</p></div>` : ""}
+      <div class="when${avoid ? "" : " one"}">
         <div class="yes"><h4>Use it when</h4><ul class="bwhen"><li class="loading">…</li></ul></div>
-        <div class="no"><h4>Avoid it when</h4><ul>${avoid ? `<li>${esc(avoid)}</li>` : `<li class="unk-li">Not checked yet.</li>`}</ul></div>
+        ${avoid ? `<div class="no"><h4>Avoid it when</h4><ul><li>${esc(avoid)}</li></ul></div>` : ""}
       </div>
-      <div class="tg">
-        <button type="button" class="tgl" aria-expanded="false" aria-controls="bg-gr">Grammar</button>
-        <button type="button" class="tgl" aria-expanded="false" aria-controls="bg-co">Collocations</button>
-      </div>
-      <div class="tgp" id="bg-gr" hidden><p class="unote">…</p></div>
-      <div class="tgp" id="bg-co" hidden><p class="unote">…</p></div>
+      <div class="tg"></div>
       <a class="open-page" href="#${encodeURIComponent(r.w.replace(/ /g, "-"))}">Open the page for ${esc(r.w)} →</a>
     </div>`;
-  wireToggles(box);
   const o = await otherWord(r.w);
   if (detailTokens.s !== token || BASIC.word !== word || !box.isConnected) return;
-  box.querySelector(".bwhen").innerHTML = o.def ? `<li>You mean: ${esc(o.def)}.</li>` : `<li class="unk-li">Not checked yet.</li>`;
-  box.querySelector("#bg-gr").innerHTML = o.pats.length
-    ? `<ul class="pats">${o.pats.map(p => `<li><span class="phrase">${phrase(p)}</span></li>`).join("")}</ul>`
-    : `<p class="unote">Grammar for ${esc(r.w)} is not checked yet.</p>`;
-  box.querySelector("#bg-co").innerHTML = (o.coll.length
-      ? `<ul class="cols-ok">${o.coll.slice(0, 6).map(c => `<li><span class="ok">✓</span>${esc(c.collocation)}</li>`).join("")}</ul><p class="unote">From IELTS vocabulary books. Example sentences with ${esc(r.w)}:</p>`
-      : `<p class="unote">Collocations are not checked yet. Example sentences with ${esc(r.w)}:</p>`) +
-    (o.ex.length ? `<ul class="bex">${o.ex.slice(0, 3).map(t => `<li>${markWord(t, r.w)}</li>`).join("")}</ul>` : `<p class="unote">No example yet.</p>`);
+  fillWhen(box, o);
+  addToggles(box, "bg", r.w, o, true);
+}
+
+/* "Use it when": the word's own meaning; the block goes when there is none */
+function fillWhen(box, o) {
+  const when = box.querySelector(".when"), ul = box.querySelector(".bwhen");
+  if (o.def) ul.innerHTML = `<li>You mean: ${esc(o.def)}.</li>`;
+  else if (when.querySelector(".no")) ul.closest(".yes").remove(), when.classList.add("one");
+  else when.remove();
+}
+
+/* Grammar / Collocations / Examples toggles, only for what exists */
+function addToggles(box, id, w, o, grammar) {
+  const tg = box.querySelector(".tg"), parts = [];
+  if (grammar && o.pats.length)
+    parts.push(["Grammar", `<ul class="pats">${o.pats.map(p => `<li><span class="phrase">${phrase(p)}</span></li>`).join("")}</ul>`]);
+  const ex = o.ex.length ? `<ul class="bex">${o.ex.slice(0, 3).map(t => `<li>${markWord(t, w)}</li>`).join("")}</ul>` : "";
+  if (o.coll.length)
+    parts.push(["Collocations", `<ul class="cols-ok">${o.coll.slice(0, 6).map(c => `<li><span class="ok">✓</span>${esc(c.collocation)}</li>`).join("")}</ul>
+      <p class="unote">From IELTS vocabulary books.</p>${ex ? `<p class="unote">Example sentences with ${esc(w)}:</p>${ex}` : ""}`]);
+  else if (ex) parts.push(["Examples", ex]);
+  if (!parts.length) { tg.remove(); return; }
+  tg.innerHTML = parts.map(([t], k) => `<button type="button" class="tgl" aria-expanded="false" aria-controls="${id}-${k}">${t}</button>`).join("");
+  tg.insertAdjacentHTML("afterend", parts.map(([, h], k) => `<div class="tgp" id="${id}-${k}" hidden>${h}</div>`).join(""));
+  wireToggles(box);
 }
 
 async function basicAntDetail(a) {
@@ -668,42 +664,32 @@ async function basicAntDetail(a) {
     <div class="dt adt">
       <div class="dt-head">
         <h3>${esc(a.w)}</h3>
-        <span class="pill"><span class="vd unk"></span>Not checked yet</span>
-        <span class="reg unk">Register ?</span>
+        <span class="pill"><span class="opp">↔</span>opposite of ${esc(word)}</span>
       </div>
       <p class="key"><span class="k a"></span>${esc(word)}<span class="k c"></span>${esc(a.w)}</p>
-      <ol class="uses">
-        <li><h4><span class="un">1</span>Paraphrase by negation</h4><div class="u1"><p class="unote">…</p></div></li>
-        <li><h4><span class="un">2</span>Contrast in one sentence</h4>
-          ${adj ? `<p class="tpl"><span class="phrase">${phrase(`While + N is ${word}, + N is ${a.w}.`)}</span></p>` : `<p class="unote">Not checked yet.</p>`}</li>
-        <li><h4><span class="un">3</span>Reading &amp; Listening trap</h4><div class="u3"><p class="unote">…</p></div></li>
-      </ol>
-      <div class="when">
-        <div class="yes"><h4>Use it when</h4><ul class="bwhen"><li class="loading">…</li></ul></div>
-        <div class="no"><h4>Avoid it when</h4><ul><li class="unk-li">Not checked yet.</li></ul></div>
-      </div>
-      <div class="tg"><button type="button" class="tgl" aria-expanded="false" aria-controls="ba-co">Collocations</button></div>
-      <div class="tgp" id="ba-co" hidden><p class="unote">…</p></div>
+      <ol class="uses"><li class="loading">…</li></ol>
+      <div class="when one"><div class="yes"><h4>Use it when</h4><ul class="bwhen"><li class="loading">…</li></ul></div></div>
+      <div class="tg"></div>
       <a class="open-page" href="#${encodeURIComponent(a.w.replace(/ /g, "-"))}">Open the page for ${esc(a.w)} →</a>
     </div>`;
-  wireToggles(box);
   const o = await otherWord(a.w);
   if (detailTokens.a !== token || BASIC.word !== word || !box.isConnected) return;
-  // 1: the headword's sentence with "not + antonym" — a test, the strength often drops
+  const uses = [];
+  // 1: the headword's sentence with "not + antonym": a paraphrase test, the strength often drops
   const neg = adj ? swapIn(word, "not " + a.w, pool(), true) : null;
-  box.querySelector(".u1").innerHTML = neg
-    ? `<div class="pair"><p><span class="pl">Original</span>${markWord(neg.from, word)}</p><p><span class="pl">Negated</span>${markWord(neg.to, "not " + a.w)}</p></div>
-       <p class="unote">${chip("degree", "?")} Strength not checked: not + ${esc(a.w)} is often weaker than ${esc(word)}.</p>`
-    : `<p class="unote">${adj ? "No sentence to test the negation yet." : "Not checked yet."}</p>`;
-  // 3: a sentence with the antonym; the statement swaps in the headword → FALSE
+  if (neg) uses.push(["Paraphrase by negation", `<div class="pair"><p><span class="pl">Original</span>${markWord(neg.from, word)}</p><p><span class="pl">Negated</span>${markWord(neg.to, "not " + a.w)}</p></div>
+       <p class="unote">Check the strength: not ${esc(a.w)} is often weaker than ${esc(word)}.</p>`]);
+  // 2: contrast in one sentence
+  if (adj) uses.push(["Contrast in one sentence", `<p class="tpl"><span class="phrase">${phrase(`While + N is ${word}, + N is ${a.w}.`)}</span></p>`]);
+  // 3: a sentence with the antonym; the statement swaps in the headword: FALSE
   const trap = swapIn(a.w, word, o.ex);
-  box.querySelector(".u3").innerHTML = trap
-    ? `<div class="trap"><p><span class="pl">Passage</span>${markWord(trap.from, a.w)}</p><p><span class="pl">Statement</span>${markWord(trap.to, word)}</p>
-       <p class="ans"><span class="false">FALSE</span>Opposite meaning means FALSE, not NOT GIVEN.</p></div>`
-    : `<p class="unote">No sentence for a trap example yet.</p>`;
-  box.querySelector(".bwhen").innerHTML = o.def ? `<li>You mean: ${esc(o.def)}.</li>` : `<li class="unk-li">Not checked yet.</li>`;
-  box.querySelector("#ba-co").innerHTML = `<p class="unote">Collocations are not checked yet. Example sentences with ${esc(a.w)}:</p>` +
-    (o.ex.length ? `<ul class="bex">${o.ex.slice(0, 3).map(t => `<li>${markWord(t, a.w)}</li>`).join("")}</ul>` : `<p class="unote">No example yet.</p>`);
+  if (trap) uses.push(["Reading &amp; Listening trap", `<div class="trap"><p><span class="pl">Passage</span>${markWord(trap.from, a.w)}</p><p><span class="pl">Statement</span>${markWord(trap.to, word)}</p>
+       <p class="ans"><span class="false">FALSE</span>Opposite meaning means FALSE, not NOT GIVEN.</p></div>`]);
+  const ol = box.querySelector(".uses");
+  if (uses.length) ol.innerHTML = uses.map(([h, b], k) => `<li><h4><span class="un">${k + 1}</span>${h}</h4>${b}</li>`).join("");
+  else ol.remove();
+  fillWhen(box, o);
+  addToggles(box, "ba", a.w, o, false);
 }
 
 function wireToggles(root) {

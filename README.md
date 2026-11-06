@@ -11,7 +11,7 @@ Trang là web tĩnh, chỉ gồm HTML, CSS và JavaScript. Không cần server r
 | Loại | Nguồn | Có gì |
 |---|---|---|
 | **Full card** | `js/curated.js` (giáo viên soạn và duyệt) | CEFR, collocation, mẫu câu có ô slot, bảng synonym có ký hiệu ▲▼ ⊂⊃≠ +−, khung chi tiết, antonym với 3 cách dùng |
-| **Basic entry** | `data/` (WordNet 3.1 + câu ví dụ Tatoeba) | Cùng khuôn với full card: 2 tray, bảng Verdict · Degree · Scope · Attitude, khung chi tiết, antonym 3 cách dùng. Phần WordNet không có (CEFR, collocation, mức độ, thái độ, register) hiện dấu **?** viền đứt = chưa kiểm tra. Scope lấy từ quan hệ WordNet (= ≈ ⊃ ⊂); swap test và negation test thay từ tự động trong câu ví dụ |
+| **Basic entry** | `data/` (WordNet 3.1 + câu ví dụ Tatoeba) | Cùng khuôn với full card: 2 tray, bảng từ, khung chi tiết, antonym 3 cách dùng. Phần nào không có dữ liệu (CEFR, collocation, degree, attitude, register, câu ví dụ…) thì **ẩn luôn**, không hiện dấu ?. Bảng synonym chỉ có cột Scope vì WordNet không cho biết mức độ mạnh/nhẹ hay thái độ. Scope lấy từ quan hệ WordNet (= ≈ ⊃ ⊂); swap test và negation test thay từ tự động trong câu ví dụ |
 
 Hiện có 1 full card là **important**. Các từ khác hiện ở dạng basic entry. Từ tục và từ quá chuyên ngành bị chặn, có thông báo riêng.
 
@@ -66,7 +66,7 @@ Lấy từ 4 cuốn: *Cambridge Vocabulary for IELTS*, *Check Your English Vocab
 
 ## Cấp độ CEFR (`data/cefr.csv`)
 
-Có 6.571 dòng cho 5.270 từ, lấy từ ba nguồn. Cấp độ hiện ở ô CEFR của tab nghĩa và khung định nghĩa; rê chuột vào để xem nguồn. Nghĩa nào chưa có cấp độ thì vẫn hiện **?**.
+Có 6.571 dòng cho 5.270 từ, lấy từ ba nguồn. Cấp độ hiện ở ô CEFR của tab nghĩa và khung định nghĩa; rê chuột vào để xem nguồn. Nghĩa nào chưa có cấp độ thì không hiện ô CEFR.
 
 | Nguồn | Cấp độ | Cách gắn vào nghĩa |
 |---|---|---|

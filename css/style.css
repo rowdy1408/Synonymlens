@@ -442,3 +442,10 @@ h2 .count{font-size:11px;background:rgba(255,255,255,.18);color:#fff;border-radi
 .item .phrase em{font-style:normal;color:var(--em)}
 .lvl.auto{background:var(--navy);color:#fff;cursor:help}
 .def .lvl.auto{padding:6px 11px}
+
+/* basic entries: parts with no data are left out */
+.cols.one,.when.one{grid-template-columns:1fr}
+.rel.solo{max-width:220px;margin-left:auto;margin-right:auto}
+.pill .sym{margin-right:6px}
+.pill .opp{font-weight:800;margin-right:6px;color:#E76F51}
+.syn.bsyn2 td:nth-child(2){width:72px;text-align:center}
