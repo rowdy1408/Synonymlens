@@ -66,16 +66,17 @@ Lấy từ 4 cuốn: *Cambridge Vocabulary for IELTS*, *Check Your English Vocab
 
 ## Cấp độ CEFR (`data/cefr.csv`)
 
-Có 5.214 dòng cho 4.335 từ, lấy từ hai nguồn. Cấp độ hiện ở ô CEFR của tab nghĩa và khung định nghĩa; rê chuột vào để xem nguồn. Nghĩa nào chưa có cấp độ thì vẫn hiện **?**.
+Có 6.571 dòng cho 5.270 từ, lấy từ ba nguồn. Cấp độ hiện ở ô CEFR của tab nghĩa và khung định nghĩa; rê chuột vào để xem nguồn. Nghĩa nào chưa có cấp độ thì vẫn hiện **?**.
 
 | Nguồn | Cấp độ | Cách gắn vào nghĩa |
 |---|---|---|
 | *Cambridge Essential English Dictionary* (2nd ed., 2011), nhãn English Profile | A1–B1 | Theo từng nghĩa: so từ ngữ trong định nghĩa với WordNet; không khớp thì gán nghĩa đầu tiên cùng từ loại |
-| *The Oxford 5000 by CEFR level* (phần 2.000 từ thêm) | B2–C1 | Theo từ loại: gán cho nghĩa đầu tiên của từ loại đó. Nếu Cambridge đã có cấp độ cho từ loại này thì giữ Cambridge |
+| *The Oxford 3000 by CEFR level* | A1–B2 | Theo từ loại: gán cho nghĩa đầu tiên của từ loại đó. Nếu Cambridge đã có cấp độ cho từ loại này thì giữ Cambridge |
+| *The Oxford 5000 by CEFR level* (phần 2.000 từ thêm) | B2–C1 | Như Oxford 3000 |
 
 - Cột: `word, sense, level, status, source`. `status` là `auto` nếu ghép tự động, `approved` khi đã duyệt; trạng thái khác thì không hiện.
 - Ghép tự động nên có chỗ lệch. Ví dụ *benefit* B1 ("điều có lợi") đang gắn vào nghĩa 1 của WordNet ("tiền trợ cấp"). Sửa cột `sense` là xong.
-- Từ thuộc Oxford 3000 ở mức B2 (ví dụ *significant*) chưa có, vì file Oxford 5000 chỉ liệt kê 2.000 từ thêm. Có file *The Oxford 3000 by CEFR level* thì ghép được nốt.
+- Từ chức năng (*and, because, could*…) không có trong WordNet nên không có trang riêng.
 - Trang chỉ dùng nhãn cấp độ, không dùng định nghĩa hay câu ví dụ của từ điển.
 
 ## Lịch sử tìm kiếm
