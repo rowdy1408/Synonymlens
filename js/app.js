@@ -399,8 +399,12 @@ function renderBasic() {
   // ---- tray 1: Word
   const pats = s.p === "v" ? [...new Set((s.fr || []).map(n => FRAME[n]).filter(Boolean).map(f => f.replace("{w}", w)))] : [];
   const verb = s.p === "v", adj = s.p === "a" || s.p === "s";
-  const wn = s.e || [], more = (BASIC.more || []).filter(x => !wn.includes(x)).slice(0, wn.length ? 2 : 4);
-  const exItems = wn.map(e => `<li class="item"><p class="ex">${markWord(e, w)}</p></li>`).join("") +
+  const mine = (BASIC.own || []).filter(x => x.sense === cur + 1);
+  const wn = s.e || [], have = mine.length + wn.length;
+  const more = have >= 3 ? [] : (BASIC.more || []).filter(x => !wn.includes(x)).slice(0, 4 - have);
+  const ownLi = x => `<li class="item own"><p class="ex">${/\*/.test(x.s) ? emph(x.s) : markWord(x.s, w)}</p>
+      <p class="exmeta">${x.topic ? `<span class="topic">${esc(x.topic)}</span>` : ""}${x.skill ? `<span>${esc(x.skill)}</span>` : ""}${x.status === "draft" ? `<span class="draft">draft · not reviewed</span>` : ""}</p></li>`;
+  const exItems = mine.map(ownLi).join("") + wn.map(e => `<li class="item"><p class="ex">${markWord(e, w)}</p><p class="exsrc">WordNet</p></li>`).join("") +
     more.map(e => `<li class="item"><p class="ex">${markWord(e, w)}</p><p class="exsrc">Tatoeba · may show another meaning</p></li>`).join("");
   const fam = clean(s.der);
   document.getElementById("tray1").innerHTML = `
@@ -414,7 +418,7 @@ function renderBasic() {
         ${adj ? `<p class="note">Adjectives have no phrasal verbs, so this card shows sentence patterns instead.</p>` : ""}
         <ul class="list">${pats.length ? pats.map(p => `<li class="item"><div class="phrase">${phrase(p)}</div></li>`).join("") : unchecked("Sentence patterns")}</ul></section>
     </div>
-    <section class="exsec"><h2>Examples <span class="count">${wn.length + more.length}</span></h2>
+    <section class="exsec"><h2>Examples <span class="count">${mine.length + wn.length + more.length}</span></h2>
       ${exItems ? `<ul class="list ex-grid">${exItems}</ul>` : `<p class="note">No example sentence for this word yet.</p>`}
       ${fam.length ? `<p class="famline"><b>Word family</b>${fam.map(([x]) => wordLink(x)).join("")}</p>` : ""}</section>
     <div class="legend" aria-label="Legend">
@@ -520,18 +524,21 @@ function swapIn(word, other, sentences, multi = false) {
   });
   return { from: src, to: out };
 }
-const pool = () => [...(BASIC.senses[cur].e || []), ...(BASIC.more || [])];
+const plain = t => t.replace(/\*/g, "");
+const pool = () => [...(BASIC.own || []).filter(x => x.sense === cur + 1).map(x => plain(x.s)), ...(BASIC.senses[cur].e || []), ...(BASIC.more || [])];
 
 // the other word's own entry: its meaning that links back to the headword, its examples and patterns
 async function otherWord(w) {
-  let entry = null, ex = [];
-  try { [entry, ex] = await Promise.all([Lexicon.lookup(w), Lexicon.examples(w)]); } catch (e) { /* data unavailable */ }
-  if (!entry) return { def: null, ex, pats: [] };
+  let entry = null, ex = [], mine = [];
+  try { [entry, ex, mine] = await Promise.all([Lexicon.lookup(w), Lexicon.examples(w), Lexicon.ownExamples(w)]); } catch (e) { /* data unavailable */ }
+  if (!entry) return { def: null, ex: [...mine.map(x => plain(x.s)), ...ex], pats: [] };
   const p = BASIC.senses[cur].p, P = x => (x === "s" ? "a" : x);
   const linked = entry.senses.find(t => ["syn", "sim", "hyper", "hypo", "ant"].some(k => (t[k] || []).some(([x]) => x === BASIC.word)) && P(t.p) === P(p));
   const sense = linked || entry.senses.find(t => P(t.p) === P(p)) || entry.senses[0];
   const pats = sense.p === "v" ? [...new Set((sense.fr || []).map(n => FRAME[n]).filter(Boolean).map(f => f.replace("{w}", entry.word)))] : [];
-  return { def: sense.d, ex: [...(sense.e || []), ...ex].filter((x, i, a) => a.indexOf(x) === i), pats };
+  const n = entry.senses.indexOf(sense) + 1;
+  const own = [...mine.filter(x => x.sense === n), ...mine.filter(x => x.sense !== n)].map(x => plain(x.s));
+  return { def: sense.d, ex: [...own, ...(sense.e || []), ...ex].filter((x, i, a) => a.indexOf(x) === i), pats };
 }
 
 const detailTokens = {};
@@ -639,7 +646,8 @@ function wireToggles(root) {
 
 async function showBasic(entry) {
   MODE = "basic"; WORD = entry.word; BASIC = entry;
-  try { [entry.more, entry.z] = await Promise.all([Lexicon.examples(entry.word), Lexicon.zipf(entry.word)]); } catch (e) { entry.more = []; entry.z = 0; }
+  try { [entry.more, entry.z, entry.own] = await Promise.all([Lexicon.examples(entry.word), Lexicon.zipf(entry.word), Lexicon.ownExamples(entry.word)]); }
+  catch (e) { entry.more = entry.more || []; entry.z = 0; entry.own = []; }
   const posList = [...new Set(entry.senses.map(s => POS[s.p]))].join(" · ");
   renderHeader({ word: entry.word, pos: posList, kind: "basic" });
   renderBasic();

@@ -39,6 +39,23 @@ Trong câu ví dụ, bọc từ cần tô đậm bằng dấu `*…*`. Ô slot v
 
 Có full card rồi, ô tìm kiếm tự hiểu thêm: gõ sai chính tả, gõ dạng khác trong họ từ, và gõ cả cụm thì cuộn tới đúng collocation hoặc mẫu câu.
 
+## Kho câu ví dụ riêng (`data/examples.csv`)
+
+Câu ví dụ do mình tự soạn theo chủ đề IELTS. Câu nào cũng gắn với đúng một nghĩa của từ. Trên trang, các câu này hiện **trước** câu WordNet và Tatoeba.
+
+| Cột | Ý nghĩa |
+|---|---|
+| `word` | Từ gốc, viết thường (ví dụ `environment`) |
+| `sense` | Số thứ tự nghĩa, đúng số trên tab nghĩa của trang (1, 2, 3…) |
+| `sentence` | Câu ví dụ. Bọc từ cần tô đậm bằng `*…*`. Câu có dấu phẩy thì đặt trong ngoặc kép `"…"` |
+| `topic` | Chủ đề: Education, Environment, Work… |
+| `skill` | Writing hoặc Speaking |
+| `status` | `draft` hiện kèm nhãn "draft · not reviewed"; `approved` hiện bình thường; trạng thái khác (ví dụ `hidden`) thì không hiện |
+
+**Cách sửa:** mở `data/examples.csv` trên GitHub, bấm biểu tượng bút chì, sửa hoặc thêm dòng, rồi bấm **Commit changes**. Trang cập nhật sau 1–2 phút. Muốn sửa nhiều thì tải file về, mở bằng Excel hoặc Google Sheets, sửa xong lưu lại dạng CSV (UTF-8) rồi upload đè lên.
+
+Đợt đầu có 148 câu cho 60 từ của Academic Word List (sublist 1). Các câu do AI soạn nháp nên đang để `draft`, chờ giáo viên duyệt.
+
 ## Lịch sử tìm kiếm
 
 Các từ đã tra được lưu ngay trong trình duyệt của người dùng (localStorage), không gửi đi đâu. Bấm vào ô tìm kiếm để xem lại. Bấm × ở cuối dòng để xoá một từ (hoặc chọn dòng bằng phím mũi tên rồi nhấn Delete), hoặc bấm **Clear all** để xoá hết.

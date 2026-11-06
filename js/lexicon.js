@@ -3,7 +3,8 @@
    A sense: p (n v a s r), d (definition), e (examples), syn (same synset), sim (similar), ant (antonyms),
    hyper (more general), hypo (more specific), der (word family), fr (verb frame numbers).
    Word lists are [word, zipf×10] pairs: zipf 6 = very common, 3 = uncommon, 1 = rare.
-   data/ex/: example sentences from Tatoeba (CC BY 2.0 FR), up to 4 per word. */
+   data/ex/: example sentences from Tatoeba (CC BY 2.0 FR), up to 4 per word.
+   data/examples.csv: our own example bank, written for IELTS topics and tied to one meaning. */
 (function (global) {
   const BASE = "data/";
   let manifest = null, zipfMap = null, ipaMap = null;
@@ -87,5 +88,37 @@
     return (await exFiles.get(k))[w] || [];
   }
 
-  global.Lexicon = { lookup, zipf, ipa, examples };
+  // our own example bank: data/examples.csv (word, sense, sentence, topic, skill, status)
+  // sense = meaning number on the page; status: approved / draft are shown, anything else is hidden
+  let own = null;
+  function parseCSV(text) {
+    const rows = []; let row = [], f = "", q = false;
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (q) { if (c === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; }
+      else if (c === '"') q = true;
+      else if (c === ",") { row.push(f); f = ""; }
+      else if (c === "\n" || c === "\r") { if (c === "\r" && text[i + 1] === "\n") i++; row.push(f); rows.push(row); row = []; f = ""; }
+      else f += c;
+    }
+    if (f || row.length) { row.push(f); rows.push(row); }
+    return rows;
+  }
+  async function ownExamples(w) {
+    if (!own) own = fetch(BASE + "examples.csv").then(r => (r.ok ? r.text() : "")).catch(() => "").then(t => {
+      const rows = parseCSV(t.replace(/^\uFEFF/, "")), head = (rows.shift() || []).map(h => h.trim().toLowerCase());
+      const col = n => head.indexOf(n), map = new Map();
+      rows.forEach(r => {
+        const word = (r[col("word")] || "").trim().toLowerCase(), sentence = (r[col("sentence")] || "").trim();
+        const status = (r[col("status")] || "draft").trim().toLowerCase();
+        if (!word || !sentence || !["approved", "draft"].includes(status)) return;
+        if (!map.has(word)) map.set(word, []);
+        map.get(word).push({ sense: parseInt(r[col("sense")], 10) || 0, s: sentence, topic: (r[col("topic")] || "").trim(), skill: (r[col("skill")] || "").trim(), status });
+      });
+      return map;
+    });
+    return (await own).get(w) || [];
+  }
+
+  global.Lexicon = { lookup, zipf, ipa, examples, ownExamples };
 })(window);
