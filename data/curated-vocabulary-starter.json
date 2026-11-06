@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "title": "SynonymLens — Curated Vocabulary Starter Dataset",
+    "schema_version": "1.0",
+    "language": "en",
+    "description": "A teacher-curated starter set ordered from very common to less common academic vocabulary. Every listed sense has its own definition, original example, sense-matched synonyms, and antonyms or clearly labeled contrasts.",
+    "scope_note": "This is a curated starter set, not an exhaustive dictionary. Frequency bands are pedagogical relative bands, not measured corpus ranks. Synonyms are sense-specific and include fit/register notes; antonyms are supplied only where a useful opposite or contrast exists.",
+    "field_guide": {
+      "frequency_band": "Relative learning order: very_common, common, less_common.",
+      "cefr": "Approximate learner level for the listed sense.",
+      "definitions": "Each object is one part-of-speech-specific sense. Add a separate object for each additional sense so examples and relations stay attached to the correct meaning.",
+      "synonyms.fit": "Explains the context in which the synonym can replace the headword.",
+      "antonyms.relationship": "direct = clear lexical opposite; contrast = useful opposing idea, but not a strict antonym."
+    },
+    "source_note": "Definitions and example sentences in this starter set are original concise editorial content. Relative frequency bands are teacher-curated and should be replaced with a corpus frequency value if the site needs objective ranking.",
+    "entry_count": 26
+  },
+  "entries": [
+    {
+      "word": "good",
+      "pos": "adjective",
+      "frequency_band": "very_common",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "sense_id": "good-adj-1",
+          "definition": "of a high standard or producing a positive result",
+          "example": "The new reading program has had a *good* effect on students' confidence.",
+          "synonyms": [
+            { "word": "positive", "fit": "Works for effects, results, or changes; more formal than good.", "register": "neutral" },
+            { "word": "beneficial", "fit": "Emphasizes that something helps or improves a situation; more formal.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "bad", "relationship": "direct", "fit": "General opposite for quality or effect." },
+            { "word": "harmful", "relationship": "contrast", "fit": "Use when the effect causes damage rather than benefit." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "bad",
+      "pos": "adjective",
+      "frequency_band": "very_common",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "sense_id": "bad-adj-1",
+          "definition": "unpleasant, harmful, or of a low standard",
+          "example": "A lack of sleep can have a *bad* effect on concentration.",
+          "synonyms": [
+            { "word": "negative", "fit": "Fits effects, results, or consequences; more neutral and formal.", "register": "neutral" },
+            { "word": "harmful", "fit": "Use when something causes damage to health, people, or the environment.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "good", "relationship": "direct", "fit": "General opposite for quality or effect." },
+            { "word": "beneficial", "relationship": "contrast", "fit": "Use when something produces a helpful effect." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "important",
+      "pos": "adjective",
+      "frequency_band": "very_common",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "sense_id": "important-adj-1",
+          "definition": "having a strong effect, great value, or a necessary role",
+          "example": "Regular feedback plays an *important* role in language learning.",
+          "synonyms": [
+            { "word": "significant", "fit": "Use for a noticeable effect, amount, or meaning; not usually in 'It is significant to...'.", "register": "formal" },
+            { "word": "crucial", "fit": "Use when something is essential for success or an outcome; stronger than important.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "unimportant", "relationship": "direct", "fit": "Plain opposite meaning: having little value or effect." },
+            { "word": "minor", "relationship": "contrast", "fit": "Use before a noun for something of lesser importance or scale." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "big",
+      "pos": "adjective",
+      "frequency_band": "very_common",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "sense_id": "big-adj-1",
+          "definition": "large in size, amount, or degree",
+          "example": "The city faces a *big* challenge in reducing traffic congestion.",
+          "synonyms": [
+            { "word": "large", "fit": "Neutral replacement for physical size or amount; less conversational than big.", "register": "neutral" },
+            { "word": "substantial", "fit": "Use for a large amount, change, or effect; formal and often measurable.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "small", "relationship": "direct", "fit": "Opposite for size, amount, or degree." },
+            { "word": "minor", "relationship": "contrast", "fit": "Use for a problem, change, or role that is limited in scale." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "small",
+      "pos": "adjective",
+      "frequency_band": "very_common",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "sense_id": "small-adj-1",
+          "definition": "limited in size, amount, or degree",
+          "example": "Even a *small* change in daily habits can improve health over time.",
+          "synonyms": [
+            { "word": "minor", "fit": "Use for a limited problem, difference, or change; not usually for physical size.", "register": "neutral" },
+            { "word": "limited", "fit": "Emphasizes that the amount, range, or effect is restricted.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "big", "relationship": "direct", "fit": "General opposite for size or degree." },
+            { "word": "substantial", "relationship": "contrast", "fit": "Use for an amount or effect that is large and meaningful." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "change",
+      "pos": "verb",
+      "frequency_band": "very_common",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "sense_id": "change-verb-1",
+          "definition": "to make or become different",
+          "example": "The school plans to *change* its assessment system next year.",
+          "synonyms": [
+            { "word": "alter", "fit": "Use for making a specific adjustment; slightly more formal.", "register": "formal" },
+            { "word": "modify", "fit": "Use when making a partial or controlled change to a plan, rule, or design.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "keep", "relationship": "contrast", "fit": "Use when something remains as it is." },
+            { "word": "preserve", "relationship": "contrast", "fit": "Use when deliberately protecting something from change.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "help",
+      "pos": "verb",
+      "frequency_band": "very_common",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "sense_id": "help-verb-1",
+          "definition": "to make it easier for someone to do something or for something to happen",
+          "example": "Visual examples can *help* learners understand abstract ideas.",
+          "synonyms": [
+            { "word": "assist", "fit": "A more formal alternative, especially when a person provides support.", "register": "formal" },
+            { "word": "support", "fit": "Use when providing ongoing help, encouragement, or resources.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "hinder", "relationship": "direct", "fit": "To make progress or an action more difficult.", "register": "formal" },
+            { "word": "obstruct", "relationship": "contrast", "fit": "To block progress or prevent an action.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "problem",
+      "pos": "noun",
+      "frequency_band": "very_common",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "sense_id": "problem-noun-1",
+          "definition": "a situation or matter that is difficult and needs attention or a solution",
+          "example": "Rising housing costs have become a serious *problem* for young families.",
+          "synonyms": [
+            { "word": "issue", "fit": "A neutral, often more diplomatic term for a matter needing attention.", "register": "neutral" },
+            { "word": "challenge", "fit": "Use when emphasizing difficulty that requires effort, not necessarily a defect.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "solution", "relationship": "contrast", "fit": "The answer or method that resolves a problem." },
+            { "word": "advantage", "relationship": "contrast", "fit": "An opposing idea in evaluation: a benefit rather than a difficulty." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "cause",
+      "pos": "verb",
+      "frequency_band": "very_common",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "sense_id": "cause-verb-1",
+          "definition": "to make something happen, especially something unwanted",
+          "example": "Heavy traffic can *cause* delays for emergency services.",
+          "synonyms": [
+            { "word": "lead to", "fit": "Natural alternative for describing a result or consequence.", "register": "neutral" },
+            { "word": "result in", "fit": "Formal alternative followed by an outcome or noun phrase.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "prevent", "relationship": "contrast", "fit": "To stop something from happening." },
+            { "word": "avert", "relationship": "contrast", "fit": "To prevent a harmful event, often through timely action.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "show",
+      "pos": "verb",
+      "frequency_band": "very_common",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "sense_id": "show-verb-1",
+          "definition": "to make information or a fact clear or visible",
+          "example": "The survey results *show* that many students prefer flexible study hours.",
+          "synonyms": [
+            { "word": "demonstrate", "fit": "Use when evidence or an example makes a point clear; formal.", "register": "formal" },
+            { "word": "indicate", "fit": "Use when evidence points toward a conclusion without proving it completely.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "hide", "relationship": "direct", "fit": "To keep something from being seen or known." },
+            { "word": "conceal", "relationship": "direct", "fit": "A more formal alternative to hide.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "improve",
+      "pos": "verb",
+      "frequency_band": "common",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "sense_id": "improve-verb-1",
+          "definition": "to become better or make something better",
+          "example": "The city is investing in public transport to *improve* air quality.",
+          "synonyms": [
+            { "word": "enhance", "fit": "Use when making quality, value, or effectiveness better; formal.", "register": "formal" },
+            { "word": "strengthen", "fit": "Use for skills, systems, relationships, or evidence that become stronger.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "worsen", "relationship": "direct", "fit": "To become or make something worse." },
+            { "word": "deteriorate", "relationship": "direct", "fit": "To gradually become worse in quality or condition; formal.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "effect",
+      "pos": "noun",
+      "frequency_band": "common",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "sense_id": "effect-noun-1",
+          "definition": "a change or result produced by an action or event",
+          "example": "Researchers are studying the *effects* of screen time on children's sleep.",
+          "synonyms": [
+            { "word": "impact", "fit": "Use when emphasizing a strong or important effect.", "register": "neutral" },
+            { "word": "consequence", "fit": "Use for a result that follows an action, often an important or indirect one.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "cause", "relationship": "contrast", "fit": "The reason something happens, rather than the result." },
+            { "word": "origin", "relationship": "contrast", "fit": "The starting point of something, rather than its resulting effect." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "reduce",
+      "pos": "verb",
+      "frequency_band": "common",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "sense_id": "reduce-verb-1",
+          "definition": "to make something smaller in amount, size, number, or intensity",
+          "example": "Car-sharing schemes may *reduce* the number of vehicles on the road.",
+          "synonyms": [
+            { "word": "decrease", "fit": "A close alternative for amounts, numbers, or levels.", "register": "neutral" },
+            { "word": "lower", "fit": "Common with prices, rates, levels, and standards.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "increase", "relationship": "direct", "fit": "To make an amount, number, or level greater." },
+            { "word": "raise", "relationship": "direct", "fit": "Common with prices, rates, levels, and standards." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "benefit",
+      "pos": "noun",
+      "frequency_band": "common",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "sense_id": "benefit-noun-1",
+          "definition": "an advantage or helpful effect that something provides",
+          "example": "One major *benefit* of learning online is the flexibility it offers.",
+          "synonyms": [
+            { "word": "advantage", "fit": "A general positive feature compared with another option.", "register": "neutral" },
+            { "word": "asset", "fit": "Use for a valuable quality, resource, or feature; often formal.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "disadvantage", "relationship": "direct", "fit": "A feature that makes something less useful or desirable." },
+            { "word": "drawback", "relationship": "direct", "fit": "A specific negative feature or limitation." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "develop",
+      "pos": "verb",
+      "frequency_band": "common",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "sense_id": "develop-verb-1",
+          "definition": "to grow, progress, or make something more advanced over time",
+          "example": "Schools can help students *develop* critical-thinking skills.",
+          "synonyms": [
+            { "word": "build", "fit": "Natural for skills, confidence, relationships, and capacity.", "register": "neutral" },
+            { "word": "cultivate", "fit": "Use for deliberately helping a quality, habit, or skill grow; formal.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "undermine", "relationship": "contrast", "fit": "To weaken the growth, success, or effectiveness of something.", "register": "formal" },
+            { "word": "decline", "relationship": "contrast", "fit": "To become weaker or less successful over time." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "significant",
+      "pos": "adjective",
+      "frequency_band": "common",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "sense_id": "significant-adj-1",
+          "definition": "large or important enough to have a noticeable effect or meaning",
+          "example": "The policy led to a *significant* reduction in workplace injuries.",
+          "synonyms": [
+            { "word": "substantial", "fit": "Use for a large amount, degree, or change; often measurable.", "register": "formal" },
+            { "word": "considerable", "fit": "Use for an amount or degree that is fairly large.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "insignificant", "relationship": "direct", "fit": "Too small or unimportant to have a noticeable effect." },
+            { "word": "negligible", "relationship": "contrast", "fit": "So small that it can be ignored; stronger than insignificant for amounts.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "substantial",
+      "pos": "adjective",
+      "frequency_band": "less_common",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "sense_id": "substantial-adj-1",
+          "definition": "large in amount, value, or importance",
+          "example": "The project requires a *substantial* investment of time and money.",
+          "synonyms": [
+            { "word": "considerable", "fit": "A close formal alternative for a fairly large amount or degree.", "register": "formal" },
+            { "word": "significant", "fit": "Use when the amount is large enough to matter or produce an effect.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "small", "relationship": "direct", "fit": "General opposite for amount or size." },
+            { "word": "negligible", "relationship": "contrast", "fit": "Use when an amount is so small it has little practical effect.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "beneficial",
+      "pos": "adjective",
+      "frequency_band": "less_common",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "sense_id": "beneficial-adj-1",
+          "definition": "producing a helpful or positive effect",
+          "example": "Regular physical activity is *beneficial* to both physical and mental health.",
+          "synonyms": [
+            { "word": "advantageous", "fit": "Use when something gives a person or group an advantage.", "register": "formal" },
+            { "word": "helpful", "fit": "A simpler, more conversational alternative.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "harmful", "relationship": "direct", "fit": "Producing damage or a negative effect." },
+            { "word": "detrimental", "relationship": "direct", "fit": "A formal alternative meaning harmful to something.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "detrimental",
+      "pos": "adjective",
+      "frequency_band": "less_common",
+      "cefr": "C1",
+      "definitions": [
+        {
+          "sense_id": "detrimental-adj-1",
+          "definition": "causing harm or damage to something",
+          "example": "Long-term exposure to noise can be *detrimental* to children's learning.",
+          "synonyms": [
+            { "word": "harmful", "fit": "The clearest everyday alternative.", "register": "neutral" },
+            { "word": "damaging", "fit": "Emphasizes a harmful effect that may be serious or lasting.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "beneficial", "relationship": "direct", "fit": "Producing a helpful or positive effect." },
+            { "word": "advantageous", "relationship": "contrast", "fit": "Producing a benefit or giving an advantage.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "facilitate",
+      "pos": "verb",
+      "frequency_band": "less_common",
+      "cefr": "C1",
+      "definitions": [
+        {
+          "sense_id": "facilitate-verb-1",
+          "definition": "to make an action or process easier to do or achieve",
+          "example": "Clear public information can *facilitate* access to health services.",
+          "synonyms": [
+            { "word": "enable", "fit": "Use when something makes an action possible, not merely easier.", "register": "neutral" },
+            { "word": "ease", "fit": "A shorter alternative meaning to make something less difficult.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "hinder", "relationship": "direct", "fit": "To make an action or process more difficult.", "register": "formal" },
+            { "word": "complicate", "relationship": "contrast", "fit": "To make something more difficult by adding problems or steps." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "mitigate",
+      "pos": "verb",
+      "frequency_band": "less_common",
+      "cefr": "C1",
+      "definitions": [
+        {
+          "sense_id": "mitigate-verb-1",
+          "definition": "to make a harmful effect, problem, or risk less severe",
+          "example": "Planting trees can help *mitigate* the effects of extreme heat in cities.",
+          "synonyms": [
+            { "word": "lessen", "fit": "A clear general alternative meaning to reduce in degree.", "register": "neutral" },
+            { "word": "alleviate", "fit": "Common with pain, hardship, pressure, or suffering.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "worsen", "relationship": "direct", "fit": "To make a problem or condition more severe." },
+            { "word": "exacerbate", "relationship": "direct", "fit": "A formal alternative meaning to make a problem worse." , "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "exacerbate",
+      "pos": "verb",
+      "frequency_band": "less_common",
+      "cefr": "C1",
+      "definitions": [
+        {
+          "sense_id": "exacerbate-verb-1",
+          "definition": "to make a bad situation, problem, or illness more severe",
+          "example": "A shortage of affordable housing may *exacerbate* inequality.",
+          "synonyms": [
+            { "word": "worsen", "fit": "The simplest and most widely understood alternative.", "register": "neutral" },
+            { "word": "aggravate", "fit": "Use for a problem, conflict, or condition made more serious.", "register": "formal" }
+          ],
+          "antonyms": [
+            { "word": "improve", "relationship": "contrast", "fit": "To make a situation better rather than worse." },
+            { "word": "alleviate", "relationship": "contrast", "fit": "To make a problem or suffering less severe.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "alleviate",
+      "pos": "verb",
+      "frequency_band": "less_common",
+      "cefr": "C1",
+      "definitions": [
+        {
+          "sense_id": "alleviate-verb-1",
+          "definition": "to make pain, hardship, or a problem less severe",
+          "example": "Targeted financial support can *alleviate* the pressure on low-income households.",
+          "synonyms": [
+            { "word": "ease", "fit": "A common alternative for reducing pain, pressure, or difficulty.", "register": "neutral" },
+            { "word": "relieve", "fit": "Common with pain, stress, symptoms, and pressure.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "intensify", "relationship": "contrast", "fit": "To make a feeling, problem, or effect stronger." },
+            { "word": "exacerbate", "relationship": "contrast", "fit": "To make a problem more severe; formal.", "register": "formal" }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "prevalent",
+      "pos": "adjective",
+      "frequency_band": "less_common",
+      "cefr": "C1",
+      "definitions": [
+        {
+          "sense_id": "prevalent-adj-1",
+          "definition": "common or widespread in a particular place, group, or period",
+          "example": "Remote work is increasingly *prevalent* in technology companies.",
+          "synonyms": [
+            { "word": "widespread", "fit": "A close, accessible alternative for something found in many places or among many people.", "register": "neutral" },
+            { "word": "common", "fit": "A simpler alternative; less formal and less emphatic.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "rare", "relationship": "direct", "fit": "Not happening or existing often." },
+            { "word": "uncommon", "relationship": "direct", "fit": "Not frequently found or experienced." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "scarce",
+      "pos": "adjective",
+      "frequency_band": "less_common",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "sense_id": "scarce-adj-1",
+          "definition": "available only in small amounts or numbers",
+          "example": "Clean water becomes *scarce* during prolonged droughts.",
+          "synonyms": [
+            { "word": "limited", "fit": "A neutral alternative emphasizing a restricted supply or amount.", "register": "neutral" },
+            { "word": "in short supply", "fit": "A common phrase for something that is not available in sufficient amounts.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "abundant", "relationship": "direct", "fit": "Available in large quantities." },
+            { "word": "plentiful", "relationship": "direct", "fit": "Existing in large amounts or numbers." }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "sustainable",
+      "pos": "adjective",
+      "frequency_band": "less_common",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "sense_id": "sustainable-adj-1",
+          "definition": "able to continue over time without exhausting resources or causing serious harm",
+          "example": "Cities need *sustainable* transport systems that reduce pollution and remain affordable.",
+          "synonyms": [
+            { "word": "viable", "fit": "Use when a plan or system can work successfully over time; does not always include environmental meaning.", "register": "formal" },
+            { "word": "renewable", "fit": "Use specifically for resources that can be naturally replaced, such as wind or solar energy.", "register": "neutral" }
+          ],
+          "antonyms": [
+            { "word": "unsustainable", "relationship": "direct", "fit": "Unable to continue over time without serious cost or damage." },
+            { "word": "depleting", "relationship": "contrast", "fit": "Use for a practice that uses up resources faster than they can be replaced." }
+          ]
+        }
+      ]
+    }
+  ]
+}
