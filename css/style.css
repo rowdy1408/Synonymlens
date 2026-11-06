@@ -405,3 +405,25 @@ h2 .count{font-size:11px;background:rgba(255,255,255,.18);color:#fff;border-radi
 .dt .unote{margin:0 0 4px;font-size:14px;color:var(--mute);display:block}
 .syn.basic{max-width:none}
 .rel .ra{fill:var(--ha)}
+
+/* ---------- "?" = not checked yet (basic entries follow the full-card format) ---------- */
+.lvl.unk{background:transparent;color:var(--mute);border:1.5px dashed #9AA9C2}
+.def .lvl.unk{padding:5px 12px}
+.tab[aria-selected="true"] .lvl.unk{background:transparent;color:var(--mute)}
+.basic-note .lvl.unk{font-size:11px;padding:0 6px;vertical-align:1px}
+.sym.unk{background:transparent;color:var(--mute);border:1.5px dashed #9AA9C2}
+.vd.unk{background:transparent;border:2px dashed #9AA9C2;box-sizing:border-box}
+.opp.unk{background:transparent;color:var(--mute);border:1.5px dashed #9AA9C2;padding:2px 9px}
+.reg.unk{border-style:dashed;text-transform:none;letter-spacing:0;font-weight:700}
+.pill .vd.unk{width:10px;height:10px}
+.unk-item{border-style:dashed!important;border-left-style:solid!important;box-shadow:none!important;background:var(--soft)!important}
+.unk-item .ex{color:var(--mute)}
+.unk-li{color:var(--mute);list-style:none;margin-left:-18px}
+.exsec{margin-top:22px}
+.ex-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ex-grid .exsrc{margin:4px 0 0;font-size:11.5px}
+.famline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:16px 0 0}
+.famline b{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-right:4px}
+.dt .pair .unote{margin-top:6px}
+.dt .open-page{margin-top:12px}
+@media (max-width:760px){.ex-grid{grid-template-columns:1fr}}

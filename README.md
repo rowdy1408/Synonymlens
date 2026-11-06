@@ -2,6 +2,8 @@
 
 Trang tra từ cho học viên IELTS: gõ một từ để xem nghĩa, collocation, mẫu câu, từ đồng nghĩa và trái nghĩa. Mỗi từ có 2 tray: **Word** và **Synonyms & antonyms**.
 
+Trang luôn hiện ở giao diện sáng (giống bản thiết kế), kể cả khi máy đang để chế độ tối.
+
 Trang là web tĩnh, chỉ gồm HTML, CSS và JavaScript. Không cần server riêng, không cần API key.
 
 ## Hai loại mục từ
@@ -9,7 +11,7 @@ Trang là web tĩnh, chỉ gồm HTML, CSS và JavaScript. Không cần server r
 | Loại | Nguồn | Có gì |
 |---|---|---|
 | **Full card** | `js/curated.js` (giáo viên soạn và duyệt) | CEFR, collocation, mẫu câu có ô slot, bảng synonym có ký hiệu ▲▼ ⊂⊃≠ +−, khung chi tiết, antonym với 3 cách dùng |
-| **Basic entry** | `data/` (WordNet 3.1 + câu ví dụ Tatoeba) | Nghĩa, ví dụ, mẫu câu động từ, họ từ; bảng từ liên quan (= ≈ ⊃ ⊂) và antonym (↔), bấm vào từ để xem khung chi tiết: hình phạm vi nghĩa, độ phổ biến, câu thử thay từ (swap test), nghĩa và ví dụ của từ đó |
+| **Basic entry** | `data/` (WordNet 3.1 + câu ví dụ Tatoeba) | Cùng khuôn với full card: 2 tray, bảng Verdict · Degree · Scope · Attitude, khung chi tiết, antonym 3 cách dùng. Phần WordNet không có (CEFR, collocation, mức độ, thái độ, register) hiện dấu **?** viền đứt = chưa kiểm tra. Scope lấy từ quan hệ WordNet (= ≈ ⊃ ⊂); swap test và negation test thay từ tự động trong câu ví dụ |
 
 Hiện có 1 full card là **important**. Các từ khác hiện ở dạng basic entry. Từ tục và từ quá chuyên ngành bị chặn, có thông báo riêng.
 
