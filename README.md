@@ -66,12 +66,17 @@ Lấy từ 4 cuốn: *Cambridge Vocabulary for IELTS*, *Check Your English Vocab
 
 ## Cấp độ CEFR (`data/cefr.csv`)
 
-Cấp độ A1, A2, B1 lấy từ nhãn English Profile in trong *Cambridge Essential English Dictionary* (2nd edition, 2011). Có 3.296 dòng cho 2.561 từ. Trên trang, cấp độ hiện ở ô CEFR của tab nghĩa và khung định nghĩa. Nghĩa nào chưa có cấp độ thì vẫn hiện dấu **?**.
+Có 5.214 dòng cho 4.335 từ, lấy từ hai nguồn. Cấp độ hiện ở ô CEFR của tab nghĩa và khung định nghĩa; rê chuột vào để xem nguồn. Nghĩa nào chưa có cấp độ thì vẫn hiện **?**.
 
-- Cột: `word, sense, level, status`. `status` là `auto` nếu ghép tự động, `approved` khi đã duyệt; trạng thái khác thì không hiện.
-- Nghĩa trong từ điển Cambridge không trùng cách chia nghĩa của WordNet. Mình ghép bằng cách so từ ngữ trong định nghĩa; không khớp được thì gán cho nghĩa đầu tiên cùng từ loại. Vì vậy có chỗ lệch: ví dụ *benefit* B1 ("điều có lợi") đang gắn vào nghĩa 1 của WordNet ("tiền trợ cấp"). Sửa cột `sense` là xong.
-- Từ điển này chỉ có nhãn đến B1, nên từ B2 trở lên (ví dụ *significant*) vẫn hiện **?**.
-- Trang chỉ dùng nhãn cấp độ. Định nghĩa và câu ví dụ của từ điển không đưa lên trang.
+| Nguồn | Cấp độ | Cách gắn vào nghĩa |
+|---|---|---|
+| *Cambridge Essential English Dictionary* (2nd ed., 2011), nhãn English Profile | A1–B1 | Theo từng nghĩa: so từ ngữ trong định nghĩa với WordNet; không khớp thì gán nghĩa đầu tiên cùng từ loại |
+| *The Oxford 5000 by CEFR level* (phần 2.000 từ thêm) | B2–C1 | Theo từ loại: gán cho nghĩa đầu tiên của từ loại đó. Nếu Cambridge đã có cấp độ cho từ loại này thì giữ Cambridge |
+
+- Cột: `word, sense, level, status, source`. `status` là `auto` nếu ghép tự động, `approved` khi đã duyệt; trạng thái khác thì không hiện.
+- Ghép tự động nên có chỗ lệch. Ví dụ *benefit* B1 ("điều có lợi") đang gắn vào nghĩa 1 của WordNet ("tiền trợ cấp"). Sửa cột `sense` là xong.
+- Từ thuộc Oxford 3000 ở mức B2 (ví dụ *significant*) chưa có, vì file Oxford 5000 chỉ liệt kê 2.000 từ thêm. Có file *The Oxford 3000 by CEFR level* thì ghép được nốt.
+- Trang chỉ dùng nhãn cấp độ, không dùng định nghĩa hay câu ví dụ của từ điển.
 
 ## Lịch sử tìm kiếm
 

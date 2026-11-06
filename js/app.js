@@ -377,9 +377,14 @@ const shortDef = d => {
 };
 const wordLink = (w, z) => `<a class="wl" href="#${encodeURIComponent(w.replace(/ /g, "-"))}">${esc(w)}</a>`;
 
-const CEFR_TIP = "CEFR level from English Profile (Cambridge Essential English Dictionary), matched to this meaning automatically";
-function levelOf(i) { const r = (BASIC.cefr || []).find(c => c.sense === i + 1); return r ? r.level : null; }
-const levelChip = (i, big) => { const l = levelOf(i); return l ? `<span class="lvl auto" title="${CEFR_TIP}">${l}</span>` : `<span class="lvl unk" title="CEFR level not checked yet${big ? "" : ""}">?</span>`; };
+// CEFR per meaning: A1–B1 from English Profile labels (Cambridge Essential), B2–C1 from the Oxford 5000; matched automatically
+function levelRow(i) { return (BASIC.cefr || []).find(c => c.sense === i + 1) || null; }
+function levelOf(i) { const r = levelRow(i); return r ? r.level : null; }
+const levelChip = i => {
+  const r = levelRow(i);
+  return r ? `<span class="lvl auto" title="CEFR level from ${esc(r.source || "English Profile")}${r.status === "approved" ? "" : ", matched to this meaning automatically"}">${esc(r.level)}</span>`
+    : `<span class="lvl unk" title="CEFR level not checked yet">?</span>`;
+};
 function basicTabs(id) {
   const ss = BASIC.senses, show = allSenses ? ss.length : Math.min(ss.length, 6);
   const btns = ss.slice(0, show).map((s, i) => `
@@ -458,7 +463,7 @@ function renderBasic() {
     ${topicLine([...(BASIC.topics || []), ...(BASIC.coll || []).filter(c => c.topic !== "General collocations")])}
     ${basicTabs("btabs1")}
     <div class="def">${levelChip(cur, true)}
-      <p>${esc(s.d)}<small>${POS[s.p]} · meaning ${cur + 1} of ${BASIC.senses.length}${levelOf(cur) ? " · CEFR from English Profile, matched automatically" : ""}</small></p></div>
+      <p>${esc(s.d)}<small>${POS[s.p]} · meaning ${cur + 1} of ${BASIC.senses.length}${levelRow(cur) ? ` · CEFR from ${esc(levelRow(cur).source || "English Profile")}` : ""}</small></p></div>
     <div class="cols">
       <section><h2>Collocations <span class="count">${colls.length || "?"}</span></h2>
         <ul class="list">${colls.length ? colls.map(collItem).join("") : unchecked("Collocations")}</ul>
@@ -471,7 +476,7 @@ function renderBasic() {
       ${exItems ? `<ul class="list ex-grid">${exItems}</ul>` : `<p class="note">No example sentence for this word yet.</p>`}
       ${fam.length ? `<p class="famline"><b>Word family</b>${fam.map(([x]) => wordLink(x)).join("")}</p>` : ""}</section>
     <div class="legend" aria-label="Legend">
-      <span><span class="lvl auto">B1</span>CEFR level (English Profile, A1–B1 only)</span>
+      <span><span class="lvl auto">B1</span>CEFR level (A1–B1 English Profile · B2–C1 Oxford 5000)</span>
       <span><span class="lvl unk">?</span>not checked yet</span>
       <span><span class="slot">+ N</span>slot: what comes next</span>
     </div>`;
