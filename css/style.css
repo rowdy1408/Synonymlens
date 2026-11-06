@@ -383,3 +383,25 @@ h2 .count{font-size:11px;background:rgba(255,255,255,.18);color:#fff;border-radi
 .tag.full{color:#1F7E73}
 .sg-item.has .tag.full{color:#1F7E73}
 .syn.basic thead th:first-child{text-align:left;padding-left:14px}
+
+/* ---------- basic entries: examples from Tatoeba, detail panels ---------- */
+.exsrc{font-size:12.5px;color:var(--mute);margin:12px 0 8px}
+.cols section > .exsrc:first-of-type{margin-top:0}
+.syn .sep td{background:transparent!important;border:0!important;box-shadow:none!important;text-align:left;font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);padding:14px 4px 2px}
+.syn.basic.ant .row.on td,.syn.basic.ant .row.on th{background:#FDF0EB;border-color:#E76F51}
+.syn.basic .row.on th{box-shadow:inset 3px 0 0 var(--rule)}
+.syn.basic.ant .row.on th{box-shadow:inset 3px 0 0 #E76F51}
+.rel .rb2{fill:var(--hb)}
+.sym.mini{min-width:20px;height:20px;font-size:12px;border-radius:5px;padding:0 4px}
+.bmeaning{border-top:1.5px solid var(--edge);margin-top:14px;padding-top:12px}
+.bmeaning h4{margin:0 0 4px;font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--mute)}
+.bdef{margin:0 0 6px;font-size:16px;font-weight:600}
+.bex{margin:0;padding-left:18px;font-size:14.5px;color:var(--mute)}
+.bex li+li{margin-top:4px}
+.bex em{font-style:normal;font-weight:700;color:var(--em)}
+.unchecked{margin:12px 0 10px;font-size:12.5px;color:var(--mute);background:var(--soft);border-radius:8px;padding:6px 10px}
+.open-page{display:inline-block;font-weight:700;color:var(--blue);text-decoration:none;border:1.5px solid var(--edge);border-radius:999px;padding:6px 14px}
+.open-page:hover{border-color:var(--blue);background:var(--blue-soft)}
+.dt .unote{margin:0 0 4px;font-size:14px;color:var(--mute);display:block}
+.syn.basic{max-width:none}
+.rel .ra{fill:var(--ha)}

@@ -9,7 +9,7 @@ Trang là web tĩnh, chỉ gồm HTML, CSS và JavaScript. Không cần server r
 | Loại | Nguồn | Có gì |
 |---|---|---|
 | **Full card** | `js/curated.js` (giáo viên soạn và duyệt) | CEFR, collocation, mẫu câu có ô slot, bảng synonym có ký hiệu ▲▼ ⊂⊃≠ +−, khung chi tiết, antonym với 3 cách dùng |
-| **Basic entry** | `data/` (WordNet 3.1) | Nghĩa, ví dụ, mẫu câu động từ, họ từ, từ liên quan (= ≈ ⊃ ⊂) kèm độ phổ biến, antonym |
+| **Basic entry** | `data/` (WordNet 3.1 + câu ví dụ Tatoeba) | Nghĩa, ví dụ, mẫu câu động từ, họ từ; bảng từ liên quan (= ≈ ⊃ ⊂) và antonym (↔), bấm vào từ để xem khung chi tiết: hình phạm vi nghĩa, độ phổ biến, câu thử thay từ (swap test), nghĩa và ví dụ của từ đó |
 
 Hiện có 1 full card là **important**. Các từ khác hiện ở dạng basic entry. Từ tục và từ quá chuyên ngành bị chặn, có thông báo riêng.
 
@@ -51,7 +51,8 @@ js/curated.js    full card do giáo viên soạn
 js/lexicon.js    đọc dữ liệu WordNet, tìm dạng gốc của từ
 js/app.js        giao diện, tìm kiếm, lịch sử
 data/            WordNet theo phần (manifest.json + s000–s090.json),
-                 words.json (tần suất), ipa-us.json (phiên âm Mỹ)
+                 words.json (tần suất), ipa-us.json (phiên âm Mỹ),
+                 ex/a.json … ex/z.json (câu ví dụ Tatoeba, tối đa 4 câu mỗi từ)
 ```
 
 ## Nguồn dữ liệu và giấy phép
@@ -59,4 +60,5 @@ data/            WordNet theo phần (manifest.json + s000–s090.json),
 - **WordNet 3.1**, © Princeton University. Giấy phép nằm trong `WORDNET_LICENSE.txt`.
 - **wordfreq** của Robyn Speer: chỉ dùng điểm tần suất (zipf). Dữ liệu wordfreq theo giấy phép CC BY-SA 4.0.
 - **CMU Pronouncing Dictionary**, © Carnegie Mellon University (giấy phép kiểu BSD), lấy qua gói `cmu-pronouncing-dictionary` (ISC, xem `CMUDICT_LICENSE.txt`). Phiên âm Mỹ được chuyển tự động từ ký hiệu ARPAbet sang IPA, nên vị trí dấu nhấn có thể lệch ở một số từ.
+- **Tatoeba** (tatoeba.org), giấy phép CC BY 2.0 FR: câu ví dụ cho basic entry. Câu được chọn tự động theo từ, không theo nghĩa, nên có thể minh hoạ một nghĩa khác của từ. Trang có ghi chú điều này.
 - Nội dung các full card do giáo viên soạn.

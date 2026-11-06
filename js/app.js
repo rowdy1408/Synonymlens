@@ -13,7 +13,7 @@ let MODE = null;           // "full" | "basic"
 let WORD = "";             // headword on screen
 let ENTRY, SYN, ANT, SCALE, FAMILY, BASE_P;   // the full entry on screen
 let BASIC = null;          // the basic entry on screen: { word, senses }
-let cur = 0, sel = 0, asel = 0, showMore = false, tray = 1, allSenses = false;
+let cur = 0, sel = 0, asel = 0, showMore = false, tray = 1, allSenses = false, bsel = 0, bant = 0;
 
 function useFull(w) {
   const c = CUR[w];
@@ -367,7 +367,10 @@ const clean = list => (list || []).filter(([w]) => !w.split(/[ -]/).some(t => BA
 const common = z => z >= 55 ? 5 : z >= 48 ? 4 : z >= 40 ? 3 : z >= 30 ? 2 : 1;
 const COMMON = ["", "rare", "uncommon", "fairly common", "common", "very common"];
 const bars = z => { const n = common(z); return `<span class="cm-bars" title="${COMMON[n]}" aria-label="${COMMON[n]}">${[1, 2, 3, 4, 5].map(i => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>`; };
-const shortDef = d => { const t = d.split(/[;(]/)[0].trim(); return t.length > 40 ? t.slice(0, 38).replace(/\s+\S*$/, "") + "…" : t; };
+const shortDef = d => {
+  const t = (d.replace(/^\([^)]*\)\s*/, "").split(/[;(]/)[0].trim()) || d;
+  return t.length > 40 ? t.slice(0, 38).replace(/\s+\S*$/, "") + "…" : t;
+};
 const wordLink = (w, z) => `<a class="wl" href="#${encodeURIComponent(w.replace(/ /g, "-"))}">${esc(w)}</a>`;
 
 function basicTabs(id) {
@@ -379,7 +382,7 @@ function basicTabs(id) {
   return `<div class="tabs" role="tablist" aria-label="Meanings" id="${id}">${btns}${more}</div>`;
 }
 function wireBasicTabs() {
-  document.querySelectorAll("#btabs1 [data-i], #btabs2 [data-i]").forEach(b => b.addEventListener("click", () => { cur = +b.dataset.i; renderBasic(); }));
+  document.querySelectorAll("#btabs1 [data-i], #btabs2 [data-i]").forEach(b => b.addEventListener("click", () => { cur = +b.dataset.i; bsel = 0; bant = 0; renderBasic(); }));
   document.querySelectorAll("#btabs1 [data-more], #btabs2 [data-more]").forEach(b => b.addEventListener("click", () => {
     allSenses = !allSenses; if (!allSenses && cur >= 6) cur = 0; renderBasic();
   }));
@@ -388,7 +391,11 @@ function wireBasicTabs() {
 function renderBasic() {
   const w = BASIC.word, s = BASIC.senses[cur];
   const head = new RegExp("\\b" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\w*", "i");
-  const exs = (s.e || []).map(e => `<li class="item"><p class="ex">${esc(e).replace(head, m => `<em>${m}</em>`)}</p></li>`).join("");
+  const exLi = e => `<li class="item"><p class="ex">${esc(e).replace(head, m => `<em>${m}</em>`)}</p></li>`;
+  const wn = s.e || [], more = (BASIC.more || []).filter(x => !wn.includes(x)).slice(0, wn.length ? 2 : 4);
+  const exCount = wn.length + more.length;
+  const exs = (wn.length ? `<ul class="list">${wn.map(exLi).join("")}</ul>` : "") +
+    (more.length ? `<p class="exsrc">${wn.length ? "More examples" : "Examples"} from Tatoeba · they may show another meaning of the word</p><ul class="list">${more.map(exLi).join("")}</ul>` : "");
   const pats = s.p === "v" ? [...new Set((s.fr || []).map(n => FRAME[n]).filter(Boolean).map(f => f.replace("{w}", w)))] : [];
   const fam = clean(s.der);
   const side = pats.length
@@ -401,46 +408,153 @@ function renderBasic() {
     <div class="def"><span class="lvl pos" title="Part of speech">${POS_SHORT[s.p]}</span>
       <p>${esc(s.d)}<small>${POS[s.p]} · meaning ${cur + 1} of ${BASIC.senses.length}</small></p></div>
     <div class="cols">
-      <section><h2>Examples <span class="count">${(s.e || []).length}</span></h2>${exs ? `<ul class="list">${exs}</ul>` : `<p class="note">WordNet gives no example for this meaning.</p>`}</section>
+      <section><h2>Examples <span class="count">${exCount}</span></h2>${exs || `<p class="note">No example sentence for this word yet.</p>`}</section>
       ${side}
     </div>
     ${pats.length ? `<div class="legend"><span><span class="slot">+ sth</span>slot: what comes next</span><span><span class="slot">+ sb</span>a person</span></div>` : ""}`;
 
-  // tray 2: related words for this meaning — relation symbol + how common the word is
-  const rows = [];
-  const push = (list, rel, max) => clean(list).filter(([x]) => x !== w).slice(0, max).forEach(([x, z]) => { if (!rows.some(r => r.w === x)) rows.push({ w: x, z, rel }); });
-  push(s.syn, "=", 12); push(s.sim, "≈", 10); push(s.hyper, "⊃", 4); push(s.hypo, "⊂", 6);
-  const RELN = { "=": "same meaning", "≈": "similar meaning", "⊃": "wider: a more general word", "⊂": "narrower: a more specific word" };
-  const ants = clean(s.ant);
-  const table = rows.length ? `
+  // tray 2: synonyms and related words, then antonyms — each list has a detail panel, like the full card
+  const rows = basicRows(s, w);
+  const ants = clean(s.ant).filter(([x]) => x !== w).map(([x, z]) => ({ w: x, z, rel: "↔" }));
+  BASIC.rows = rows; BASIC.ants = ants;
+  if (bsel >= rows.length) bsel = 0;
+  if (bant >= ants.length) bant = 0;
+  const syns = rows.filter(r => r.rel === "=" || r.rel === "≈"), wider = rows.filter(r => r.rel === "⊃" || r.rel === "⊂");
+  const tr = (r, i, list) => `<tr class="row brow${i === (list === "a" ? bant : bsel) ? " on" : ""}" data-i="${i}" data-l="${list}" tabindex="0" aria-selected="${i === (list === "a" ? bant : bsel)}">
+      <th scope="row">${esc(r.w)}</th><td><span class="sym${r.rel === "=" ? " same" : r.rel === "↔" ? " off" : ""}" title="${RELN[r.rel]}">${r.rel}</span></td>
+      <td>${bars(r.z)}</td><td class="chev" aria-hidden="true">›</td></tr>`;
+  const synTable = rows.length ? `
     <table class="syn basic" aria-label="Words related to ${esc(w)}, meaning ${cur + 1}">
       <thead><tr><th>Word</th><th>Relation</th><th>How common</th><th></th></tr></thead>
-      <tbody>${rows.map(r => `<tr class="row brow" data-w="${esc(r.w)}" tabindex="0">
-        <th scope="row">${esc(r.w)}</th><td><span class="sym${r.rel === "=" ? " same" : ""}" title="${RELN[r.rel]}">${r.rel}</span></td>
-        <td>${bars(r.z)}</td><td class="chev" aria-hidden="true">›</td></tr>`).join("")}</tbody>
+      <tbody>${syns.map(r => tr(r, rows.indexOf(r), "s")).join("")}
+      ${wider.length ? `<tr class="sep"><td colspan="4">Wider and narrower words · not synonyms, the meaning changes</td></tr>` : ""}
+      ${wider.map(r => tr(r, rows.indexOf(r), "s")).join("")}</tbody>
     </table>` : `<p class="note">WordNet lists no other words for this meaning.</p>`;
+  const antTable = ants.length ? `
+    <table class="syn basic ant" aria-label="Antonyms of ${esc(w)}, meaning ${cur + 1}">
+      <thead><tr><th>Word</th><th>Relation</th><th>How common</th><th></th></tr></thead>
+      <tbody>${ants.map((r, i) => tr(r, i, "a")).join("")}</tbody>
+    </table>` : "";
   document.getElementById("tray2").innerHTML = `
-    <p class="basic-note"><b>Basic entry</b> · these words come from WordNet. Strength, register and collocations are not checked: read the meaning before you swap.</p>
+    <p class="basic-note"><b>Basic entry</b> · these words come from WordNet. Strength, register and collocations are not checked yet: read the meaning and try the swap before you use one.</p>
     ${basicTabs("btabs2")}
     <div class="def"><span class="lvl pos">${POS_SHORT[s.p]}</span><p>${esc(s.d)}</p></div>
     <div class="keyline">
       <span><span class="sym same">=</span>same meaning</span><span><span class="sym">≈</span>similar meaning</span>
       <span><span class="sym">⊃</span>more general</span><span><span class="sym">⊂</span>more specific</span>
-      <span>${bars(55)} how common in English</span>
+      <span><span class="sym off">↔</span>opposite</span><span>${bars(55)} how common in English</span>
     </div>
-    <section class="bsyn"><h2>Synonyms &amp; related words <span class="count">${rows.length}</span></h2>${table}<p class="hint">Click a word to open its page.</p></section>
+    <section class="bsyn"><h2>Synonyms &amp; related words <span class="count">${rows.length}</span></h2>
+      ${rows.length ? `<div class="c2"><div class="c2-list">${synTable}</div><div class="c2-detail" id="bdetail" aria-live="polite"></div></div>` : synTable}
+    </section>
     <section class="ants"><h2>Antonyms <span class="count">${ants.length}</span></h2>
-      ${ants.length ? `<p class="chips">${ants.map(([x, z]) => `${wordLink(x)}`).join("")}</p>` : `<p class="note">WordNet lists no antonym for this meaning.</p>`}</section>`;
+      ${ants.length ? `<div class="c2"><div class="c2-list">${antTable}</div><div class="c2-detail" id="badetail" aria-live="polite"></div></div>` : `<p class="note">WordNet lists no antonym for this meaning.</p>`}
+    </section>`;
+  const narrow = () => matchMedia("(max-width:760px)").matches;
   document.querySelectorAll("#tray2 .brow").forEach(r => {
-    const open = () => go(r.dataset.w);
-    r.addEventListener("click", open);
-    r.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+    const pick = () => {
+      const i = +r.dataset.i, a = r.dataset.l === "a";
+      if (a) bant = i; else bsel = i;
+      document.querySelectorAll(`#tray2 .brow[data-l="${r.dataset.l}"]`).forEach(x => { const on = x === r; x.classList.toggle("on", on); x.setAttribute("aria-selected", on); });
+      basicDetail(a ? ants[i] : rows[i], a ? "badetail" : "bdetail");
+      if (narrow()) document.getElementById(a ? "badetail" : "bdetail").scrollIntoView({ block: "start", behavior: "smooth" });
+    };
+    r.addEventListener("click", pick);
+    r.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } });
   });
+  if (rows.length) basicDetail(rows[bsel], "bdetail");
+  if (ants.length) basicDetail(ants[bant], "badetail");
   wireBasicTabs();
+}
+
+const RELN = { "=": "same meaning", "≈": "similar meaning", "⊃": "more general word", "⊂": "more specific word", "↔": "opposite meaning" };
+const RELPILL = { "=": "Same meaning", "≈": "Similar meaning", "⊃": "More general", "⊂": "More specific", "↔": "Opposite" };
+function basicRows(s, w) {
+  const rows = [];
+  const push = (list, rel, max) => clean(list).filter(([x]) => x !== w).slice(0, max)
+    .forEach(([x, z]) => { if (!rows.some(r => r.w === x)) rows.push({ w: x, z, rel }); });
+  push(s.syn, "=", 12); push(s.sim, "≈", 10); push(s.hyper, "⊃", 4); push(s.hypo, "⊂", 6);
+  return rows;
+}
+
+/* picture for a basic relation: scope circles + how common each word is (navy = headword, teal = the other word) */
+function basicSvg(r) {
+  const cx = 85, cy = 56, R = 31;
+  const S = {
+    "=": `<circle class="cm" cx="${cx}" cy="${cy}" r="${R}"/><path class="ea" d="M${cx} ${cy - R} A${R} ${R} 0 0 0 ${cx} ${cy + R}"/><path class="eb" d="M${cx} ${cy - R} A${R} ${R} 0 0 1 ${cx} ${cy + R}"/><text class="big" x="${cx}" y="${cy + 9}" text-anchor="middle">=</text>`,
+    "≈": `<circle class="la" cx="${cx - 12}" cy="${cy}" r="27" opacity=".9"/><circle class="lb" cx="${cx + 12}" cy="${cy}" r="27" opacity=".85"/><text class="big" x="${cx}" y="${cy + 9}" text-anchor="middle">≈</text>`,
+    "⊃": `<circle class="lb" cx="${cx}" cy="${cy}" r="${R + 2}"/><circle class="sa" cx="${cx + 8}" cy="${cy + 9}" r="15"/>`,
+    "⊂": `<circle class="la" cx="${cx}" cy="${cy}" r="${R + 2}"/><circle class="sb" cx="${cx + 8}" cy="${cy + 9}" r="15"/>`,
+    "↔": `<circle class="sa" cx="${cx - 34}" cy="${cy}" r="17"/><circle class="sb" cx="${cx + 34}" cy="${cy}" r="17"/><text class="big off" x="${cx}" y="${cy + 9}" text-anchor="middle">↔</text>`
+  }[r.rel];
+  const note = { "=": "covers the same meaning", "≈": "close, not identical", "⊃": "a wider word: less exact", "⊂": "a narrower word: more exact", "↔": "the opposite meaning" }[r.rel];
+  const L = z => 24 + Math.max(0, Math.min(70, z)) / 70 * 156;
+  const hz = BASIC.z ?? 0;
+  const g2 = `<text class="rt" x="230" y="14">How common</text>
+    <rect class="ra" x="230" y="36" width="${L(hz)}" height="14" rx="5"/><rect x="230" y="62" width="${L(r.z)}" height="14" rx="5" class="rb2"/>
+    <text class="end" x="230" y="94">rare</text><text class="end" x="410" y="94" text-anchor="end">very common</text>
+    <text class="rc" x="230" y="114">${COMMON[common(r.z)]}</text>
+    <text class="end" x="230" y="132">${r.z < hz - 8 ? `less common than ${esc(BASIC.word)}` : r.z > hz + 8 ? `more common than ${esc(BASIC.word)}` : `about as common as ${esc(BASIC.word)}`}</text>`;
+  return `<svg class="rel" viewBox="0 0 420 140" role="img" aria-label="${esc(r.w)}: ${RELN[r.rel]}; ${COMMON[common(r.z)]}">
+    <text class="rt" x="0" y="14">Scope</text>${S}
+    <text class="rc" x="0" y="114"><tspan class="sy${r.rel === "↔" ? " off" : ""}">${r.rel}</tspan> ${note}</text>${g2}</svg>`;
+}
+
+// a sentence with the headword swapped for the other word — only for same / similar meaning, only on an exact match
+function swapTest(r) {
+  if (r.rel !== "=" && r.rel !== "≈" || r.w.includes(" ")) return null;
+  const s = BASIC.senses[cur], pool = [...(s.e || []), ...(BASIC.more || [])];
+  const re = new RegExp(`\\b${BASIC.word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
+  const src = pool.find(x => re.test(x));
+  if (!src) return null;
+  const out = src.replace(re, m => (m[0] === m[0].toUpperCase() ? r.w[0].toUpperCase() + r.w.slice(1) : r.w));
+  const a = /^[aeiou]/i.test(r.w) ? "an" : "a";
+  const fixed = out.replace(new RegExp(`\\b(a|an) (${r.w})\\b`, "i"), (m, art, x) => (art[0] === "A" ? a[0].toUpperCase() + a.slice(1) : a) + " " + x);
+  const mark = (t, w) => esc(t).replace(new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i"), m => `<em>${m}</em>`);
+  return { from: mark(src, BASIC.word), to: mark(fixed, r.w) };
+}
+
+const detailTokens = {};
+async function basicDetail(r, id) {
+  const box = document.getElementById(id);
+  if (!box || !r) return;
+  const token = detailTokens[id] = (detailTokens[id] || 0) + 1, word = BASIC.word;
+  const swap = swapTest(r);
+  const head = `
+    <div class="dt-head"><h3>${esc(r.w)}</h3>
+      <span class="pill"><span class="sym mini${r.rel === "=" ? " same" : r.rel === "↔" ? " off" : ""}">${r.rel}</span>${RELPILL[r.rel]}</span>
+      <span class="reg">Basic</span></div>
+    <p class="key"><span class="k a"></span>${esc(word)}<span class="k b"></span>${esc(r.w)}</p>
+    ${basicSvg(r)}`;
+  const swapHtml = swap ? `<div class="pair"><p><span class="pl">Original</span>${swap.from}</p><p><span class="pl">Swap test</span>${swap.to}</p></div>
+    <p class="unote">Read the swap aloud. Does it keep the meaning and sound natural? If not, choose another word.</p>` : "";
+  const warn = { "⊃": `A more general word. Swapping makes the sentence less exact: fine to avoid repetition, not to keep the precise meaning.`,
+    "⊂": `A more specific word. Use it only when the narrower meaning is true in your sentence.`,
+    "↔": `Use it for contrast, or negate it to paraphrase: <i>not ${esc(r.w)}</i>. Check that the negative form sounds natural.` }[r.rel] || "";
+  box.innerHTML = `<div class="dt${r.rel === "↔" ? " adt" : ""}">${head}
+    ${swapHtml}${warn ? `<p class="unote">${warn}</p>` : ""}
+    <div class="bmeaning"><p class="loading">Loading the meaning of “${esc(r.w)}”…</p></div>
+    <p class="unchecked">Strength, register and collocations are not checked for IELTS yet.</p>
+    <a class="open-page" href="#${encodeURIComponent(r.w.replace(/ /g, "-"))}">Open the page for ${esc(r.w)} →</a></div>`;
+  // the other word's own meaning and an example, from its entry
+  let entry = null, ex = [];
+  try { entry = await Lexicon.lookup(r.w); ex = await Lexicon.examples(r.w); } catch (e) { /* data unavailable */ }
+  if (detailTokens[id] !== token || BASIC.word !== word || !box.isConnected) return;
+  const m = box.querySelector(".bmeaning");
+  if (!m) return;
+  if (!entry) { m.innerHTML = ""; return; }
+  const p = BASIC.senses[cur].p, P = x => (x === "s" ? "a" : x);
+  const linked = entry.senses.find(t => ["syn", "sim", "hyper", "hypo", "ant"].some(k => (t[k] || []).some(([x]) => x === word)) && P(t.p) === P(p));
+  const sense = linked || entry.senses.find(t => P(t.p) === P(p)) || entry.senses[0];
+  const exs = (sense.e || []).slice(0, 1).concat(ex).slice(0, 2);
+  const re = new RegExp(`\\b${r.w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\w*`, "i");
+  m.innerHTML = `<h4>Meaning of ${esc(r.w)}</h4><p class="bdef">${esc(sense.d)}</p>` +
+    (exs.length ? `<ul class="bex">${exs.map(x => `<li>${esc(x).replace(re, k => `<em>${k}</em>`)}</li>`).join("")}</ul>` : "");
 }
 
 async function showBasic(entry) {
   MODE = "basic"; WORD = entry.word; BASIC = entry;
+  try { [entry.more, entry.z] = await Promise.all([Lexicon.examples(entry.word), Lexicon.zipf(entry.word)]); } catch (e) { entry.more = []; entry.z = 0; }
   const posList = [...new Set(entry.senses.map(s => POS[s.p]))].join(" · ");
   renderHeader({ word: entry.word, pos: posList, kind: "basic" });
   renderBasic();
@@ -725,7 +839,7 @@ async function route() {
       }
       if (id !== routeId) return;
       const fresh = MODE !== "basic" || WORD !== entry.word;
-      if (fresh) { cur = 0; allSenses = false; setTray(1); }
+      if (fresh) { cur = 0; bsel = 0; bant = 0; allSenses = false; setTray(1); }
       await showBasic(entry);
       if (id !== routeId) return;
       showCard(); window.scrollTo(0, 0);

@@ -2,7 +2,8 @@
    data/manifest.json maps the first two letters of a word to a shard file; each shard maps word → list of senses.
    A sense: p (n v a s r), d (definition), e (examples), syn (same synset), sim (similar), ant (antonyms),
    hyper (more general), hypo (more specific), der (word family), fr (verb frame numbers).
-   Word lists are [word, zipf×10] pairs: zipf 6 = very common, 3 = uncommon, 1 = rare. */
+   Word lists are [word, zipf×10] pairs: zipf 6 = very common, 3 = uncommon, 1 = rare.
+   data/ex/: example sentences from Tatoeba (CC BY 2.0 FR), up to 4 per word. */
 (function (global) {
   const BASE = "data/";
   let manifest = null, zipfMap = null, ipaMap = null;
@@ -78,5 +79,13 @@
     try { return (await ipaMap)[w] || null; } catch (e) { return null; }
   }
 
-  global.Lexicon = { lookup, zipf, ipa };
+  // example sentences for a word from Tatoeba (data/ex/<first letter>.json), any meaning of the word
+  const exFiles = new Map();
+  async function examples(w) {
+    const k = /^[a-z]/.test(w) ? w[0] : "_";
+    if (!exFiles.has(k)) exFiles.set(k, getJSON("ex/" + k + ".json").catch(() => ({})));
+    return (await exFiles.get(k))[w] || [];
+  }
+
+  global.Lexicon = { lookup, zipf, ipa, examples };
 })(window);
