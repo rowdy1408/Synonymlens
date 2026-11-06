@@ -79,6 +79,10 @@ Có 6.571 dòng cho 5.270 từ, lấy từ ba nguồn. Cấp độ hiện ở ô
 - Từ chức năng (*and, because, could*…) không có trong WordNet nên không có trang riêng.
 - Trang chỉ dùng nhãn cấp độ, không dùng định nghĩa hay câu ví dụ của từ điển.
 
+## Thứ tự các tab nghĩa
+
+Mỗi từ hiện **đủ mọi nghĩa** trong WordNet. Nghĩa nào có cấp độ CEFR thì đứng trước, cấp độ dễ nhất đứng đầu, và trang mở sẵn nghĩa đó. Ví dụ *flat* mở ở nghĩa 7 "căn hộ" (A1) chứ không phải nghĩa 1 "vùng đất bằng". Các nghĩa còn lại giữ thứ tự WordNet, bấm "+… more meanings" để xem. Số trên mỗi tab luôn là số thứ tự gốc của WordNet, nên cột `sense` trong các file CSV vẫn dùng số đó.
+
 ## Lịch sử tìm kiếm
 
 Các từ đã tra được lưu ngay trong trình duyệt của người dùng (localStorage), không gửi đi đâu. Bấm vào ô tìm kiếm để xem lại. Bấm × ở cuối dòng để xoá một từ (hoặc chọn dòng bằng phím mũi tên rồi nhấn Delete), hoặc bấm **Clear all** để xoá hết.
@@ -92,7 +96,7 @@ js/words.js      danh sách gợi ý khi gõ (từ đơn, xếp theo tần suấ
 js/curated.js    full card do giáo viên soạn
 js/lexicon.js    đọc dữ liệu WordNet, tìm dạng gốc của từ
 js/app.js        giao diện, tìm kiếm, lịch sử
-data/            WordNet theo phần (manifest.json + s000–s090.json),
+data/            WordNet theo phần (manifest.json + s000–s095.json), đủ mọi nghĩa của từ,
                  words.json (tần suất), ipa-us.json (phiên âm Mỹ),
                  ex/a.json … ex/z.json (câu ví dụ Tatoeba, tối đa 4 câu mỗi từ)
 ```

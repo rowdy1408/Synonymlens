@@ -385,11 +385,22 @@ const levelChip = i => {
   return r ? `<span class="lvl auto" title="CEFR level from ${esc(r.source || "English Profile")}${r.status === "approved" ? "" : ", matched to this meaning automatically"}">${esc(r.level)}</span>`
     : `<span class="lvl unk" title="CEFR level not checked yet">?</span>`;
 };
+// meanings with a CEFR level come first (easiest level first); the rest keep WordNet order. Numbers stay the WordNet numbers.
+const LRANK = { A1: 1, A2: 2, B1: 3, B2: 4, C1: 5, C2: 6 };
+function senseOrder() {
+  const idx = BASIC.senses.map((_, i) => i);
+  return idx.sort((a, b) => {
+    const la = LRANK[levelOf(a)] || 99, lb = LRANK[levelOf(b)] || 99;
+    return la - lb || a - b;
+  });
+}
 function basicTabs(id) {
-  const ss = BASIC.senses, show = allSenses ? ss.length : Math.min(ss.length, 6);
-  const btns = ss.slice(0, show).map((s, i) => `
+  const ss = BASIC.senses, order = senseOrder(), show = allSenses ? ss.length : Math.min(ss.length, 6);
+  let shown = order.slice(0, show);
+  if (!shown.includes(cur)) shown = [...shown.slice(0, show - 1), cur];
+  const btns = shown.map(i => `
     <button type="button" role="tab" class="tab" aria-selected="${i === cur}" data-i="${i}">
-      <span class="n">${i + 1}</span>${levelChip(i)}${esc(shortDef(s.d))}</button>`).join("");
+      <span class="n">${i + 1}</span>${levelChip(i)}${esc(shortDef(ss[i].d))}</button>`).join("");
   const more = ss.length > 6 ? `<button type="button" class="tab more-senses" data-more="1">${allSenses ? "Fewer meanings" : `+${ss.length - 6} more meanings`}</button>` : "";
   return `<div class="tabs" role="tablist" aria-label="Meanings" id="${id}">${btns}${more}</div>`;
 }
@@ -711,6 +722,7 @@ async function showBasic(entry) {
   } catch (e) { entry.more = entry.more || []; entry.z = 0; entry.own = entry.own || []; entry.coll = entry.coll || []; entry.topics = entry.topics || []; entry.cefr = entry.cefr || []; }
   const posList = [...new Set(entry.senses.map(s => POS[s.p]))].join(" · ");
   renderHeader({ word: entry.word, pos: posList, kind: "basic" });
+  if (BASIC._fresh) { cur = senseOrder()[0]; BASIC._fresh = false; }
   renderBasic();
   const us = await Lexicon.ipa(entry.word);
   if (us && WORD === entry.word) renderHeader({ word: entry.word, pos: posList, us, kind: "basic" });
@@ -994,6 +1006,7 @@ async function route() {
       if (id !== routeId) return;
       const fresh = MODE !== "basic" || WORD !== entry.word;
       if (fresh) { cur = 0; bsel = 0; bant = 0; bmore = false; allSenses = false; setTray(1); }
+      if (fresh) entry._fresh = true;
       await showBasic(entry);
       if (id !== routeId) return;
       showCard(); window.scrollTo(0, 0);

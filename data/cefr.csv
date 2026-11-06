@@ -42,7 +42,7 @@ accomplishment,1,C1,auto,Oxford 5000
 accordance,1,C1,auto,Oxford 5000
 accordingly,1,C1,auto,Oxford 5000
 account,3,A1,approved,English Profile (Cambridge Essential English Dictionary)
-account,7,B2,auto,Oxford 3000
+account,11,B2,auto,Oxford 3000
 accountability,1,C1,auto,Oxford 5000
 accountable,1,C1,auto,Oxford 5000
 accountant,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -90,7 +90,7 @@ additional,1,B2,auto,Oxford 3000
 additionally,1,B2,auto,Oxford 5000
 address,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 address,6,A1,auto,English Profile (Cambridge Essential English Dictionary)
-address,7,B2,auto,Oxford 3000
+address,9,B2,auto,Oxford 3000
 adequate,1,B2,auto,Oxford 5000
 adhere,1,C1,auto,Oxford 5000
 adjacent,1,C1,auto,Oxford 5000
@@ -111,7 +111,7 @@ adult,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 adult,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 advance,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
 advance,7,B2,auto,Oxford 3000
-advance,13,B2,auto,Oxford 3000
+advance,19,B2,auto,Oxford 3000
 advanced,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 advanced,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
 advantage,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -286,7 +286,7 @@ appointment,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 appreciate,1,B1,auto,Oxford 3000
 appreciation,1,C1,auto,Oxford 5000
 approach,1,B2,auto,Oxford 3000
-approach,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+approach,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
 appropriate,3,B2,auto,Oxford 3000
 approval,1,B2,auto,Oxford 3000
 approve,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -368,7 +368,7 @@ atmosphere,1,B1,auto,Oxford 3000
 attach,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 attachment,1,B2,auto,Oxford 5000
 attack,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-attack,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
+attack,10,B1,approved,English Profile (Cambridge Essential English Dictionary)
 attain,1,C1,auto,Oxford 5000
 attempt,1,B2,auto,Oxford 3000
 attempt,3,B1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -416,10 +416,10 @@ baby,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 babysit,2,B1,approved,English Profile (Cambridge Essential English Dictionary)
 babysitter,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 back,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
-back,7,B2,auto,Oxford 3000
-back,13,A2,auto,English Profile (Cambridge Essential English Dictionary)
-back,16,A1,approved,English Profile (Cambridge Essential English Dictionary)
+back,10,B2,auto,Oxford 3000
 back,20,A2,auto,English Profile (Cambridge Essential English Dictionary)
+back,23,A1,approved,English Profile (Cambridge Essential English Dictionary)
+back,27,A2,auto,English Profile (Cambridge Essential English Dictionary)
 backdrop,1,C1,auto,Oxford 5000
 background,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 backing,1,C1,auto,Oxford 5000
@@ -460,7 +460,7 @@ bank,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 bank account,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 banner,1,C1,auto,Oxford 5000
 bar,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
-bar,7,B2,auto,Oxford 3000
+bar,16,B2,auto,Oxford 3000
 barbecue,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 barbecue,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 bare,4,C1,auto,Oxford 5000
@@ -470,7 +470,7 @@ barman,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 barrel,1,C1,auto,Oxford 5000
 barrier,1,B2,auto,Oxford 3000
 base,1,B1,auto,Oxford 3000
-base,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+base,21,B1,auto,English Profile (Cambridge Essential English Dictionary)
 baseball,1,A2,auto,Oxford 3000
 based,1,A2,auto,Oxford 3000
 basement,1,B2,auto,Oxford 5000
@@ -501,8 +501,8 @@ bear,3,B2,auto,Oxford 3000
 beard,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 beast,1,C1,auto,Oxford 5000
 beat,1,B2,auto,Oxford 3000
-beat,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-beat,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+beat,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+beat,14,B1,auto,English Profile (Cambridge Essential English Dictionary)
 beautiful,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 beautiful,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 beauty,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -566,7 +566,7 @@ big,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 bike,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 bike,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 bill,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
-bill,7,B2,auto,Oxford 3000
+bill,11,B2,auto,Oxford 3000
 billion,1,A2,auto,Oxford 3000
 billionaire,1,B2,auto,Oxford 5000
 bin,1,A2,auto,Oxford 3000
@@ -582,11 +582,11 @@ bishop,1,C1,auto,Oxford 5000
 bit,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 bit,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
 bite,1,B1,auto,Oxford 3000
-bite,7,B1,auto,Oxford 3000
+bite,10,B1,auto,Oxford 3000
 bitter,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
 bizarre,1,C1,auto,Oxford 5000
 black,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
-black,9,A1,auto,English Profile (Cambridge Essential English Dictionary)
+black,10,A1,auto,English Profile (Cambridge Essential English Dictionary)
 blackboard,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 blade,1,C1,auto,Oxford 5000
 blame,1,B2,auto,Oxford 3000
@@ -604,21 +604,21 @@ bless,1,C1,auto,Oxford 5000
 blessing,1,C1,auto,Oxford 5000
 blind,8,B1,approved,English Profile (Cambridge Essential English Dictionary)
 block,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
-block,7,B1,auto,Oxford 3000
+block,13,B1,auto,Oxford 3000
 blog,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 blog,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 blogger,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 blonde,3,A1,auto,Oxford 3000
 blood,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 blow,1,C1,auto,Oxford 5000
-blow,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
 blow,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+blow,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
 blue,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
-blue,8,A1,approved,English Profile (Cambridge Essential English Dictionary)
+blue,9,A1,approved,English Profile (Cambridge Essential English Dictionary)
 board,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 board,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 board,5,A1,auto,English Profile (Cambridge Essential English Dictionary)
-board,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
+board,10,B1,approved,English Profile (Cambridge Essential English Dictionary)
 board game,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 boast,2,C1,auto,Oxford 5000
 boat,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -636,7 +636,7 @@ bond,1,B2,auto,Oxford 3000
 bone,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 bonus,1,C1,auto,Oxford 5000
 book,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
-book,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
+book,13,A2,auto,English Profile (Cambridge Essential English Dictionary)
 bookcase,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 booking,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 boom,1,C1,auto,Oxford 5000
@@ -656,13 +656,13 @@ bottom,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 bottom,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 bottom,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 bottom,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-bottom,10,A2,auto,Oxford 3000
+bottom,11,A2,auto,Oxford 3000
 bounce,4,C1,auto,Oxford 5000
 bound,9,B2,auto,Oxford 5000
 boundary,1,C1,auto,Oxford 5000
 bout,1,C1,auto,Oxford 5000
 bow,1,C1,auto,Oxford 5000
-bow,7,C1,auto,Oxford 5000
+bow,10,C1,auto,Oxford 5000
 bowl,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 box,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 box,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -683,8 +683,8 @@ breach,4,C1,auto,Oxford 5000
 bread,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 break,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 break,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-break,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-break,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
+break,17,B1,auto,English Profile (Cambridge Essential English Dictionary)
+break,18,A2,auto,English Profile (Cambridge Essential English Dictionary)
 breakdown,1,C1,auto,Oxford 5000
 breakfast,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 breakthrough,1,C1,auto,Oxford 5000
@@ -719,7 +719,7 @@ brown,1,A1,auto,Oxford 3000
 brown,7,A1,auto,English Profile (Cambridge Essential English Dictionary)
 browser,1,C1,auto,Oxford 5000
 brush,1,A2,auto,Oxford 3000
-brush,9,A2,auto,English Profile (Cambridge Essential English Dictionary)
+brush,12,A2,auto,English Profile (Cambridge Essential English Dictionary)
 brutal,1,C1,auto,Oxford 5000
 bubble,1,B1,auto,Oxford 3000
 buck,1,C1,auto,Oxford 5000
@@ -779,9 +779,9 @@ calendar,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 calf,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 call,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 call,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-call,8,A1,auto,English Profile (Cambridge Essential English Dictionary)
-call,9,A2,auto,English Profile (Cambridge Essential English Dictionary)
-call,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+call,15,A1,auto,English Profile (Cambridge Essential English Dictionary)
+call,16,A2,auto,English Profile (Cambridge Essential English Dictionary)
+call,17,B1,auto,English Profile (Cambridge Essential English Dictionary)
 calm,1,B1,auto,Oxford 3000
 calm,3,B1,auto,Oxford 3000
 calm,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -789,7 +789,7 @@ calm,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
 camel,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 camera,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 camp,3,B1,approved,English Profile (Cambridge Essential English Dictionary)
-camp,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
+camp,9,A2,auto,English Profile (Cambridge Essential English Dictionary)
 campaign,1,B1,auto,Oxford 3000
 campaign,5,B1,auto,Oxford 3000
 camping,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -808,7 +808,7 @@ capable,1,B2,auto,Oxford 3000
 capacity,1,B2,auto,Oxford 3000
 capital,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
 capital,6,A2,auto,English Profile (Cambridge Essential English Dictionary)
-capital,7,A1,auto,Oxford 3000
+capital,9,A1,auto,Oxford 3000
 capitalism,1,C1,auto,Oxford 5000
 capitalist,3,C1,auto,Oxford 5000
 captain,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -840,16 +840,16 @@ case,5,A2,auto,English Profile (Cambridge Essential English Dictionary)
 cash,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 casino,1,C1,auto,Oxford 5000
 cast,1,B2,auto,Oxford 3000
-cast,7,B2,auto,Oxford 3000
+cast,10,B2,auto,Oxford 3000
 castle,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 casual,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 casualty,1,C1,auto,Oxford 5000
 cat,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 catalogue,1,C1,auto,Oxford 5000
 catch,1,B2,auto,Oxford 3000
-catch,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-catch,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
-catch,10,A1,auto,English Profile (Cambridge Essential English Dictionary)
+catch,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+catch,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
+catch,14,A1,auto,English Profile (Cambridge Essential English Dictionary)
 category,1,B1,auto,Oxford 3000
 cater,1,C1,auto,Oxford 5000
 caterpillar,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -871,7 +871,7 @@ cent,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 central,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 central heating,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 centre,1,A1,auto,Oxford 3000
-centre,7,B1,auto,Oxford 3000
+centre,10,B1,auto,Oxford 3000
 century,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 cereal,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 ceremony,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -881,7 +881,7 @@ certainty,1,B2,auto,Oxford 5000
 certificate,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 chain,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 chain,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
-chain,7,B2,auto,Oxford 3000
+chain,11,B2,auto,Oxford 3000
 chair,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 chair,6,B2,auto,Oxford 3000
 chairman,1,B2,auto,Oxford 3000
@@ -896,11 +896,11 @@ chance,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 change,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 change,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 change,5,A2,auto,English Profile (Cambridge Essential English Dictionary)
-change,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
-change,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
-change,10,A1,auto,English Profile (Cambridge Essential English Dictionary)
 change,11,A2,auto,English Profile (Cambridge Essential English Dictionary)
-change,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
+change,12,A2,auto,English Profile (Cambridge Essential English Dictionary)
+change,14,A1,auto,English Profile (Cambridge Essential English Dictionary)
+change,15,A2,auto,English Profile (Cambridge Essential English Dictionary)
+change,16,B1,auto,English Profile (Cambridge Essential English Dictionary)
 channel,5,A2,approved,English Profile (Cambridge Essential English Dictionary)
 chaos,1,C1,auto,Oxford 5000
 chapter,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -910,7 +910,7 @@ characteristic,5,B2,auto,Oxford 3000
 characterize,1,C1,auto,Oxford 5000
 charge,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 charge,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-charge,9,B1,approved,English Profile (Cambridge Essential English Dictionary)
+charge,18,B1,approved,English Profile (Cambridge Essential English Dictionary)
 charity,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
 charm,1,C1,auto,Oxford 5000
 charming,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -925,7 +925,7 @@ cheap,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 cheat,1,B1,auto,Oxford 3000
 cheat,6,B1,auto,Oxford 3000
 check,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-check,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
+check,14,A2,auto,English Profile (Cambridge Essential English Dictionary)
 check-in,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 checkout,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 cheek,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -965,7 +965,7 @@ church,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 cigarette,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 cinema,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 circle,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
-circle,7,A2,auto,Oxford 3000
+circle,9,A2,auto,Oxford 3000
 circuit,1,B2,auto,Oxford 5000
 circulate,1,C1,auto,Oxford 5000
 circulation,1,C1,auto,Oxford 5000
@@ -996,12 +996,12 @@ classmate,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 classroom,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 clause,1,B1,auto,Oxford 3000
 clean,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
-clean,8,A1,approved,English Profile (Cambridge Essential English Dictionary)
+clean,12,A1,approved,English Profile (Cambridge Essential English Dictionary)
 cleaner,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 clear,3,B1,approved,English Profile (Cambridge Essential English Dictionary)
-clear,9,A2,approved,English Profile (Cambridge Essential English Dictionary)
-clear,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
-clear,12,A2,auto,English Profile (Cambridge Essential English Dictionary)
+clear,27,A2,approved,English Profile (Cambridge Essential English Dictionary)
+clear,28,B1,auto,English Profile (Cambridge Essential English Dictionary)
+clear,30,A2,auto,English Profile (Cambridge Essential English Dictionary)
 clearly,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 clearly,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 clever,2,A1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -1021,9 +1021,9 @@ clock,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 close,1,B2,auto,Oxford 3000
 close,4,A1,auto,English Profile (Cambridge Essential English Dictionary)
 close,6,A2,auto,English Profile (Cambridge Essential English Dictionary)
-close,10,A1,auto,English Profile (Cambridge Essential English Dictionary)
-close,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
-close,16,B1,auto,English Profile (Cambridge Essential English Dictionary)
+close,21,A1,auto,English Profile (Cambridge Essential English Dictionary)
+close,22,B1,auto,English Profile (Cambridge Essential English Dictionary)
+close,36,B1,auto,English Profile (Cambridge Essential English Dictionary)
 closed,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 closely,1,B2,auto,Oxford 3000
 closure,1,C1,auto,Oxford 5000
@@ -1089,13 +1089,13 @@ comeback,1,C1,auto,Oxford 5000
 comedian,1,B2,auto,Oxford 5000
 comedy,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 comfort,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-comfort,7,B2,auto,Oxford 3000
+comfort,8,B2,auto,Oxford 3000
 comfortable,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 comic,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 comic,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 comma,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 command,1,B2,auto,Oxford 3000
-command,7,B2,auto,Oxford 3000
+command,8,B2,auto,Oxford 3000
 commander,1,B2,auto,Oxford 5000
 commence,1,C1,auto,Oxford 5000
 comment,1,A2,auto,Oxford 3000
@@ -1106,7 +1106,7 @@ commerce,1,C1,auto,Oxford 5000
 commercial,1,B1,auto,Oxford 3000
 commercial,2,B1,auto,Oxford 3000
 commission,1,B2,auto,Oxford 3000
-commission,7,B2,auto,Oxford 3000
+commission,10,B2,auto,Oxford 3000
 commissioner,1,C1,auto,Oxford 5000
 commit,1,B1,auto,Oxford 3000
 commitment,1,B2,auto,Oxford 3000
@@ -1194,7 +1194,7 @@ confine,1,C1,auto,Oxford 5000
 confirm,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 confirmation,1,C1,auto,Oxford 5000
 conflict,1,B2,auto,Oxford 3000
-conflict,7,B2,auto,Oxford 3000
+conflict,8,B2,auto,Oxford 3000
 confront,1,C1,auto,Oxford 5000
 confrontation,1,C1,auto,Oxford 5000
 confuse,1,B1,auto,Oxford 3000
@@ -1251,7 +1251,7 @@ consumer,1,B1,auto,Oxford 3000
 consumption,1,B2,auto,Oxford 5000
 contact,5,A2,approved,English Profile (Cambridge Essential English Dictionary)
 contact,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
-contact,7,A2,approved,English Profile (Cambridge Essential English Dictionary)
+contact,10,A2,approved,English Profile (Cambridge Essential English Dictionary)
 contain,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 container,1,B1,auto,Oxford 3000
 contemplate,1,C1,auto,Oxford 5000
@@ -1260,7 +1260,7 @@ contempt,1,C1,auto,Oxford 5000
 contend,1,C1,auto,Oxford 5000
 contender,1,C1,auto,Oxford 5000
 content,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
-content,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+content,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
 contention,1,C1,auto,Oxford 5000
 contents,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 contest,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -1281,7 +1281,7 @@ contribute,1,B2,auto,Oxford 3000
 contribution,1,B2,auto,Oxford 3000
 contributor,1,C1,auto,Oxford 5000
 control,1,A2,auto,Oxford 3000
-control,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
+control,12,B1,approved,English Profile (Cambridge Essential English Dictionary)
 controversial,1,B2,auto,Oxford 5000
 controversy,1,B2,auto,Oxford 5000
 convenience,1,B2,auto,Oxford 5000
@@ -1321,7 +1321,7 @@ corner,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 corporate,1,B2,auto,Oxford 3000
 corporation,1,B2,auto,Oxford 5000
 correct,1,A1,auto,Oxford 3000
-correct,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
+correct,9,A2,auto,English Profile (Cambridge Essential English Dictionary)
 correction,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 correctly,1,A2,auto,Oxford 3000
 correlate,2,C1,auto,Oxford 5000
@@ -1348,7 +1348,7 @@ counsellor,1,C1,auto,Oxford 5000
 count,1,B1,auto,Oxford 3000
 count,4,A2,auto,Oxford 3000
 counter,1,B2,auto,Oxford 5000
-counter,7,C1,auto,Oxford 5000
+counter,10,C1,auto,Oxford 5000
 counterpart,1,C1,auto,Oxford 5000
 countless,1,C1,auto,Oxford 5000
 country,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -1365,13 +1365,13 @@ courtesy,1,C1,auto,Oxford 5000
 cousin,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 cover,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 cover,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
-cover,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
-cover,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+cover,12,A2,auto,English Profile (Cambridge Essential English Dictionary)
+cover,15,B1,auto,English Profile (Cambridge Essential English Dictionary)
 coverage,1,B2,auto,Oxford 5000
 covered,1,B1,auto,Oxford 3000
 cow,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 crack,1,B2,auto,Oxford 5000
-crack,7,B2,auto,Oxford 5000
+crack,11,B2,auto,Oxford 5000
 craft,1,B2,auto,Oxford 5000
 craft,6,C1,auto,Oxford 5000
 crash,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -1389,7 +1389,7 @@ credibility,1,C1,auto,Oxford 5000
 credible,1,C1,auto,Oxford 5000
 credit,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 credit,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-credit,7,B2,auto,Oxford 3000
+credit,10,B2,auto,Oxford 3000
 credit card,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 creep,5,C1,auto,Oxford 5000
 crew,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -1452,7 +1452,7 @@ custom,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 customer,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 customs,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 cut,5,B1,approved,English Profile (Cambridge Essential English Dictionary)
-cut,9,A2,auto,English Profile (Cambridge Essential English Dictionary)
+cut,23,A2,auto,English Profile (Cambridge Essential English Dictionary)
 cute,1,B2,auto,Oxford 5000
 cycle,1,A2,auto,Oxford 3000
 cycle,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -1484,7 +1484,7 @@ date,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 date,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 date,5,A1,auto,English Profile (Cambridge Essential English Dictionary)
 date,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
-date,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+date,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
 daughter,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 dawn,1,C1,auto,Oxford 5000
 day,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -1493,7 +1493,7 @@ deadline,1,B2,auto,Oxford 5000
 deadly,1,B2,auto,Oxford 5000
 deaf,3,B1,approved,English Profile (Cambridge Essential English Dictionary)
 deal,1,B1,auto,Oxford 3000
-deal,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+deal,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
 dealer,1,B2,auto,Oxford 5000
 dear,3,A1,approved,English Profile (Cambridge Essential English Dictionary)
 death,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -1523,7 +1523,7 @@ deed,1,C1,auto,Oxford 5000
 deem,1,C1,auto,Oxford 5000
 deep,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
 deep,6,A2,auto,English Profile (Cambridge Essential English Dictionary)
-deep,10,B1,auto,Oxford 3000
+deep,19,B1,auto,Oxford 3000
 deeply,1,B2,auto,Oxford 3000
 default,1,C1,auto,Oxford 5000
 defeat,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -1581,7 +1581,7 @@ depict,1,C1,auto,Oxford 5000
 deploy,1,C1,auto,Oxford 5000
 deployment,1,C1,auto,Oxford 5000
 deposit,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-deposit,7,C1,auto,Oxford 5000
+deposit,10,C1,auto,Oxford 5000
 depressed,3,B1,approved,English Profile (Cambridge Essential English Dictionary)
 depressing,1,B2,auto,Oxford 3000
 depression,1,B2,auto,Oxford 5000
@@ -1599,7 +1599,7 @@ deserve,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 design,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 design,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
 design,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-design,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+design,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
 designate,1,C1,auto,Oxford 5000
 designer,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 desirable,1,C1,auto,Oxford 5000
@@ -1668,13 +1668,13 @@ diminish,1,C1,auto,Oxford 5000
 dining room,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 dinner,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 dinosaur,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-dip,7,C1,auto,Oxford 5000
+dip,10,C1,auto,Oxford 5000
 diploma,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 diplomat,1,C1,auto,Oxford 5000
 direct,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 direct,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-direct,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-direct,13,B1,auto,Oxford 3000
+direct,14,B1,auto,English Profile (Cambridge Essential English Dictionary)
+direct,24,B1,auto,Oxford 3000
 direction,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 directly,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 director,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -1696,7 +1696,7 @@ disastrous,1,C1,auto,Oxford 5000
 disc,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 disc jockey,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 discard,4,C1,auto,Oxford 5000
-discharge,7,C1,auto,Oxford 5000
+discharge,10,C1,auto,Oxford 5000
 discipline,1,B2,auto,Oxford 3000
 disclose,1,C1,auto,Oxford 5000
 disclosure,1,C1,auto,Oxford 5000
@@ -1787,10 +1787,10 @@ dose,1,C1,auto,Oxford 5000
 dot,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 double,6,A2,auto,Oxford 3000
 double,14,A2,auto,English Profile (Cambridge Essential English Dictionary)
-double,18,B1,auto,Oxford 3000
+double,19,B1,auto,Oxford 3000
 doubt,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 doubt,3,B1,auto,Oxford 3000
-down,18,A1,approved,English Profile (Cambridge Essential English Dictionary)
+down,21,A1,approved,English Profile (Cambridge Essential English Dictionary)
 download,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 downstairs,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 downstairs,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -1800,14 +1800,14 @@ downtown,3,B2,auto,Oxford 5000
 downwards,1,B2,auto,Oxford 3000
 dozen,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 draft,1,B2,auto,Oxford 3000
-draft,7,B2,auto,Oxford 3000
+draft,12,B2,auto,Oxford 3000
 drag,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
 drag,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
 drain,5,C1,auto,Oxford 5000
 drama,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 dramatic,1,B2,auto,Oxford 3000
 dramatically,1,B2,auto,Oxford 5000
-draw,12,A1,auto,English Profile (Cambridge Essential English Dictionary)
+draw,15,A1,auto,English Profile (Cambridge Essential English Dictionary)
 drawer,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 drawing,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 dream,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -1815,20 +1815,21 @@ dream,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
 dress,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 dress,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
 dressed,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-drift,7,C1,auto,Oxford 5000
+drift,8,C1,auto,Oxford 5000
 drink,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 drink,3,A1,auto,English Profile (Cambridge Essential English Dictionary)
 drink,6,A1,auto,English Profile (Cambridge Essential English Dictionary)
 drink,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
-drive,7,A1,auto,English Profile (Cambridge Essential English Dictionary)
-drive,8,A1,auto,English Profile (Cambridge Essential English Dictionary)
+drive,8,B1,approved,English Profile (Cambridge Essential English Dictionary)
+drive,13,A1,auto,English Profile (Cambridge Essential English Dictionary)
+drive,14,A1,auto,English Profile (Cambridge Essential English Dictionary)
 driver,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 driving,1,A2,auto,Oxford 3000
 driving,3,C1,auto,Oxford 5000
 driving licence,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 drone,1,C1,auto,Oxford 5000
 drop,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-drop,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+drop,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
 drought,1,B2,auto,Oxford 5000
 drown,1,C1,auto,Oxford 5000
 drug,1,A2,auto,Oxford 3000
@@ -1840,7 +1841,7 @@ dual,1,C1,auto,Oxford 5000
 dub,2,C1,auto,Oxford 5000
 duck,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 due,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
-dull,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+dull,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
 dump,5,B2,auto,Oxford 5000
 duo,1,C1,auto,Oxford 5000
 duration,1,B2,auto,Oxford 5000
@@ -1873,7 +1874,7 @@ east,6,A1,auto,Oxford 3000
 east,7,A1,auto,Oxford 3000
 eastern,1,B1,auto,Oxford 3000
 easy,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
-easy,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+easy,15,B1,auto,English Profile (Cambridge Essential English Dictionary)
 eat,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 eat,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 echo,7,C1,auto,Oxford 5000
@@ -1967,7 +1968,7 @@ encouragement,1,C1,auto,Oxford 5000
 encouraging,1,C1,auto,Oxford 5000
 end,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 end,5,A1,auto,English Profile (Cambridge Essential English Dictionary)
-end,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
+end,15,A2,auto,English Profile (Cambridge Essential English Dictionary)
 endeavour,1,C1,auto,Oxford 5000
 ending,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 ending,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2038,7 +2039,7 @@ error,1,A2,auto,Oxford 3000
 erupt,1,B2,auto,Oxford 5000
 escalate,1,C1,auto,Oxford 5000
 escape,1,B1,auto,Oxford 3000
-escape,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+escape,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
 especially,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 essay,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 essence,1,C1,auto,Oxford 5000
@@ -2089,7 +2090,7 @@ excess,1,C1,auto,Oxford 5000
 excess,5,C1,auto,Oxford 5000
 excessive,1,B2,auto,Oxford 5000
 exchange,4,B1,approved,English Profile (Cambridge Essential English Dictionary)
-exchange,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+exchange,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
 exchange rate,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 excited,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 excitement,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2172,7 +2173,7 @@ eye,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 fabric,1,B2,auto,Oxford 5000
 fabulous,1,B2,auto,Oxford 5000
 face,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
-face,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+face,18,B1,auto,English Profile (Cambridge Essential English Dictionary)
 face-to-face,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 facilitate,1,C1,auto,Oxford 5000
 facility,1,B2,auto,Oxford 3000
@@ -2192,8 +2193,8 @@ fairness,1,C1,auto,Oxford 5000
 faith,1,B2,auto,Oxford 3000
 fake,7,B2,auto,Oxford 5000
 fall,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
-fall,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-fall,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
+fall,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
+fall,14,A2,auto,English Profile (Cambridge Essential English Dictionary)
 false,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 fame,1,B2,auto,Oxford 5000
 familiar,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2215,7 +2216,7 @@ fascinating,1,B1,auto,Oxford 3000
 fashion,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 fashionable,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 fast,4,A1,auto,English Profile (Cambridge Essential English Dictionary)
-fast,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
+fast,14,A2,auto,English Profile (Cambridge Essential English Dictionary)
 fast food,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 fasten,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 fat,1,A2,auto,Oxford 3000
@@ -2270,7 +2271,7 @@ fight,6,B1,approved,English Profile (Cambridge Essential English Dictionary)
 fighting,1,B1,auto,Oxford 3000
 figure,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 figure,3,B1,approved,English Profile (Cambridge Essential English Dictionary)
-figure,7,B2,auto,Oxford 3000
+figure,14,B2,auto,Oxford 3000
 file,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 file,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 file,5,B2,auto,Oxford 3000
@@ -2297,11 +2298,11 @@ fine,3,A1,approved,English Profile (Cambridge Essential English Dictionary)
 fine,4,A1,auto,English Profile (Cambridge Essential English Dictionary)
 finger,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 finish,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
-finish,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-finish,9,A1,auto,English Profile (Cambridge Essential English Dictionary)
+finish,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+finish,12,A1,auto,English Profile (Cambridge Essential English Dictionary)
 fire,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 fire,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
-fire,7,B1,auto,Oxford 3000
+fire,10,B1,auto,Oxford 3000
 firearm,1,C1,auto,Oxford 5000
 firefighter,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 firework,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2320,7 +2321,7 @@ fish,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
 fishing,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 fit,1,C1,auto,Oxford 5000
 fit,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
-fit,13,A2,auto,English Profile (Cambridge Essential English Dictionary)
+fit,16,A2,auto,English Profile (Cambridge Essential English Dictionary)
 fitness,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 five,1,A1,auto,Oxford 3000
 fix,1,B2,auto,Oxford 3000
@@ -2330,8 +2331,9 @@ fixture,1,C1,auto,Oxford 5000
 flag,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 flame,1,B2,auto,Oxford 3000
 flash,1,B2,auto,Oxford 3000
-flash,7,B2,auto,Oxford 3000
-flat,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+flash,11,B2,auto,Oxford 3000
+flat,7,A1,approved,English Profile (Cambridge Essential English Dictionary)
+flat,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
 flavour,1,B2,auto,Oxford 5000
 flaw,1,C1,auto,Oxford 5000
 flawed,1,C1,auto,Oxford 5000
@@ -2342,8 +2344,8 @@ flexibility,1,C1,auto,Oxford 5000
 flexible,1,B2,auto,Oxford 3000
 flight,1,A1,auto,Oxford 3000
 flight attendant,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-float,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
-float,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+float,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+float,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
 flood,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 flood,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
 floor,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2351,7 +2353,7 @@ floor,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 flour,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 flourish,6,C1,auto,Oxford 5000
 flow,1,B1,auto,Oxford 3000
-flow,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+flow,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
 flower,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 flu,1,A2,auto,Oxford 3000
 fluid,1,C1,auto,Oxford 5000
@@ -2361,10 +2363,10 @@ fly,6,A1,auto,English Profile (Cambridge Essential English Dictionary)
 flying,1,A2,auto,Oxford 3000
 flying,2,A2,auto,Oxford 3000
 focus,1,A2,auto,Oxford 3000
-focus,7,A2,auto,Oxford 3000
+focus,8,A2,auto,Oxford 3000
 fog,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 fold,1,B2,auto,Oxford 3000
-fold,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+fold,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
 folder,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 folding,4,B2,auto,Oxford 3000
 folk,1,B1,auto,Oxford 3000
@@ -2385,7 +2387,7 @@ football,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 footprint,1,B2,auto,Oxford 5000
 forbid,1,B2,auto,Oxford 5000
 force,1,B1,auto,Oxford 3000
-force,7,B1,auto,Oxford 3000
+force,11,B1,auto,Oxford 3000
 forecast,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 forecast,2,B2,auto,Oxford 5000
 forehead,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2399,7 +2401,7 @@ forgive,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 fork,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
 form,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 form,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
-form,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
+form,17,B1,approved,English Profile (Cambridge Essential English Dictionary)
 formal,3,A2,auto,Oxford 3000
 format,1,B2,auto,Oxford 5000
 formation,1,B2,auto,Oxford 5000
@@ -2430,14 +2432,14 @@ fraction,1,B2,auto,Oxford 5000
 fragile,1,C1,auto,Oxford 5000
 fragment,1,B2,auto,Oxford 5000
 frame,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
-frame,7,B1,auto,Oxford 3000
+frame,13,B1,auto,Oxford 3000
 framework,1,B2,auto,Oxford 5000
 franchise,1,C1,auto,Oxford 5000
 frankly,1,C1,auto,Oxford 5000
 fraud,1,B2,auto,Oxford 5000
 free,2,B2,auto,Oxford 3000
-free,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
-free,14,A2,auto,English Profile (Cambridge Essential English Dictionary)
+free,15,A2,auto,English Profile (Cambridge Essential English Dictionary)
+free,22,A2,auto,English Profile (Cambridge Essential English Dictionary)
 freedom,1,B2,auto,Oxford 3000
 freely,1,C1,auto,Oxford 5000
 freeze,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2458,7 +2460,7 @@ frightened,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 frightening,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 frog,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 front,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-front,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+front,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
 frozen,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 fruit,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 frustrated,1,C1,auto,Oxford 5000
@@ -2478,7 +2480,7 @@ full-time,2,B2,auto,Oxford 5000
 fully,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 fun,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 function,1,B1,auto,Oxford 3000
-function,7,B2,auto,Oxford 3000
+function,8,B2,auto,Oxford 3000
 functional,1,C1,auto,Oxford 5000
 fund,1,B2,auto,Oxford 3000
 fund,4,B2,auto,Oxford 3000
@@ -2541,7 +2543,7 @@ get,6,A1,auto,English Profile (Cambridge Essential English Dictionary)
 get,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
 ghost,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 giant,1,B1,auto,Oxford 3000
-giant,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+giant,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
 gift,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 gig,1,C1,auto,Oxford 5000
 giraffe,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2592,7 +2594,7 @@ government,1,B1,approved,English Profile (Cambridge Essential English Dictionary
 governor,1,B2,auto,Oxford 5000
 grab,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
 grace,1,C1,auto,Oxford 5000
-grade,7,B2,auto,Oxford 3000
+grade,10,B2,auto,Oxford 3000
 gradually,1,B2,auto,Oxford 3000
 graduate,1,B1,auto,Oxford 3000
 graduate,3,B1,auto,Oxford 3000
@@ -2611,7 +2613,7 @@ grandparent,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 grandson,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 granny,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 grant,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
-grant,7,B2,auto,Oxford 3000
+grant,9,B2,auto,Oxford 3000
 grape,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 graphic,2,B2,auto,Oxford 5000
 graphics,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -2625,19 +2627,19 @@ great,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 great,5,A1,auto,English Profile (Cambridge Essential English Dictionary)
 greatly,1,B2,auto,Oxford 5000
 green,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-green,8,A1,auto,English Profile (Cambridge Essential English Dictionary)
+green,10,A1,auto,English Profile (Cambridge Essential English Dictionary)
 greenhouse,1,B2,auto,Oxford 5000
 greet,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 greeting,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 grey,1,A1,auto,Oxford 3000
-grey,9,A1,auto,Oxford 3000
+grey,10,A1,auto,Oxford 3000
 grid,1,C1,auto,Oxford 5000
 grief,1,C1,auto,Oxford 5000
 grill,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 grill,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 grind,5,C1,auto,Oxford 5000
 grip,1,C1,auto,Oxford 5000
-grip,7,C1,auto,Oxford 5000
+grip,8,C1,auto,Oxford 5000
 grocery,1,B2,auto,Oxford 5000
 groom,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 ground,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2651,7 +2653,7 @@ growth,1,B1,auto,Oxford 3000
 guarantee,1,B2,auto,Oxford 3000
 guarantee,4,B2,auto,Oxford 3000
 guard,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
-guard,7,B1,auto,Oxford 3000
+guard,11,B1,auto,Oxford 3000
 guess,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 guess,3,A2,approved,English Profile (Cambridge Essential English Dictionary)
 guess,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2676,7 +2678,7 @@ gymnast,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 habit,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 habitat,1,B2,auto,Oxford 5000
 hack,1,C1,auto,Oxford 5000
-hack,7,C1,auto,Oxford 5000
+hack,9,C1,auto,Oxford 5000
 hail,4,C1,auto,Oxford 5000
 hair,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 haircut,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2689,10 +2691,10 @@ hall,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 halt,4,C1,auto,Oxford 5000
 ham,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 hammer,1,C1,auto,Oxford 5000
-hammer,7,C1,auto,Oxford 5000
+hammer,9,C1,auto,Oxford 5000
 hand,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 hand,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
-hand,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+hand,15,B1,auto,English Profile (Cambridge Essential English Dictionary)
 handbag,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 handful,1,C1,auto,Oxford 5000
 handheld,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2712,7 +2714,7 @@ harassment,1,C1,auto,Oxford 5000
 harbour,1,B2,auto,Oxford 5000
 hard,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 hard,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
-hard,7,A1,auto,English Profile (Cambridge Essential English Dictionary)
+hard,13,A1,auto,English Profile (Cambridge Essential English Dictionary)
 hardly,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 hardware,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 harm,1,B2,auto,Oxford 3000
@@ -2732,7 +2734,7 @@ hazardous,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 head,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 head,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 head,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
-head,7,B1,auto,Oxford 3000
+head,34,B1,auto,Oxford 3000
 headache,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 headline,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 headquarters,1,B2,auto,Oxford 5000
@@ -2746,7 +2748,7 @@ heart,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 heart,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
 heart attack,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 heat,2,B1,approved,English Profile (Cambridge Essential English Dictionary)
-heat,7,A2,auto,Oxford 3000
+heat,8,A2,auto,Oxford 3000
 heater,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 heating,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 heaven,1,B2,auto,Oxford 3000
@@ -2778,10 +2780,10 @@ hide,3,B1,approved,English Profile (Cambridge Essential English Dictionary)
 hide,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
 hierarchy,1,C1,auto,Oxford 5000
 high,1,B2,auto,Oxford 3000
-high,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-high,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
-high,13,B1,approved,English Profile (Cambridge Essential English Dictionary)
-high,14,B1,auto,English Profile (Cambridge Essential English Dictionary)
+high,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+high,9,A2,auto,English Profile (Cambridge Essential English Dictionary)
+high,15,B1,approved,English Profile (Cambridge Essential English Dictionary)
+high,16,B1,auto,English Profile (Cambridge Essential English Dictionary)
 highlight,1,B1,auto,Oxford 3000
 highlight,3,B1,auto,Oxford 3000
 highly,1,B1,auto,Oxford 3000
@@ -2797,20 +2799,20 @@ historic,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 historical,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 history,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 hit,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-hit,11,A2,auto,English Profile (Cambridge Essential English Dictionary)
+hit,12,A2,auto,English Profile (Cambridge Essential English Dictionary)
 hitchhike,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 hobby,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 hockey,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 hold,1,B2,auto,Oxford 3000
-hold,8,A2,approved,English Profile (Cambridge Essential English Dictionary)
-hold,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+hold,11,A2,approved,English Profile (Cambridge Essential English Dictionary)
+hold,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
 hole,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 holiday,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 hollow,6,B2,auto,Oxford 3000
 holy,2,B2,auto,Oxford 3000
 home,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
-home,9,A2,auto,Oxford 3000
-home,12,A2,approved,English Profile (Cambridge Essential English Dictionary)
+home,12,A2,auto,Oxford 3000
+home,15,A2,approved,English Profile (Cambridge Essential English Dictionary)
 homeland,1,C1,auto,Oxford 5000
 homeless,3,B2,auto,Oxford 5000
 homework,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2823,7 +2825,7 @@ honeymoon,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 honour,1,B2,auto,Oxford 3000
 honour,5,B2,auto,Oxford 3000
 hook,1,B2,auto,Oxford 5000
-hook,7,C1,auto,Oxford 5000
+hook,9,C1,auto,Oxford 5000
 hope,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 hope,7,A2,approved,English Profile (Cambridge Essential English Dictionary)
 hopeful,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -2837,7 +2839,7 @@ horse,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 hospital,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 hospitality,1,C1,auto,Oxford 5000
 host,1,B1,auto,Oxford 3000
-host,7,B2,auto,Oxford 3000
+host,11,B2,auto,Oxford 3000
 hostage,1,C1,auto,Oxford 5000
 hostel,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 hostile,2,C1,auto,Oxford 5000
@@ -2846,7 +2848,7 @@ hot,4,A1,auto,English Profile (Cambridge Essential English Dictionary)
 hotel,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 hour,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 house,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
-house,7,B2,auto,Oxford 3000
+house,13,B2,auto,Oxford 3000
 household,1,B2,auto,Oxford 3000
 housework,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 housing,1,B2,auto,Oxford 3000
@@ -2867,14 +2869,14 @@ hundred,1,A1,auto,Oxford 3000
 hunger,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 hungry,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 hunt,1,B2,auto,Oxford 3000
-hunt,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+hunt,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
 hunting,1,B2,auto,Oxford 3000
 hurricane,1,B1,auto,Oxford 3000
 hurry,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 hurry,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
 hurt,1,B2,auto,Oxford 3000
 hurt,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
-hurt,12,A2,auto,Oxford 3000
+hurt,13,A2,auto,Oxford 3000
 husband,1,A1,auto,Oxford 3000
 hut,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 hybrid,1,C1,auto,Oxford 5000
@@ -3078,7 +3080,7 @@ interaction,1,B2,auto,Oxford 5000
 interactive,1,C1,auto,Oxford 5000
 interest,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 interest,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
-interest,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+interest,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
 interested,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 interesting,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 interface,1,C1,auto,Oxford 5000
@@ -3135,7 +3137,7 @@ isolate,1,B2,auto,Oxford 5000
 isolated,1,B2,auto,Oxford 5000
 isolation,1,C1,auto,Oxford 5000
 issue,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-issue,7,B2,auto,Oxford 3000
+issue,12,B2,auto,Oxford 3000
 it,1,B1,auto,Oxford 3000
 item,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 jacket,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -3187,7 +3189,7 @@ keeper,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 kettle,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 key,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 key,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
-key,12,A1,auto,Oxford 3000
+key,21,A1,auto,Oxford 3000
 keyboard,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 kick,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 kick,7,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -3234,7 +3236,7 @@ lake,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 lamb,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 lamp,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 land,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
-land,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+land,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
 landing,1,B2,auto,Oxford 5000
 landlord,1,C1,auto,Oxford 5000
 landmark,1,C1,auto,Oxford 5000
@@ -3248,12 +3250,12 @@ large-scale,1,C1,auto,Oxford 5000
 largely,1,B2,auto,Oxford 3000
 laser,1,C1,auto,Oxford 5000
 last,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-last,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
-last,9,A2,approved,English Profile (Cambridge Essential English Dictionary)
-last,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
-last,15,B1,auto,English Profile (Cambridge Essential English Dictionary)
+last,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+last,11,A2,approved,English Profile (Cambridge Essential English Dictionary)
+last,12,A2,auto,English Profile (Cambridge Essential English Dictionary)
+last,20,B1,auto,English Profile (Cambridge Essential English Dictionary)
 late,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
-late,7,A1,auto,Oxford 3000
+late,8,A1,auto,Oxford 3000
 lately,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 later,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 later,3,A1,auto,Oxford 3000
@@ -3275,7 +3277,7 @@ layer,1,B1,auto,Oxford 3000
 layout,1,C1,auto,Oxford 5000
 lazy,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 lead,1,B1,auto,Oxford 3000
-lead,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
+lead,18,B1,approved,English Profile (Cambridge Essential English Dictionary)
 leader,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 leadership,1,B2,auto,Oxford 3000
 leading,3,B1,auto,Oxford 3000
@@ -3326,8 +3328,8 @@ lethal,1,C1,auto,Oxford 5000
 letter,3,A1,auto,English Profile (Cambridge Essential English Dictionary)
 lettuce,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 level,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
-level,7,B2,auto,Oxford 3000
-level,13,B1,auto,Oxford 3000
+level,9,B2,auto,Oxford 3000
+level,15,B1,auto,Oxford 3000
 levy,1,C1,auto,Oxford 5000
 levy,3,C1,auto,Oxford 5000
 liable,1,C1,auto,Oxford 5000
@@ -3346,12 +3348,12 @@ lifelong,1,C1,auto,Oxford 5000
 lifestyle,1,A2,auto,Oxford 3000
 lifetime,1,B2,auto,Oxford 5000
 lift,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
-lift,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+lift,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
 light,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 light,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
-light,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-light,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
-light,14,A1,auto,English Profile (Cambridge Essential English Dictionary)
+light,16,B1,auto,English Profile (Cambridge Essential English Dictionary)
+light,19,B1,auto,English Profile (Cambridge Essential English Dictionary)
+light,24,A1,auto,English Profile (Cambridge Essential English Dictionary)
 lighting,1,B2,auto,Oxford 5000
 lightly,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 lightning,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -3369,11 +3371,11 @@ limitation,1,B2,auto,Oxford 5000
 limited,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 line,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 line,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-line,7,B2,auto,Oxford 3000
+line,31,B2,auto,Oxford 3000
 linear,1,C1,auto,Oxford 5000
 linger,1,C1,auto,Oxford 5000
 link,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-link,7,A2,auto,Oxford 3000
+link,10,A2,auto,Oxford 3000
 lion,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 lip,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 liquid,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -3392,19 +3394,19 @@ litter,1,B2,auto,Oxford 5000
 little,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 little,4,A1,auto,English Profile (Cambridge Essential English Dictionary)
 little,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-little,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
+little,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
 live,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 live,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 live,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-live,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-live,13,B1,auto,Oxford 3000
+live,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+live,19,B1,auto,Oxford 3000
 lively,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 liver,1,C1,auto,Oxford 5000
 living,1,B1,auto,Oxford 3000
 living,5,B1,auto,Oxford 3000
 living room,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 load,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
-load,7,B2,auto,Oxford 3000
+load,10,B2,auto,Oxford 3000
 loan,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 lobby,1,C1,auto,Oxford 5000
 lobby,4,C1,auto,Oxford 5000
@@ -3421,7 +3423,7 @@ logo,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 lonely,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 long,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 long,3,A1,auto,English Profile (Cambridge Essential English Dictionary)
-long,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
+long,11,A2,auto,English Profile (Cambridge Essential English Dictionary)
 long-standing,1,C1,auto,Oxford 5000
 long-term,1,B2,auto,Oxford 3000
 long-time,1,C1,auto,Oxford 5000
@@ -3452,7 +3454,7 @@ lovely,2,A2,approved,English Profile (Cambridge Essential English Dictionary)
 lover,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 low,1,B2,auto,Oxford 3000
 low,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
-low,12,A2,auto,Oxford 3000
+low,16,A2,auto,Oxford 3000
 lower,2,B2,auto,Oxford 3000
 loyal,1,B2,auto,Oxford 5000
 loyalty,1,C1,auto,Oxford 5000
@@ -3516,7 +3518,7 @@ map,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 map,3,B2,auto,Oxford 3000
 marathon,1,B2,auto,Oxford 5000
 march,1,C1,auto,Oxford 5000
-march,7,C1,auto,Oxford 5000
+march,8,C1,auto,Oxford 5000
 margin,1,B2,auto,Oxford 5000
 marginal,1,C1,auto,Oxford 5000
 marine,3,C1,auto,Oxford 5000
@@ -3531,16 +3533,16 @@ marry,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 martial art,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 mask,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 mass,1,B2,auto,Oxford 3000
-mass,8,B2,auto,Oxford 3000
+mass,11,B2,auto,Oxford 3000
 massacre,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 massive,1,B2,auto,Oxford 3000
 master,1,B2,auto,Oxford 3000
-master,7,B2,auto,Oxford 3000
+master,11,B2,auto,Oxford 3000
 match,1,A1,auto,Oxford 3000
-match,7,A1,auto,Oxford 3000
+match,10,A1,auto,Oxford 3000
 matching,1,B2,auto,Oxford 3000
 mate,2,B1,approved,English Profile (Cambridge Essential English Dictionary)
-mate,7,B2,auto,Oxford 5000
+mate,11,B2,auto,Oxford 5000
 material,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 material,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 material,6,B2,auto,Oxford 3000
@@ -3565,7 +3567,7 @@ means,1,B2,auto,Oxford 3000
 meantime,1,C1,auto,Oxford 5000
 meanwhile,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 measure,1,B1,auto,Oxford 3000
-measure,7,B1,auto,Oxford 3000
+measure,10,B1,auto,Oxford 3000
 measurement,1,B2,auto,Oxford 3000
 meat,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 mechanic,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -3578,7 +3580,7 @@ medicine,2,A2,approved,English Profile (Cambridge Essential English Dictionary)
 medieval,1,C1,auto,Oxford 5000
 meditation,1,C1,auto,Oxford 5000
 medium,1,B2,auto,Oxford 3000
-medium,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+medium,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
 meet,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 meet,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
 meeting,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -3640,7 +3642,7 @@ million,1,A1,auto,Oxford 3000
 mind,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 mind,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 mind,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
-mind,7,A2,approved,English Profile (Cambridge Essential English Dictionary)
+mind,8,A2,approved,English Profile (Cambridge Essential English Dictionary)
 mindset,1,C1,auto,Oxford 5000
 mine,1,B1,auto,Oxford 3000
 miner,1,B2,auto,Oxford 5000
@@ -3687,7 +3689,7 @@ mode,1,B2,auto,Oxford 5000
 model,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 model,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 model,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
-model,7,B2,auto,Oxford 3000
+model,10,B2,auto,Oxford 3000
 moderate,8,C1,auto,Oxford 5000
 modern,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
 modest,1,B2,auto,Oxford 5000
@@ -3700,7 +3702,7 @@ monastery,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 monday,1,A1,auto,Oxford 3000
 money,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 monitor,1,B2,auto,Oxford 3000
-monitor,7,B2,auto,Oxford 3000
+monitor,8,B2,auto,Oxford 3000
 monkey,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 monopoly,1,C1,auto,Oxford 5000
 monster,1,B2,auto,Oxford 5000
@@ -3853,8 +3855,8 @@ normal,1,B1,auto,Oxford 3000
 normal,2,A2,approved,English Profile (Cambridge Essential English Dictionary)
 normally,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 north,1,A1,auto,Oxford 3000
-north,7,A1,auto,Oxford 3000
 north,8,A1,auto,Oxford 3000
+north,9,A1,auto,Oxford 3000
 northern,2,B1,auto,Oxford 3000
 nose,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 not,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -3862,10 +3864,10 @@ notable,2,C1,auto,Oxford 5000
 notably,1,C1,auto,Oxford 5000
 note,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 note,6,A2,auto,English Profile (Cambridge Essential English Dictionary)
-note,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+note,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
 notebook,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 notice,1,A2,auto,Oxford 3000
-notice,7,A2,auto,Oxford 3000
+notice,8,A2,auto,Oxford 3000
 notification,1,C1,auto,Oxford 5000
 notify,1,C1,auto,Oxford 5000
 notion,1,B2,auto,Oxford 3000
@@ -3880,7 +3882,7 @@ nowadays,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 nowhere,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 nuclear,1,B1,auto,Oxford 3000
 number,5,A1,auto,English Profile (Cambridge Essential English Dictionary)
-number,7,A2,auto,Oxford 3000
+number,13,A2,auto,Oxford 3000
 numerous,1,B2,auto,Oxford 3000
 nurse,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 nursery,1,C1,auto,Oxford 5000
@@ -3952,7 +3954,7 @@ only,3,A1,approved,English Profile (Cambridge Essential English Dictionary)
 only,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
 open,9,A1,auto,English Profile (Cambridge Essential English Dictionary)
 open,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
-open,11,A1,auto,English Profile (Cambridge Essential English Dictionary)
+open,16,A1,auto,English Profile (Cambridge Essential English Dictionary)
 opening,1,B2,auto,Oxford 3000
 openly,1,B2,auto,Oxford 5000
 opera,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -3980,7 +3982,8 @@ orange,6,A1,auto,English Profile (Cambridge Essential English Dictionary)
 orchestra,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 order,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
 order,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-order,8,A2,approved,English Profile (Cambridge Essential English Dictionary)
+order,7,A2,approved,English Profile (Cambridge Essential English Dictionary)
+order,17,A2,approved,English Profile (Cambridge Essential English Dictionary)
 ordinary,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
 organ,1,B2,auto,Oxford 3000
 organic,2,B2,auto,Oxford 5000
@@ -3999,7 +4002,7 @@ originate,1,C1,auto,Oxford 5000
 other,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 other,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 otherwise,2,B2,auto,Oxford 3000
-out,11,A1,auto,Oxford 3000
+out,15,A1,auto,Oxford 3000
 out-of-date,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 outbreak,1,C1,auto,Oxford 5000
 outcome,1,B2,auto,Oxford 3000
@@ -4016,7 +4019,7 @@ output,1,B2,auto,Oxford 5000
 outrage,1,C1,auto,Oxford 5000
 outside,1,A2,auto,Oxford 3000
 outside,3,A2,auto,Oxford 3000
-outside,9,A1,auto,English Profile (Cambridge Essential English Dictionary)
+outside,13,A1,auto,English Profile (Cambridge Essential English Dictionary)
 outsider,1,C1,auto,Oxford 5000
 outstanding,1,B2,auto,Oxford 5000
 oven,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4044,7 +4047,7 @@ oxygen,1,B2,auto,Oxford 5000
 pace,1,B2,auto,Oxford 3000
 pace,7,B2,auto,Oxford 3000
 pack,1,B1,auto,Oxford 3000
-pack,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
+pack,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
 package,1,B1,auto,Oxford 3000
 package,4,B2,auto,Oxford 3000
 packet,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4102,10 +4105,10 @@ partnership,1,B2,auto,Oxford 5000
 party,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 party,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 pass,6,B1,approved,English Profile (Cambridge Essential English Dictionary)
-pass,7,A2,approved,English Profile (Cambridge Essential English Dictionary)
-pass,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
-pass,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
-pass,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+pass,18,B1,auto,English Profile (Cambridge Essential English Dictionary)
+pass,19,B1,auto,English Profile (Cambridge Essential English Dictionary)
+pass,21,B1,auto,English Profile (Cambridge Essential English Dictionary)
+pass,30,A2,approved,English Profile (Cambridge Essential English Dictionary)
 passage,1,B2,auto,Oxford 3000
 passenger,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 passing,1,C1,auto,Oxford 5000
@@ -4206,23 +4209,23 @@ physician,1,C1,auto,Oxford 5000
 physics,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 piano,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 pick,1,B2,auto,Oxford 3000
-pick,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
-pick,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+pick,10,B1,approved,English Profile (Cambridge Essential English Dictionary)
+pick,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
 picnic,3,A1,auto,English Profile (Cambridge Essential English Dictionary)
 picture,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 picture,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
-picture,7,B2,auto,Oxford 3000
+picture,11,B2,auto,Oxford 3000
 pie,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 piece,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 piece,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 pig,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 pile,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-pile,7,B2,auto,Oxford 3000
+pile,9,B2,auto,Oxford 3000
 pill,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 pillow,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 pilot,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 pin,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-pin,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+pin,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
 pineapple,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 pink,1,A1,auto,Oxford 3000
 pink,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4238,7 +4241,7 @@ pizza,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 place,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 place,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 place,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-place,7,B1,auto,Oxford 3000
+place,17,B1,auto,Oxford 3000
 placement,1,B2,auto,Oxford 5000
 plain,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
 plain,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4254,10 +4257,10 @@ plastic,3,A2,auto,Oxford 3000
 plate,4,A1,auto,English Profile (Cambridge Essential English Dictionary)
 platform,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 play,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-play,7,A1,auto,English Profile (Cambridge Essential English Dictionary)
-play,9,A2,auto,English Profile (Cambridge Essential English Dictionary)
-play,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
-play,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
+play,18,A1,auto,English Profile (Cambridge Essential English Dictionary)
+play,20,A2,auto,English Profile (Cambridge Essential English Dictionary)
+play,22,B1,auto,English Profile (Cambridge Essential English Dictionary)
+play,23,B1,auto,English Profile (Cambridge Essential English Dictionary)
 player,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 player,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 playground,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4274,7 +4277,7 @@ plot,1,B1,auto,Oxford 3000
 plot,5,B2,auto,Oxford 3000
 plug,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 plug,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-plug,7,C1,auto,Oxford 5000
+plug,8,C1,auto,Oxford 5000
 plunge,3,C1,auto,Oxford 5000
 plural,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 plus,1,B2,auto,Oxford 3000
@@ -4285,7 +4288,7 @@ poem,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 poet,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 poetry,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 point,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
-point,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
+point,27,A2,auto,English Profile (Cambridge Essential English Dictionary)
 pointed,1,B2,auto,Oxford 3000
 poison,1,B1,auto,Oxford 3000
 poison,3,B1,auto,Oxford 3000
@@ -4308,7 +4311,7 @@ pool,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 poor,3,A1,auto,English Profile (Cambridge Essential English Dictionary)
 pop,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
 pop,5,C1,auto,Oxford 5000
-pop,11,A2,auto,Oxford 3000
+pop,18,A2,auto,Oxford 3000
 popular,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 popularity,1,B2,auto,Oxford 3000
 population,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4322,7 +4325,7 @@ pose,4,B2,auto,Oxford 3000
 position,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 position,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 position,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-position,7,B2,auto,Oxford 3000
+position,17,B2,auto,Oxford 3000
 positive,1,B2,auto,Oxford 3000
 positive,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
 possess,1,B2,auto,Oxford 3000
@@ -4331,7 +4334,8 @@ possessive,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 possibility,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 possible,3,A1,auto,English Profile (Cambridge Essential English Dictionary)
 possibly,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
-post,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
+post,8,A2,approved,English Profile (Cambridge Essential English Dictionary)
+post,12,A2,auto,English Profile (Cambridge Essential English Dictionary)
 post office,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 postcard,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 poster,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4347,7 +4351,8 @@ pour,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
 pour,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
 poverty,1,B1,auto,Oxford 3000
 powder,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-power,7,B2,auto,Oxford 3000
+power,9,B1,approved,English Profile (Cambridge Essential English Dictionary)
+power,11,B2,auto,Oxford 3000
 powerful,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 powerful,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 practical,1,B1,auto,Oxford 3000
@@ -4387,7 +4392,7 @@ prescription,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 presence,1,B2,auto,Oxford 3000
 present,2,A1,approved,English Profile (Cambridge Essential English Dictionary)
 present,4,A2,auto,Oxford 3000
-present,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+present,18,B1,auto,English Profile (Cambridge Essential English Dictionary)
 presentation,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 presently,1,C1,auto,Oxford 5000
 preservation,1,C1,auto,Oxford 5000
@@ -4397,7 +4402,7 @@ presidency,1,C1,auto,Oxford 5000
 president,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 presidential,1,C1,auto,Oxford 5000
 press,1,B1,auto,Oxford 3000
-press,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
+press,10,B1,approved,English Profile (Cambridge Essential English Dictionary)
 pressure,1,B1,auto,Oxford 3000
 prestigious,1,C1,auto,Oxford 5000
 presumably,1,C1,auto,Oxford 5000
@@ -4415,7 +4420,7 @@ previous,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 previously,1,B1,auto,Oxford 3000
 prey,1,C1,auto,Oxford 5000
 price,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-price,7,B2,auto,Oxford 3000
+price,8,B2,auto,Oxford 3000
 pride,1,B2,auto,Oxford 5000
 priest,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 primarily,1,B2,auto,Oxford 5000
@@ -4428,7 +4433,7 @@ principal,1,C1,auto,Oxford 5000
 principal,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
 principle,1,B2,auto,Oxford 3000
 print,1,B2,auto,Oxford 3000
-print,7,A2,approved,English Profile (Cambridge Essential English Dictionary)
+print,8,A2,approved,English Profile (Cambridge Essential English Dictionary)
 printer,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 printing,1,B1,auto,Oxford 3000
 prior,2,B2,auto,Oxford 5000
@@ -4471,6 +4476,7 @@ profit,1,B1,auto,Oxford 3000
 profitable,1,C1,auto,Oxford 5000
 profound,1,C1,auto,Oxford 5000
 program,3,A2,approved,English Profile (Cambridge Essential English Dictionary)
+program,7,A2,approved,English Profile (Cambridge Essential English Dictionary)
 programme,1,A1,auto,Oxford 3000
 programming,1,B2,auto,Oxford 5000
 progress,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4534,7 +4540,7 @@ publicity,1,B2,auto,Oxford 5000
 publish,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 publishing,1,B2,auto,Oxford 5000
 pull,1,B1,auto,Oxford 3000
-pull,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
+pull,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
 pullover,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 pump,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 pump,4,C1,auto,Oxford 5000
@@ -4621,7 +4627,7 @@ rally,1,C1,auto,Oxford 5000
 rally,6,C1,auto,Oxford 5000
 random,1,B2,auto,Oxford 5000
 range,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
-range,7,B2,auto,Oxford 3000
+range,10,B2,auto,Oxford 3000
 rank,1,B2,auto,Oxford 3000
 rank,6,B2,auto,Oxford 3000
 ranking,1,C1,auto,Oxford 5000
@@ -4688,7 +4694,7 @@ recommendation,1,B1,auto,Oxford 3000
 reconstruction,1,C1,auto,Oxford 5000
 record,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 record,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-record,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
+record,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
 recording,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 recount,2,C1,auto,Oxford 5000
 recover,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4717,13 +4723,13 @@ refusal,1,C1,auto,Oxford 5000
 refuse,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 regain,1,C1,auto,Oxford 5000
 regard,1,B2,auto,Oxford 3000
-regard,7,B2,auto,Oxford 3000
+regard,8,B2,auto,Oxford 3000
 regardless,2,C1,auto,Oxford 5000
 regime,1,C1,auto,Oxford 5000
 region,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 regional,1,B2,auto,Oxford 3000
 register,1,B2,auto,Oxford 3000
-register,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+register,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
 registration,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 regret,1,B2,auto,Oxford 3000
 regret,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4752,7 +4758,7 @@ relaxation,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 relaxed,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 relaxing,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 release,1,B1,auto,Oxford 3000
-release,7,B1,auto,Oxford 3000
+release,13,B1,auto,Oxford 3000
 relevance,1,C1,auto,Oxford 5000
 relevant,1,B2,auto,Oxford 3000
 reliability,1,C1,auto,Oxford 5000
@@ -4794,8 +4800,8 @@ replacement,1,C1,auto,Oxford 5000
 reply,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 reply,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 report,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-report,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-report,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+report,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+report,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
 reportedly,1,C1,auto,Oxford 5000
 reporter,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 reporting,1,B2,auto,Oxford 5000
@@ -4818,8 +4824,8 @@ researcher,1,A2,auto,Oxford 3000
 resemble,1,C1,auto,Oxford 5000
 reservation,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
 reserve,1,B2,auto,Oxford 3000
-reserve,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
-reserve,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+reserve,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+reserve,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
 reside,1,C1,auto,Oxford 5000
 residence,1,C1,auto,Oxford 5000
 resident,1,B2,auto,Oxford 3000
@@ -4836,7 +4842,7 @@ resort,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 resource,1,B1,auto,Oxford 3000
 respect,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 respect,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-respect,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
+respect,8,B1,approved,English Profile (Cambridge Essential English Dictionary)
 respective,1,C1,auto,Oxford 5000
 respectively,1,C1,auto,Oxford 5000
 respond,1,A2,auto,Oxford 3000
@@ -4845,7 +4851,7 @@ responsibility,1,B1,auto,Oxford 3000
 responsible,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 rest,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 rest,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
-rest,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+rest,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
 restaurant,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 restoration,1,C1,auto,Oxford 5000
 restore,1,B2,auto,Oxford 5000
@@ -4861,20 +4867,20 @@ retire,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 retired,1,B1,auto,Oxford 3000
 retirement,1,B2,auto,Oxford 5000
 retreat,1,C1,auto,Oxford 5000
-retreat,7,C1,auto,Oxford 5000
+retreat,8,C1,auto,Oxford 5000
 retrieve,1,C1,auto,Oxford 5000
 return,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 return,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 return,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
-return,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
-return,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
+return,14,A2,auto,English Profile (Cambridge Essential English Dictionary)
+return,15,A2,auto,English Profile (Cambridge Essential English Dictionary)
 reveal,1,B2,auto,Oxford 3000
 revelation,1,C1,auto,Oxford 5000
 revenge,1,C1,auto,Oxford 5000
 revenue,1,B2,auto,Oxford 5000
 reverse,7,C1,auto,Oxford 5000
 review,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
-review,7,A2,auto,Oxford 3000
+review,11,A2,auto,Oxford 3000
 revise,2,B1,approved,English Profile (Cambridge Essential English Dictionary)
 revision,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 revival,1,C1,auto,Oxford 5000
@@ -4895,21 +4901,21 @@ rider,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 ridiculous,1,B2,auto,Oxford 5000
 rifle,1,C1,auto,Oxford 5000
 right,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
-right,11,A2,auto,English Profile (Cambridge Essential English Dictionary)
-right,12,A1,auto,English Profile (Cambridge Essential English Dictionary)
-right,16,B1,auto,English Profile (Cambridge Essential English Dictionary)
-right,17,A2,auto,English Profile (Cambridge Essential English Dictionary)
+right,13,A2,auto,English Profile (Cambridge Essential English Dictionary)
+right,14,A1,auto,English Profile (Cambridge Essential English Dictionary)
 right,18,B1,auto,English Profile (Cambridge Essential English Dictionary)
+right,28,A2,auto,English Profile (Cambridge Essential English Dictionary)
+right,29,B1,auto,English Profile (Cambridge Essential English Dictionary)
 right-hand,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 ring,3,A2,approved,English Profile (Cambridge Essential English Dictionary)
 ring,6,A2,auto,English Profile (Cambridge Essential English Dictionary)
-ring,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
-ring,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
+ring,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+ring,13,A2,auto,English Profile (Cambridge Essential English Dictionary)
 riot,1,C1,auto,Oxford 5000
 rip,5,C1,auto,Oxford 5000
 rise,1,B1,auto,Oxford 3000
-rise,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-rise,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+rise,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+rise,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
 risk,1,B1,auto,Oxford 3000
 risk,5,B1,auto,Oxford 3000
 risky,1,B2,auto,Oxford 5000
@@ -4925,11 +4931,12 @@ robot,1,B1,auto,Oxford 3000
 robust,1,C1,auto,Oxford 5000
 rock,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 rock,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
-rock,7,C1,auto,Oxford 5000
+rock,8,C1,auto,Oxford 5000
 rocket,1,B2,auto,Oxford 5000
 role,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 roll,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
-roll,7,B1,auto,Oxford 3000
+roll,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
+roll,16,B1,auto,Oxford 3000
 romance,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 romantic,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
 roof,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4942,8 +4949,8 @@ rotation,1,C1,auto,Oxford 5000
 rough,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 roughly,1,B2,auto,Oxford 5000
 round,1,B2,auto,Oxford 3000
-round,13,A2,auto,English Profile (Cambridge Essential English Dictionary)
-round,16,A2,auto,English Profile (Cambridge Essential English Dictionary)
+round,22,A2,auto,English Profile (Cambridge Essential English Dictionary)
+round,25,A2,auto,English Profile (Cambridge Essential English Dictionary)
 roundabout,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 route,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 routine,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -4961,20 +4968,20 @@ ruin,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 ruin,7,B2,auto,Oxford 5000
 rule,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 rule,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-rule,7,B1,auto,Oxford 3000
+rule,13,B1,auto,Oxford 3000
 ruler,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 ruling,1,C1,auto,Oxford 5000
 rumour,1,C1,auto,Oxford 5000
 run,3,B1,approved,English Profile (Cambridge Essential English Dictionary)
-run,7,A1,auto,English Profile (Cambridge Essential English Dictionary)
-run,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
-run,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+run,17,A1,auto,English Profile (Cambridge Essential English Dictionary)
+run,19,B1,auto,English Profile (Cambridge Essential English Dictionary)
+run,20,B1,auto,English Profile (Cambridge Essential English Dictionary)
 runner,2,A2,approved,English Profile (Cambridge Essential English Dictionary)
 running,2,A2,approved,English Profile (Cambridge Essential English Dictionary)
 rural,1,B2,auto,Oxford 3000
 rush,1,B2,auto,Oxford 3000
-rush,7,B2,auto,Oxford 3000
-sack,7,C1,auto,Oxford 5000
+rush,8,B2,auto,Oxford 3000
+sack,10,C1,auto,Oxford 5000
 sacred,1,C1,auto,Oxford 5000
 sacrifice,1,C1,auto,Oxford 5000
 sacrifice,6,C1,auto,Oxford 5000
@@ -5048,14 +5055,14 @@ scissors,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 scooter,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 scope,1,C1,auto,Oxford 5000
 score,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-score,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+score,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
 scrap,1,C1,auto,Oxford 5000
 scrap,5,C1,auto,Oxford 5000
-scratch,7,B2,auto,Oxford 5000
+scratch,11,B2,auto,Oxford 5000
 scream,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 scream,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
 screen,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
-screen,7,B2,auto,Oxford 3000
+screen,9,B2,auto,Oxford 3000
 screening,1,B2,auto,Oxford 5000
 screw,6,C1,auto,Oxford 5000
 script,1,B1,auto,Oxford 3000
@@ -5063,18 +5070,18 @@ scrutiny,1,C1,auto,Oxford 5000
 sculpture,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 sea,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 seal,1,C1,auto,Oxford 5000
-seal,7,C1,auto,Oxford 5000
+seal,10,C1,auto,Oxford 5000
 search,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 search,6,B1,approved,English Profile (Cambridge Essential English Dictionary)
 search,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
 season,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 seasonal,2,C1,auto,Oxford 5000
 seat,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
-seat,7,B2,auto,Oxford 3000
+seat,10,B2,auto,Oxford 3000
 second,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 second,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
-second,9,A1,auto,English Profile (Cambridge Essential English Dictionary)
-second,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+second,13,A1,auto,English Profile (Cambridge Essential English Dictionary)
+second,15,B1,auto,English Profile (Cambridge Essential English Dictionary)
 secondary,3,B1,auto,Oxford 3000
 secondly,1,A2,auto,Oxford 3000
 secret,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -5122,7 +5129,7 @@ sentence,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 sentence,4,B2,auto,Oxford 3000
 sentiment,1,C1,auto,Oxford 5000
 separate,3,B1,auto,Oxford 3000
-separate,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+separate,17,B1,auto,English Profile (Cambridge Essential English Dictionary)
 september,1,A1,auto,Oxford 3000
 sequel,1,C1,auto,Oxford 5000
 sequence,1,B2,auto,Oxford 3000
@@ -5136,7 +5143,7 @@ server,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 service,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 session,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 set,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-set,9,B1,approved,English Profile (Cambridge Essential English Dictionary)
+set,16,B1,approved,English Profile (Cambridge Essential English Dictionary)
 setting,1,B1,auto,Oxford 3000
 settle,2,B2,auto,Oxford 3000
 settlement,1,C1,auto,Oxford 5000
@@ -5160,7 +5167,7 @@ shallow,4,B2,auto,Oxford 3000
 shame,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 shampoo,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 shape,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-shape,7,B2,auto,Oxford 3000
+shape,9,B2,auto,Oxford 3000
 shaped,1,B2,auto,Oxford 5000
 share,1,B1,auto,Oxford 3000
 share,6,A2,approved,English Profile (Cambridge Essential English Dictionary)
@@ -5179,7 +5186,7 @@ shell,1,B1,auto,Oxford 3000
 shelter,1,B2,auto,Oxford 3000
 shelter,6,B2,auto,Oxford 3000
 shift,1,B1,auto,Oxford 3000
-shift,7,B2,auto,Oxford 3000
+shift,11,B2,auto,Oxford 3000
 shine,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 shiny,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 ship,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5187,7 +5194,7 @@ ship,2,B2,auto,Oxford 3000
 shipping,1,C1,auto,Oxford 5000
 shirt,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 shock,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
-shock,7,B2,auto,Oxford 3000
+shock,11,B2,auto,Oxford 3000
 shocked,1,B2,auto,Oxford 3000
 shocking,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 shoe,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5233,7 +5240,7 @@ sight,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 sightseeing,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 sign,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 sign,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
-sign,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+sign,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
 signal,1,B1,auto,Oxford 3000
 signal,4,B1,auto,Oxford 3000
 signature,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5304,11 +5311,11 @@ sleeve,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 slice,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 slice,7,B1,auto,Oxford 3000
 slide,1,B2,auto,Oxford 3000
-slide,7,B2,auto,Oxford 3000
+slide,8,B2,auto,Oxford 3000
 slight,3,B2,auto,Oxford 3000
 slightly,1,B1,auto,Oxford 3000
 slim,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
-slip,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+slip,18,B1,auto,English Profile (Cambridge Essential English Dictionary)
 slogan,1,B2,auto,Oxford 5000
 slope,1,B2,auto,Oxford 3000
 slope,3,B2,auto,Oxford 3000
@@ -5326,12 +5333,12 @@ smell,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
 smile,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 smile,2,B1,approved,English Profile (Cambridge Essential English Dictionary)
 smoke,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
-smoke,7,A1,auto,English Profile (Cambridge Essential English Dictionary)
+smoke,9,A1,auto,English Profile (Cambridge Essential English Dictionary)
 smoking,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 smooth,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
 snack,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 snake,5,A2,auto,English Profile (Cambridge Essential English Dictionary)
-snap,7,C1,auto,Oxford 5000
+snap,14,C1,auto,Oxford 5000
 snow,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 snow,5,A2,auto,English Profile (Cambridge Essential English Dictionary)
 snowboard,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5386,8 +5393,8 @@ sort,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 sort,5,B1,auto,Oxford 3000
 soul,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 sound,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
-sound,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-sound,13,C1,auto,Oxford 5000
+sound,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+sound,16,C1,auto,Oxford 5000
 soup,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 sour,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
 south,1,A1,auto,Oxford 3000
@@ -5450,7 +5457,7 @@ spirit,1,B1,auto,Oxford 3000
 spiritual,2,B2,auto,Oxford 3000
 spite,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 split,1,B2,auto,Oxford 3000
-split,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+split,14,B1,auto,English Profile (Cambridge Essential English Dictionary)
 spoil,4,B1,approved,English Profile (Cambridge Essential English Dictionary)
 spoken,1,B1,auto,Oxford 3000
 spokesman,1,B2,auto,Oxford 5000
@@ -5463,21 +5470,21 @@ spoon,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 sport,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 sporting,1,B2,auto,Oxford 5000
 spot,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-spot,7,B2,auto,Oxford 3000
+spot,15,B2,auto,Oxford 3000
 spotlight,1,C1,auto,Oxford 5000
 spouse,1,C1,auto,Oxford 5000
 spray,1,C1,auto,Oxford 5000
 spray,7,C1,auto,Oxford 5000
 spread,1,B2,auto,Oxford 3000
-spread,7,B1,auto,Oxford 3000
+spread,11,B1,auto,Oxford 3000
 spring,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 spring,7,B1,auto,Oxford 3000
 spy,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 squad,1,C1,auto,Oxford 5000
 square,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 square,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
-square,13,A2,auto,English Profile (Cambridge Essential English Dictionary)
-squeeze,7,C1,auto,Oxford 5000
+square,17,A2,auto,English Profile (Cambridge Essential English Dictionary)
+squeeze,9,C1,auto,Oxford 5000
 stab,4,C1,auto,Oxford 5000
 stability,1,C1,auto,Oxford 5000
 stabilize,1,C1,auto,Oxford 5000
@@ -5485,7 +5492,7 @@ stable,3,B2,auto,Oxford 3000
 stadium,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 staff,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 stage,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
-stage,7,B2,auto,Oxford 3000
+stage,9,B2,auto,Oxford 3000
 stair,1,A2,auto,Oxford 3000
 stairs,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 stake,1,C1,auto,Oxford 5000
@@ -5493,19 +5500,19 @@ stall,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 stamp,6,A2,auto,English Profile (Cambridge Essential English Dictionary)
 stance,1,B2,auto,Oxford 5000
 stand,1,B2,auto,Oxford 3000
-stand,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
-stand,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
+stand,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
+stand,16,A2,auto,English Profile (Cambridge Essential English Dictionary)
 standard,1,B1,auto,Oxford 3000
 standard,7,B1,auto,Oxford 3000
 star,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-star,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+star,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
 stare,2,B2,auto,Oxford 3000
 stark,1,C1,auto,Oxford 5000
 start,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-start,7,A1,auto,English Profile (Cambridge Essential English Dictionary)
+start,9,A1,auto,English Profile (Cambridge Essential English Dictionary)
 starving,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 state,1,A2,auto,Oxford 3000
-state,7,B1,auto,Oxford 3000
+state,9,B1,auto,Oxford 3000
 statement,1,A1,auto,Oxford 3000
 station,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 statistic,1,B1,auto,Oxford 3000
@@ -5528,10 +5535,10 @@ stem,1,C1,auto,Oxford 5000
 stem,7,C1,auto,Oxford 5000
 step,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 step,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-step,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+step,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
 stereotype,1,C1,auto,Oxford 5000
 stick,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
-stick,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+stick,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
 sticky,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 stiff,3,B2,auto,Oxford 3000
 still,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5547,17 +5554,17 @@ stone,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 stone,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 stop,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 stop,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
-stop,7,A1,approved,English Profile (Cambridge Essential English Dictionary)
-stop,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+stop,12,A1,approved,English Profile (Cambridge Essential English Dictionary)
+stop,14,B1,auto,English Profile (Cambridge Essential English Dictionary)
 storage,1,C1,auto,Oxford 5000
 store,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 store,5,B1,auto,Oxford 3000
 storm,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 story,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
 straight,5,A2,approved,English Profile (Cambridge Essential English Dictionary)
-straight,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
-straight,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
-straight,12,A2,auto,English Profile (Cambridge Essential English Dictionary)
+straight,19,B1,auto,English Profile (Cambridge Essential English Dictionary)
+straight,20,B1,auto,English Profile (Cambridge Essential English Dictionary)
+straight,21,A2,auto,English Profile (Cambridge Essential English Dictionary)
 straightforward,1,C1,auto,Oxford 5000
 strain,1,C1,auto,Oxford 5000
 strange,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5576,7 +5583,7 @@ stress,6,A2,auto,Oxford 3000
 stressed,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 stressful,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 stretch,1,B2,auto,Oxford 3000
-stretch,7,B2,auto,Oxford 3000
+stretch,8,B2,auto,Oxford 3000
 strict,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 strictly,1,B2,auto,Oxford 5000
 strike,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5598,9 +5605,9 @@ struggle,4,B2,auto,Oxford 3000
 student,2,A1,auto,English Profile (Cambridge Essential English Dictionary)
 studio,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 study,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-study,10,A1,auto,English Profile (Cambridge Essential English Dictionary)
+study,14,A1,auto,English Profile (Cambridge Essential English Dictionary)
 stuff,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-stuff,7,B2,auto,Oxford 3000
+stuff,8,B2,auto,Oxford 3000
 stumble,3,C1,auto,Oxford 5000
 stun,1,C1,auto,Oxford 5000
 stunning,1,B2,auto,Oxford 5000
@@ -5609,7 +5616,7 @@ style,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 stylish,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 subject,3,A1,auto,English Profile (Cambridge Essential English Dictionary)
 subject,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-subject,10,B2,auto,Oxford 3000
+subject,12,B2,auto,Oxford 3000
 submission,1,C1,auto,Oxford 5000
 submit,1,B2,auto,Oxford 3000
 subscribe,1,C1,auto,Oxford 5000
@@ -5678,7 +5685,7 @@ supplement,4,C1,auto,Oxford 5000
 supply,1,B1,auto,Oxford 3000
 supply,4,B1,auto,Oxford 3000
 support,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
-support,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
+support,12,B1,approved,English Profile (Cambridge Essential English Dictionary)
 supporter,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 supportive,1,C1,auto,Oxford 5000
 suppose,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5686,7 +5693,7 @@ suppose,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 supposedly,1,C1,auto,Oxford 5000
 suppress,1,C1,auto,Oxford 5000
 sure,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-sure,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
+sure,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
 surely,1,B1,auto,Oxford 3000
 surf,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 surf,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5732,9 +5739,9 @@ swim,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 swim,6,A1,auto,English Profile (Cambridge Essential English Dictionary)
 swimming,1,A1,auto,Oxford 3000
 swing,1,C1,auto,Oxford 5000
-swing,7,C1,auto,Oxford 5000
+swing,10,C1,auto,Oxford 5000
 switch,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-switch,11,B1,auto,English Profile (Cambridge Essential English Dictionary)
+switch,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
 sword,1,C1,auto,Oxford 5000
 symbol,1,A2,auto,Oxford 3000
 symbolic,1,C1,auto,Oxford 5000
@@ -5768,13 +5775,13 @@ talk,6,A1,approved,English Profile (Cambridge Essential English Dictionary)
 tall,2,A1,approved,English Profile (Cambridge Essential English Dictionary)
 tank,1,B2,auto,Oxford 3000
 tap,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-tap,7,B2,auto,Oxford 5000
+tap,9,B2,auto,Oxford 5000
 tape,1,B1,auto,Oxford 3000
 target,1,A2,auto,Oxford 3000
 target,6,B2,auto,Oxford 3000
 task,1,A2,auto,Oxford 3000
 taste,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-taste,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+taste,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
 tasty,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 tattoo,1,B2,auto,Oxford 5000
 tattoo,4,B2,auto,Oxford 5000
@@ -5819,7 +5826,7 @@ tension,1,B2,auto,Oxford 5000
 tent,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 tenure,1,C1,auto,Oxford 5000
 term,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
-term,7,B2,auto,Oxford 3000
+term,8,B2,auto,Oxford 3000
 terminal,1,B2,auto,Oxford 5000
 terminal,5,C1,auto,Oxford 5000
 terminate,1,C1,auto,Oxford 5000
@@ -5905,7 +5912,7 @@ tide,1,C1,auto,Oxford 5000
 tidy,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 tidy,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 tie,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-tie,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+tie,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
 tiger,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 tight,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 tighten,1,C1,auto,Oxford 5000
@@ -5913,7 +5920,7 @@ timber,1,C1,auto,Oxford 5000
 time,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 time,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 time,6,A1,auto,English Profile (Cambridge Essential English Dictionary)
-time,7,B2,auto,Oxford 3000
+time,11,B2,auto,Oxford 3000
 timeline,1,B2,auto,Oxford 5000
 timely,1,C1,auto,Oxford 5000
 timetable,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5929,7 +5936,7 @@ tired,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 tiring,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 tissue,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 title,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
-title,7,B2,auto,Oxford 3000
+title,11,B2,auto,Oxford 3000
 toast,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 tobacco,1,C1,auto,Oxford 5000
 today,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -5957,8 +5964,8 @@ tooth,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 toothache,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 toothpaste,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 top,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-top,7,C1,auto,Oxford 5000
-top,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
+top,12,C1,auto,Oxford 5000
+top,22,B1,auto,English Profile (Cambridge Essential English Dictionary)
 topic,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 torture,1,C1,auto,Oxford 5000
 torture,6,C1,auto,Oxford 5000
@@ -5968,7 +5975,7 @@ total,3,C1,auto,Oxford 5000
 total,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
 totally,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 touch,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-touch,7,B1,approved,English Profile (Cambridge Essential English Dictionary)
+touch,13,B1,approved,English Profile (Cambridge Essential English Dictionary)
 tough,4,B2,auto,Oxford 3000
 tour,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 tour,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -5984,9 +5991,9 @@ toy,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 trace,1,C1,auto,Oxford 5000
 trace,7,B2,auto,Oxford 5000
 track,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-track,7,B2,auto,Oxford 3000
+track,12,B2,auto,Oxford 3000
 trade,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-trade,7,B1,auto,Oxford 3000
+trade,8,B1,auto,Oxford 3000
 trademark,1,C1,auto,Oxford 5000
 trading,1,B2,auto,Oxford 5000
 tradition,1,A2,auto,Oxford 3000
@@ -6022,7 +6029,7 @@ transport,6,B1,auto,English Profile (Cambridge Essential English Dictionary)
 transport,7,B1,auto,Oxford 3000
 transportation,1,B2,auto,Oxford 5000
 trap,1,B2,auto,Oxford 5000
-trap,7,B2,auto,Oxford 5000
+trap,9,B2,auto,Oxford 5000
 trauma,1,C1,auto,Oxford 5000
 travel,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 travel,5,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -6042,13 +6049,13 @@ tribunal,1,C1,auto,Oxford 5000
 tribute,1,C1,auto,Oxford 5000
 trick,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 trick,4,B1,auto,English Profile (Cambridge Essential English Dictionary)
-trick,7,B1,auto,Oxford 3000
+trick,8,B1,auto,Oxford 3000
 trigger,1,C1,auto,Oxford 5000
 trigger,4,B2,auto,Oxford 5000
 trillion,1,B2,auto,Oxford 5000
 trio,1,C1,auto,Oxford 5000
 trip,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-trip,7,B2,auto,Oxford 3000
+trip,8,B2,auto,Oxford 3000
 triumph,1,C1,auto,Oxford 5000
 troop,1,B2,auto,Oxford 5000
 trophy,1,C1,auto,Oxford 5000
@@ -6078,9 +6085,9 @@ tune,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 tunnel,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 turkey,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 turn,3,B1,approved,English Profile (Cambridge Essential English Dictionary)
-turn,7,A2,auto,English Profile (Cambridge Essential English Dictionary)
-turn,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
-turn,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
+turn,13,A2,auto,English Profile (Cambridge Essential English Dictionary)
+turn,15,B1,auto,English Profile (Cambridge Essential English Dictionary)
+turn,16,B1,auto,English Profile (Cambridge Essential English Dictionary)
 turning,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 turnout,1,C1,auto,Oxford 5000
 turnover,1,C1,auto,Oxford 5000
@@ -6092,7 +6099,7 @@ twice,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 twin,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 twin,9,A2,auto,Oxford 3000
 twist,1,C1,auto,Oxford 5000
-twist,7,C1,auto,Oxford 5000
+twist,14,C1,auto,Oxford 5000
 two,1,A1,auto,Oxford 3000
 type,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 type,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -6162,8 +6169,8 @@ untidy,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 unusual,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 unveil,1,C1,auto,Oxford 5000
 up,3,B1,approved,English Profile (Cambridge Essential English Dictionary)
-up,8,A2,auto,English Profile (Cambridge Essential English Dictionary)
-up,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
+up,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
+up,14,B1,auto,English Profile (Cambridge Essential English Dictionary)
 up-to-date,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 upcoming,1,C1,auto,Oxford 5000
 update,1,B1,auto,Oxford 3000
@@ -6185,8 +6192,8 @@ usage,1,B2,auto,Oxford 5000
 use,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 use,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 use,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
-use,7,A1,auto,English Profile (Cambridge Essential English Dictionary)
-use,8,B1,auto,English Profile (Cambridge Essential English Dictionary)
+use,8,A1,auto,English Profile (Cambridge Essential English Dictionary)
+use,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
 used,1,B1,auto,Oxford 3000
 useful,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 useless,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -6249,7 +6256,7 @@ video,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 video game,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 view,2,A2,approved,English Profile (Cambridge Essential English Dictionary)
 view,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
-view,7,B1,auto,Oxford 3000
+view,11,B1,auto,Oxford 3000
 viewer,1,B1,auto,Oxford 3000
 viewpoint,1,B2,auto,Oxford 5000
 village,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -6293,7 +6300,7 @@ waiter,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 waitress,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 wake,6,A1,auto,English Profile (Cambridge Essential English Dictionary)
 walk,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
-walk,7,A1,approved,English Profile (Cambridge Essential English Dictionary)
+walk,8,A1,approved,English Profile (Cambridge Essential English Dictionary)
 walking,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 wall,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 wallet,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -6314,24 +6321,24 @@ warrant,1,C1,auto,Oxford 5000
 warrant,5,C1,auto,Oxford 5000
 warrior,1,C1,auto,Oxford 5000
 wash,6,A2,auto,English Profile (Cambridge Essential English Dictionary)
-wash,8,A1,auto,English Profile (Cambridge Essential English Dictionary)
+wash,10,A1,auto,English Profile (Cambridge Essential English Dictionary)
 washing-up,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 waste,1,B1,approved,English Profile (Cambridge Essential English Dictionary)
 waste,6,B1,approved,English Profile (Cambridge Essential English Dictionary)
-waste,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
+waste,16,B1,auto,English Profile (Cambridge Essential English Dictionary)
 watch,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 watch,7,A1,auto,English Profile (Cambridge Essential English Dictionary)
 water,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 water,7,B1,auto,Oxford 3000
 waterfall,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 wave,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
-wave,7,B1,auto,English Profile (Cambridge Essential English Dictionary)
+wave,10,B1,auto,English Profile (Cambridge Essential English Dictionary)
 way,1,A2,approved,English Profile (Cambridge Essential English Dictionary)
 way,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 way,3,B1,auto,English Profile (Cambridge Essential English Dictionary)
 way,5,B1,auto,English Profile (Cambridge Essential English Dictionary)
 way,6,A2,auto,English Profile (Cambridge Essential English Dictionary)
-way,7,B2,auto,Oxford 3000
+way,13,B2,auto,Oxford 3000
 weak,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 weaken,1,C1,auto,Oxford 5000
 weakness,1,B2,auto,Oxford 3000
@@ -6367,8 +6374,8 @@ well,10,A1,auto,English Profile (Cambridge Essential English Dictionary)
 well,11,A2,auto,English Profile (Cambridge Essential English Dictionary)
 well,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
 west,1,A1,auto,Oxford 3000
-west,7,A1,auto,Oxford 3000
-west,8,A1,auto,Oxford 3000
+west,9,A1,auto,Oxford 3000
+west,10,A1,auto,Oxford 3000
 western,3,B1,auto,Oxford 3000
 wet,4,A2,auto,English Profile (Cambridge Essential English Dictionary)
 whale,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -6380,8 +6387,8 @@ whip,6,C1,auto,Oxford 5000
 whisper,1,B2,auto,Oxford 5000
 whisper,3,B2,auto,Oxford 5000
 white,2,A2,approved,English Profile (Cambridge Essential English Dictionary)
-white,8,A1,auto,English Profile (Cambridge Essential English Dictionary)
-white,9,B1,auto,English Profile (Cambridge Essential English Dictionary)
+white,14,A1,auto,English Profile (Cambridge Essential English Dictionary)
+white,15,B1,auto,English Profile (Cambridge Essential English Dictionary)
 whole,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 whole,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 wholly,1,C1,auto,Oxford 5000
@@ -6401,7 +6408,7 @@ willingness,1,C1,auto,Oxford 5000
 win,1,B1,auto,Oxford 3000
 win,3,A2,auto,English Profile (Cambridge Essential English Dictionary)
 wind,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
-wind,7,B2,auto,Oxford 3000
+wind,9,B2,auto,Oxford 3000
 window,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
 windscreen,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 windy,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
@@ -6432,9 +6439,9 @@ word,1,A1,approved,English Profile (Cambridge Essential English Dictionary)
 work,2,A2,auto,English Profile (Cambridge Essential English Dictionary)
 work,3,A1,approved,English Profile (Cambridge Essential English Dictionary)
 work,6,A1,auto,English Profile (Cambridge Essential English Dictionary)
-work,7,A1,approved,English Profile (Cambridge Essential English Dictionary)
-work,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
-work,12,B1,auto,English Profile (Cambridge Essential English Dictionary)
+work,8,A1,approved,English Profile (Cambridge Essential English Dictionary)
+work,11,A2,auto,English Profile (Cambridge Essential English Dictionary)
+work,13,B1,auto,English Profile (Cambridge Essential English Dictionary)
 worker,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 workforce,1,B2,auto,Oxford 5000
 working,2,B1,approved,English Profile (Cambridge Essential English Dictionary)
@@ -6473,7 +6480,7 @@ writing,4,A1,auto,English Profile (Cambridge Essential English Dictionary)
 written,1,B1,auto,Oxford 3000
 wrong,1,B2,auto,Oxford 3000
 wrong,4,A1,auto,English Profile (Cambridge Essential English Dictionary)
-wrong,10,A2,auto,English Profile (Cambridge Essential English Dictionary)
+wrong,13,A2,auto,English Profile (Cambridge Essential English Dictionary)
 y,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 yard,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 year,1,A1,auto,English Profile (Cambridge Essential English Dictionary)
@@ -6489,7 +6496,7 @@ yield,5,C1,auto,Oxford 5000
 yoga,2,B1,auto,English Profile (Cambridge Essential English Dictionary)
 yogurt,1,A2,auto,English Profile (Cambridge Essential English Dictionary)
 young,1,B1,auto,Oxford 3000
-young,7,A1,approved,English Profile (Cambridge Essential English Dictionary)
+young,10,A1,approved,English Profile (Cambridge Essential English Dictionary)
 youngster,1,C1,auto,Oxford 5000
 youth,1,B1,auto,English Profile (Cambridge Essential English Dictionary)
 zero,1,A2,auto,Oxford 3000
