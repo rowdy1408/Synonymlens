@@ -330,6 +330,7 @@ function render() {
 function renderFull(w) {
   MODE = "full"; WORD = w; useFull(w);
   document.getElementById("tray1").innerHTML = `
+    <div id="ftopics"></div>
     <div class="tabs" role="tablist" aria-label="Meanings" id="tabs"></div>
     <div id="panel" role="tabpanel"></div>
     <div class="legend" aria-label="Legend">
@@ -348,6 +349,7 @@ function renderFull(w) {
     <div id="body2"></div>`;
   renderHeader({ word: w, pos: ENTRY.pos, uk: ENTRY.ipa?.uk, us: ENTRY.ipa?.us, kind: "full" });
   render();
+  Lexicon.topics(w).then(t => { const el = document.getElementById("ftopics"); if (el && WORD === w) el.innerHTML = topicLine(t); }).catch(() => {});
 }
 
 /* ---------- basic entries (WordNet) ---------- */
@@ -389,6 +391,26 @@ function wireBasicTabs() {
     allSenses = !allSenses; if (!allSenses && cur >= 6) { cur = 0; bsel = 0; bant = 0; } renderBasic();
   }));
 }
+// IELTS topics this word is listed under in the vocabulary books, with the sources
+function topicLine(list) {
+  if (!list || !list.length) return "";
+  const by = new Map();
+  list.forEach(t => { if (!by.has(t.topic)) by.set(t.topic, []); by.get(t.topic).push(t.source); });
+  return `<div class="topicline"><b>IELTS topics</b>${[...by].map(([t, src]) => `<span class="topic" title="${esc(src.join(" · "))}">${esc(t)}</span>`).join("")}
+    <span class="src">Listed in ${esc([...new Set(list.map(t => t.source.split(",")[0]))].join(" · "))}</span></div>`;
+}
+// a sentence that contains every content word of a collocation (any form)
+function exampleFor(colloc, sentences) {
+  const keys = colloc.toLowerCase().split(/[^a-z']+/).filter(t => t.length > 3 && !/^(with|from|into|about|someone|something|somebody)$/.test(t)).map(t => t.slice(0, Math.max(4, t.length - 2)));
+  if (!keys.length) return null;
+  return sentences.find(x => { const l = x.toLowerCase(); return keys.every(k => new RegExp(`\\b${reEsc(k)}`).test(l)); }) || null;
+}
+function markPhrase(t, colloc) {
+  const keys = colloc.toLowerCase().split(/[^a-z']+/).filter(k => k.length > 3).map(k => k.slice(0, Math.max(4, k.length - 2)));
+  let out = esc(t);
+  keys.forEach(k => { out = out.replace(new RegExp(`\\b${reEsc(k)}\\w*`, "i"), m => `<em>${m}</em>`); });
+  return out;
+}
 const unchecked = (what) => `<li class="item unk-item"><p class="ex">${what} for this word are not checked yet.</p></li>`;
 const reEsc = w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const markWord = (t, w) => esc(t).replace(new RegExp(`\\b${reEsc(w)}\\w*`, "i"), m => `<em>${m}</em>`);
@@ -407,13 +429,25 @@ function renderBasic() {
   const exItems = mine.map(ownLi).join("") + wn.map(e => `<li class="item"><p class="ex">${markWord(e, w)}</p><p class="exsrc">WordNet</p></li>`).join("") +
     more.map(e => `<li class="item"><p class="ex">${markWord(e, w)}</p><p class="exsrc">Tatoeba · may show another meaning</p></li>`).join("");
   const fam = clean(s.der);
+  const colls = (BASIC.coll || []).filter(c => c.sense === cur + 1);
+  const otherColl = (BASIC.coll || []).length - colls.length;
+  const sentences = [...mine.map(x => plain(x.s)), ...wn, ...(BASIC.more || [])];
+  const collItem = c => {
+    const ex = exampleFor(c.collocation, sentences);
+    return `<li class="item"><div class="phrase"><span>${markWord(c.collocation, w)}</span></div>
+      ${ex ? `<p class="ex">${markPhrase(ex, c.collocation)}</p>` : ""}
+      <p class="exmeta">${c.topic ? `<span class="topic">${esc(c.topic)}</span>` : ""}<span title="Source">${esc(c.source)}</span>${c.status === "draft" ? `<span class="draft">draft</span>` : ""}</p></li>`;
+  };
   document.getElementById("tray1").innerHTML = `
     <p class="basic-note"><b>Basic entry</b> from WordNet 3.1. Parts marked <span class="lvl unk">?</span> are not checked for IELTS yet.</p>
+    ${topicLine([...(BASIC.topics || []), ...(BASIC.coll || []).filter(c => c.topic !== "General collocations")])}
     ${basicTabs("btabs1")}
     <div class="def"><span class="lvl unk" title="CEFR level not checked yet">?</span>
       <p>${esc(s.d)}<small>${POS[s.p]} · meaning ${cur + 1} of ${BASIC.senses.length}</small></p></div>
     <div class="cols">
-      <section><h2>Collocations <span class="count">?</span></h2><ul class="list">${unchecked("Collocations")}</ul></section>
+      <section><h2>Collocations <span class="count">${colls.length || "?"}</span></h2>
+        <ul class="list">${colls.length ? colls.map(collItem).join("") : unchecked("Collocations")}</ul>
+        ${!colls.length && otherColl ? `<p class="note">${otherColl} collocation${otherColl > 1 ? "s" : ""} under other meanings of this word.</p>` : ""}</section>
       <section><h2>${verb ? "Phrasal verbs &amp; patterns" : "Sentence patterns"} <span class="count">${pats.length || "?"}</span></h2>
         ${adj ? `<p class="note">Adjectives have no phrasal verbs, so this card shows sentence patterns instead.</p>` : ""}
         <ul class="list">${pats.length ? pats.map(p => `<li class="item"><div class="phrase">${phrase(p)}</div></li>`).join("") : unchecked("Sentence patterns")}</ul></section>
@@ -531,14 +565,16 @@ const pool = () => [...(BASIC.own || []).filter(x => x.sense === cur + 1).map(x 
 async function otherWord(w) {
   let entry = null, ex = [], mine = [];
   try { [entry, ex, mine] = await Promise.all([Lexicon.lookup(w), Lexicon.examples(w), Lexicon.ownExamples(w)]); } catch (e) { /* data unavailable */ }
-  if (!entry) return { def: null, ex: [...mine.map(x => plain(x.s)), ...ex], pats: [] };
+  const coll = await Lexicon.collocations(w).catch(() => []);
+  if (!entry) return { def: null, ex: [...mine.map(x => plain(x.s)), ...ex], pats: [], coll };
   const p = BASIC.senses[cur].p, P = x => (x === "s" ? "a" : x);
   const linked = entry.senses.find(t => ["syn", "sim", "hyper", "hypo", "ant"].some(k => (t[k] || []).some(([x]) => x === BASIC.word)) && P(t.p) === P(p));
   const sense = linked || entry.senses.find(t => P(t.p) === P(p)) || entry.senses[0];
   const pats = sense.p === "v" ? [...new Set((sense.fr || []).map(n => FRAME[n]).filter(Boolean).map(f => f.replace("{w}", entry.word)))] : [];
   const n = entry.senses.indexOf(sense) + 1;
   const own = [...mine.filter(x => x.sense === n), ...mine.filter(x => x.sense !== n)].map(x => plain(x.s));
-  return { def: sense.d, ex: [...own, ...(sense.e || []), ...ex].filter((x, i, a) => a.indexOf(x) === i), pats };
+  const cs = [...coll.filter(c => c.sense === n), ...coll.filter(c => c.sense !== n)];
+  return { def: sense.d, ex: [...own, ...(sense.e || []), ...ex].filter((x, i, a) => a.indexOf(x) === i), pats, coll: cs };
 }
 
 const detailTokens = {};
@@ -585,7 +621,9 @@ async function basicDetail(r) {
   box.querySelector("#bg-gr").innerHTML = o.pats.length
     ? `<ul class="pats">${o.pats.map(p => `<li><span class="phrase">${phrase(p)}</span></li>`).join("")}</ul>`
     : `<p class="unote">Grammar for ${esc(r.w)} is not checked yet.</p>`;
-  box.querySelector("#bg-co").innerHTML = `<p class="unote">Collocations are not checked yet. Example sentences with ${esc(r.w)}:</p>` +
+  box.querySelector("#bg-co").innerHTML = (o.coll.length
+      ? `<ul class="cols-ok">${o.coll.slice(0, 6).map(c => `<li><span class="ok">✓</span>${esc(c.collocation)}</li>`).join("")}</ul><p class="unote">From IELTS vocabulary books. Example sentences with ${esc(r.w)}:</p>`
+      : `<p class="unote">Collocations are not checked yet. Example sentences with ${esc(r.w)}:</p>`) +
     (o.ex.length ? `<ul class="bex">${o.ex.slice(0, 3).map(t => `<li>${markWord(t, r.w)}</li>`).join("")}</ul>` : `<p class="unote">No example yet.</p>`);
 }
 
@@ -646,8 +684,10 @@ function wireToggles(root) {
 
 async function showBasic(entry) {
   MODE = "basic"; WORD = entry.word; BASIC = entry;
-  try { [entry.more, entry.z, entry.own] = await Promise.all([Lexicon.examples(entry.word), Lexicon.zipf(entry.word), Lexicon.ownExamples(entry.word)]); }
-  catch (e) { entry.more = entry.more || []; entry.z = 0; entry.own = []; }
+  try {
+    [entry.more, entry.z, entry.own, entry.coll, entry.topics] = await Promise.all([Lexicon.examples(entry.word), Lexicon.zipf(entry.word),
+      Lexicon.ownExamples(entry.word), Lexicon.collocations(entry.word), Lexicon.topics(entry.word)]);
+  } catch (e) { entry.more = entry.more || []; entry.z = 0; entry.own = entry.own || []; entry.coll = entry.coll || []; entry.topics = entry.topics || []; }
   const posList = [...new Set(entry.senses.map(s => POS[s.p]))].join(" · ");
   renderHeader({ word: entry.word, pos: posList, kind: "basic" });
   renderBasic();

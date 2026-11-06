@@ -4,7 +4,8 @@
    hyper (more general), hypo (more specific), der (word family), fr (verb frame numbers).
    Word lists are [word, zipf×10] pairs: zipf 6 = very common, 3 = uncommon, 1 = rare.
    data/ex/: example sentences from Tatoeba (CC BY 2.0 FR), up to 4 per word.
-   data/examples.csv: our own example bank, written for IELTS topics and tied to one meaning. */
+   data/examples.csv: our own example bank, written for IELTS topics and tied to one meaning.
+   data/collocations.csv, data/topics.csv: collocations and topic word lists taken from IELTS vocabulary books, with the source. */
 (function (global) {
   const BASE = "data/";
   let manifest = null, zipfMap = null, ipaMap = null;
@@ -120,5 +121,25 @@
     return (await own).get(w) || [];
   }
 
-  global.Lexicon = { lookup, zipf, ipa, examples, ownExamples };
+  // other teacher tables in data/: collocations.csv (word, sense, collocation, topic, source, status) and topics.csv (word, topic, source)
+  const tables = new Map();
+  function table(file) {
+    if (!tables.has(file)) tables.set(file, fetch(BASE + file).then(r => (r.ok ? r.text() : "")).catch(() => "").then(t => {
+      const rows = parseCSV(t.replace(/^\uFEFF/, "")), head = (rows.shift() || []).map(h => h.trim().toLowerCase()), map = new Map();
+      rows.forEach(r => {
+        const o = {}; head.forEach((h, i) => { o[h] = (r[i] || "").trim(); });
+        const w = (o.word || "").toLowerCase(), st = (o.status || "draft").toLowerCase();
+        if (!w || !["approved", "draft"].includes(st)) return;
+        o.status = st; o.sense = parseInt(o.sense, 10) || 0;
+        if (!map.has(w)) map.set(w, []);
+        map.get(w).push(o);
+      });
+      return map;
+    }));
+    return tables.get(file);
+  }
+  const collocations = async w => (await table("collocations.csv")).get(w) || [];
+  const topics = async w => (await table("topics.csv")).get(w) || [];
+
+  global.Lexicon = { lookup, zipf, ipa, examples, ownExamples, collocations, topics };
 })(window);
