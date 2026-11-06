@@ -1,0 +1,62 @@
+# SynonymLens · IELTS
+
+Trang tra từ cho học viên IELTS: gõ một từ để xem nghĩa, collocation, mẫu câu, từ đồng nghĩa và trái nghĩa. Mỗi từ có 2 tray: **Word** và **Synonyms & antonyms**.
+
+Trang là web tĩnh, chỉ gồm HTML, CSS và JavaScript. Không cần server riêng, không cần API key.
+
+## Hai loại mục từ
+
+| Loại | Nguồn | Có gì |
+|---|---|---|
+| **Full card** | `js/curated.js` (giáo viên soạn và duyệt) | CEFR, collocation, mẫu câu có ô slot, bảng synonym có ký hiệu ▲▼ ⊂⊃≠ +−, khung chi tiết, antonym với 3 cách dùng |
+| **Basic entry** | `data/` (WordNet 3.1) | Nghĩa, ví dụ, mẫu câu động từ, họ từ, từ liên quan (= ≈ ⊃ ⊂) kèm độ phổ biến, antonym |
+
+Hiện có 1 full card là **important**. Các từ khác hiện ở dạng basic entry. Từ tục và từ quá chuyên ngành bị chặn, có thông báo riêng.
+
+## Đưa lên GitHub Pages
+
+1. Tạo một repository mới trên GitHub.
+2. Giải nén file zip, rồi upload **toàn bộ nội dung bên trong thư mục** lên repository. File `index.html` phải nằm ngay ở thư mục gốc.
+   - Trên web GitHub: **Add file → Upload files**, kéo thả các thư mục `css`, `js`, `data` cùng các file lẻ. GitHub cho upload tối đa 100 file mỗi lần. Thư mục `data` có 94 file, nên upload `data` một lượt riêng.
+3. Vào **Settings → Pages**. Ở mục **Source**, chọn **Deploy from a branch**, branch `main`, thư mục `/ (root)`, rồi bấm **Save**.
+4. Chờ 1–2 phút. Trang sẽ chạy ở `https://<tên-tài-khoản>.github.io/<tên-repo>/`.
+
+> Mở thẳng `index.html` từ máy (file://) thì full card vẫn chạy, nhưng basic entry không tải được dữ liệu, vì trình duyệt chặn đọc file. Muốn thử trên máy thì mở terminal trong thư mục và chạy `python3 -m http.server`, rồi vào `http://localhost:8000`.
+
+## Thêm một full card
+
+Mở `js/curated.js`. Chép khối dữ liệu của `important` rồi sửa nội dung. Mỗi từ gồm:
+
+- `entry`: từ, loại từ, IPA UK/US; mỗi nghĩa có `level` (CEFR), `short`, `def`, `use`, `collocations`, `patterns`.
+- `syn`: theo từng nghĩa, `synonyms` + `more`; mỗi từ có `verdict`, `degree`, `scope`, `att`, `register`, `pair`, `use`, `avoid`, `grammar`, `ok`, `no`.
+- `ant`: theo từng nghĩa; mỗi antonym có `p` (vị trí trên thang), `opp`, `att`, `neg`, `pair`, `contrast`, `trap`, `use`, `avoid`, `ok`, `no`.
+- `scale`: các nhóm từ trên thang "How much it matters".
+- `family`: các dạng khác của từ, gõ vào sẽ dẫn về thẻ (ví dụ `importance`).
+
+Trong câu ví dụ, bọc từ cần tô đậm bằng dấu `*…*`. Ô slot viết theo dạng `+ N`, `+ V`, `+ V-ing`, `+ S + V`, `+ sb`, `+ sth`.
+
+Có full card rồi, ô tìm kiếm tự hiểu thêm: gõ sai chính tả, gõ dạng khác trong họ từ, và gõ cả cụm thì cuộn tới đúng collocation hoặc mẫu câu.
+
+## Lịch sử tìm kiếm
+
+Các từ đã tra được lưu ngay trong trình duyệt của người dùng (localStorage), không gửi đi đâu. Bấm vào ô tìm kiếm để xem lại. Bấm × ở cuối dòng để xoá một từ (hoặc chọn dòng bằng phím mũi tên rồi nhấn Delete), hoặc bấm **Clear all** để xoá hết.
+
+## Cấu trúc thư mục
+
+```
+index.html
+css/style.css
+js/words.js      danh sách gợi ý khi gõ (từ đơn, xếp theo tần suất)
+js/curated.js    full card do giáo viên soạn
+js/lexicon.js    đọc dữ liệu WordNet, tìm dạng gốc của từ
+js/app.js        giao diện, tìm kiếm, lịch sử
+data/            WordNet theo phần (manifest.json + s000–s090.json),
+                 words.json (tần suất), ipa-us.json (phiên âm Mỹ)
+```
+
+## Nguồn dữ liệu và giấy phép
+
+- **WordNet 3.1**, © Princeton University. Giấy phép nằm trong `WORDNET_LICENSE.txt`.
+- **wordfreq** của Robyn Speer: chỉ dùng điểm tần suất (zipf). Dữ liệu wordfreq theo giấy phép CC BY-SA 4.0.
+- **CMU Pronouncing Dictionary**, © Carnegie Mellon University (giấy phép kiểu BSD), lấy qua gói `cmu-pronouncing-dictionary` (ISC, xem `CMUDICT_LICENSE.txt`). Phiên âm Mỹ được chuyển tự động từ ký hiệu ARPAbet sang IPA, nên vị trí dấu nhấn có thể lệch ở một số từ.
+- Nội dung các full card do giáo viên soạn.

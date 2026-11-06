@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SynonymLens · IELTS</title>
+<meta name="description" content="SynonymLens: look up a word and see its meanings, collocations, sentence patterns, synonyms and antonyms for IELTS.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section id="landing" class="landing">
+  <div class="landing-inner">
+    <h1 class="brand-title" aria-label="SynonymLens IELTS"><span class="typed" id="typed" aria-hidden="true">Synonym<b>Lens</b></span> <span class="badge" id="badge" aria-hidden="true">IELTS</span></h1>
+    <div class="sbox">
+    <form class="search" data-search role="search" autocomplete="off">
+      <label for="q0" class="sr-only">Search a word</label>
+      <input id="q0" type="text" placeholder="Search a word or phrase…" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sg0">
+      <button type="submit" class="search-btn" aria-label="Search"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+    </form>
+    <ul class="sg" id="sg0" role="listbox" aria-label="Suggestions" hidden></ul>
+    </div>
+  </div>
+</section>
+
+<div id="view" hidden>
+<div class="bar">
+  <a class="brand" href="#">Synonym<b>Lens</b></a>
+  <div class="sbox small">
+  <form class="search small" data-search role="search" autocomplete="off">
+    <label for="q1" class="sr-only">Search a word</label>
+    <input id="q1" type="text" placeholder="Search another word or phrase…" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sg1">
+    <button type="submit" class="search-btn" aria-label="Search"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+  </form>
+  <ul class="sg" id="sg1" role="listbox" aria-label="Suggestions" hidden></ul>
+  </div>
+</div>
+<div id="notice" class="notice" role="status" hidden></div>
+<div id="msg" class="msg" hidden></div>
+
+<article class="card" id="cardView" aria-labelledby="w" hidden>
+  <header class="top">
+    <h1 class="word" id="w"></h1>
+    <div class="meta" id="meta"></div>
+    <div class="trays" role="tablist" aria-label="Word trays">
+      <button type="button" role="tab" class="tray" id="tr1" aria-controls="tray1" aria-selected="true" data-t="1"><span class="tn">1</span>Word</button>
+      <button type="button" role="tab" class="tray" id="tr2" aria-controls="tray2" aria-selected="false" tabindex="-1" data-t="2"><span class="tn">2</span>Synonyms &amp; antonyms</button>
+    </div>
+  </header>
+  <div class="body" id="tray1" role="tabpanel" aria-labelledby="tr1"></div>
+  <div class="body" id="tray2" role="tabpanel" aria-labelledby="tr2" hidden></div>
+</article>
+
+<footer class="foot">Basic entries use <a href="https://wordnet.princeton.edu/" rel="noopener">WordNet 3.1</a> (Princeton University), word frequency from <a href="https://github.com/rspeer/wordfreq" rel="noopener">wordfreq</a> and US pronunciation from the <a href="http://www.speech.cs.cmu.edu/cgi-bin/cmudict" rel="noopener">CMU Pronouncing Dictionary</a>.</footer>
+</div>
+
+<script src="js/words.js"></script>
+<script src="js/curated.js"></script>
+<script src="js/lexicon.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
