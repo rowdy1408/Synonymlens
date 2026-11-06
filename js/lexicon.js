@@ -129,7 +129,7 @@
       rows.forEach(r => {
         const o = {}; head.forEach((h, i) => { o[h] = (r[i] || "").trim(); });
         const w = (o.word || "").toLowerCase(), st = (o.status || "draft").toLowerCase();
-        if (!w || !["approved", "draft"].includes(st)) return;
+        if (!w || !["approved", "draft", "auto"].includes(st)) return;
         o.status = st; o.sense = parseInt(o.sense, 10) || 0;
         if (!map.has(w)) map.set(w, []);
         map.get(w).push(o);
@@ -140,6 +140,8 @@
   }
   const collocations = async w => (await table("collocations.csv")).get(w) || [];
   const topics = async w => (await table("topics.csv")).get(w) || [];
+  // CEFR level per meaning: English Profile levels (A1–B1) from the Cambridge Essential English Dictionary, matched to WordNet meanings automatically
+  const cefr = async w => (await table("cefr.csv")).get(w) || [];
 
-  global.Lexicon = { lookup, zipf, ipa, examples, ownExamples, collocations, topics };
+  global.Lexicon = { lookup, zipf, ipa, examples, ownExamples, collocations, topics, cefr };
 })(window);

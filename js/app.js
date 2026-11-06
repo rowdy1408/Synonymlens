@@ -377,11 +377,14 @@ const shortDef = d => {
 };
 const wordLink = (w, z) => `<a class="wl" href="#${encodeURIComponent(w.replace(/ /g, "-"))}">${esc(w)}</a>`;
 
+const CEFR_TIP = "CEFR level from English Profile (Cambridge Essential English Dictionary), matched to this meaning automatically";
+function levelOf(i) { const r = (BASIC.cefr || []).find(c => c.sense === i + 1); return r ? r.level : null; }
+const levelChip = (i, big) => { const l = levelOf(i); return l ? `<span class="lvl auto" title="${CEFR_TIP}">${l}</span>` : `<span class="lvl unk" title="CEFR level not checked yet${big ? "" : ""}">?</span>`; };
 function basicTabs(id) {
   const ss = BASIC.senses, show = allSenses ? ss.length : Math.min(ss.length, 6);
   const btns = ss.slice(0, show).map((s, i) => `
     <button type="button" role="tab" class="tab" aria-selected="${i === cur}" data-i="${i}">
-      <span class="n">${i + 1}</span><span class="lvl unk" title="CEFR level not checked yet">?</span>${esc(shortDef(s.d))}</button>`).join("");
+      <span class="n">${i + 1}</span>${levelChip(i)}${esc(shortDef(s.d))}</button>`).join("");
   const more = ss.length > 6 ? `<button type="button" class="tab more-senses" data-more="1">${allSenses ? "Fewer meanings" : `+${ss.length - 6} more meanings`}</button>` : "";
   return `<div class="tabs" role="tablist" aria-label="Meanings" id="${id}">${btns}${more}</div>`;
 }
@@ -454,8 +457,8 @@ function renderBasic() {
     <p class="basic-note"><b>Basic entry</b> from WordNet 3.1. Parts marked <span class="lvl unk">?</span> are not checked for IELTS yet.</p>
     ${topicLine([...(BASIC.topics || []), ...(BASIC.coll || []).filter(c => c.topic !== "General collocations")])}
     ${basicTabs("btabs1")}
-    <div class="def"><span class="lvl unk" title="CEFR level not checked yet">?</span>
-      <p>${esc(s.d)}<small>${POS[s.p]} · meaning ${cur + 1} of ${BASIC.senses.length}</small></p></div>
+    <div class="def">${levelChip(cur, true)}
+      <p>${esc(s.d)}<small>${POS[s.p]} · meaning ${cur + 1} of ${BASIC.senses.length}${levelOf(cur) ? " · CEFR from English Profile, matched automatically" : ""}</small></p></div>
     <div class="cols">
       <section><h2>Collocations <span class="count">${colls.length || "?"}</span></h2>
         <ul class="list">${colls.length ? colls.map(collItem).join("") : unchecked("Collocations")}</ul>
@@ -468,6 +471,7 @@ function renderBasic() {
       ${exItems ? `<ul class="list ex-grid">${exItems}</ul>` : `<p class="note">No example sentence for this word yet.</p>`}
       ${fam.length ? `<p class="famline"><b>Word family</b>${fam.map(([x]) => wordLink(x)).join("")}</p>` : ""}</section>
     <div class="legend" aria-label="Legend">
+      <span><span class="lvl auto">B1</span>CEFR level (English Profile, A1–B1 only)</span>
       <span><span class="lvl unk">?</span>not checked yet</span>
       <span><span class="slot">+ N</span>slot: what comes next</span>
     </div>`;
@@ -697,9 +701,9 @@ function wireToggles(root) {
 async function showBasic(entry) {
   MODE = "basic"; WORD = entry.word; BASIC = entry;
   try {
-    [entry.more, entry.z, entry.own, entry.coll, entry.topics] = await Promise.all([Lexicon.examples(entry.word), Lexicon.zipf(entry.word),
-      Lexicon.ownExamples(entry.word), Lexicon.collocations(entry.word), Lexicon.topics(entry.word)]);
-  } catch (e) { entry.more = entry.more || []; entry.z = 0; entry.own = entry.own || []; entry.coll = entry.coll || []; entry.topics = entry.topics || []; }
+    [entry.more, entry.z, entry.own, entry.coll, entry.topics, entry.cefr] = await Promise.all([Lexicon.examples(entry.word), Lexicon.zipf(entry.word),
+      Lexicon.ownExamples(entry.word), Lexicon.collocations(entry.word), Lexicon.topics(entry.word), Lexicon.cefr(entry.word)]);
+  } catch (e) { entry.more = entry.more || []; entry.z = 0; entry.own = entry.own || []; entry.coll = entry.coll || []; entry.topics = entry.topics || []; entry.cefr = entry.cefr || []; }
   const posList = [...new Set(entry.senses.map(s => POS[s.p]))].join(" · ");
   renderHeader({ word: entry.word, pos: posList, kind: "basic" });
   renderBasic();

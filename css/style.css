@@ -440,3 +440,5 @@ h2 .count{font-size:11px;background:rgba(255,255,255,.18);color:#fff;border-radi
 .topicline .topic{background:#E6F2F0;color:#1F7E73;border-radius:7px;padding:3px 9px;font-size:13px;font-weight:700;cursor:help}
 .topicline .src{flex-basis:100%;font-size:12px;color:var(--mute)}
 .item .phrase em{font-style:normal;color:var(--em)}
+.lvl.auto{background:var(--navy);color:#fff;cursor:help}
+.def .lvl.auto{padding:6px 11px}

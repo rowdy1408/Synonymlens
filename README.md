@@ -64,6 +64,15 @@ Lấy từ 4 cuốn: *Cambridge Vocabulary for IELTS*, *Check Your English Vocab
 - `topics.csv` (`word, topic, source`): hiện thành dòng **IELTS topics** ở đầu tray Word. Rê chuột lên một chủ đề để xem nguồn.
 - Trang chỉ lấy cụm từ và tên chủ đề. Câu ví dụ, định nghĩa và bài tập trong sách **không** đưa lên trang. Câu ví dụ cho collocation là câu tự viết, nằm trong `examples.csv`.
 
+## Cấp độ CEFR (`data/cefr.csv`)
+
+Cấp độ A1, A2, B1 lấy từ nhãn English Profile in trong *Cambridge Essential English Dictionary* (2nd edition, 2011). Có 3.296 dòng cho 2.561 từ. Trên trang, cấp độ hiện ở ô CEFR của tab nghĩa và khung định nghĩa. Nghĩa nào chưa có cấp độ thì vẫn hiện dấu **?**.
+
+- Cột: `word, sense, level, status`. `status` là `auto` nếu ghép tự động, `approved` khi đã duyệt; trạng thái khác thì không hiện.
+- Nghĩa trong từ điển Cambridge không trùng cách chia nghĩa của WordNet. Mình ghép bằng cách so từ ngữ trong định nghĩa; không khớp được thì gán cho nghĩa đầu tiên cùng từ loại. Vì vậy có chỗ lệch: ví dụ *benefit* B1 ("điều có lợi") đang gắn vào nghĩa 1 của WordNet ("tiền trợ cấp"). Sửa cột `sense` là xong.
+- Từ điển này chỉ có nhãn đến B1, nên từ B2 trở lên (ví dụ *significant*) vẫn hiện **?**.
+- Trang chỉ dùng nhãn cấp độ. Định nghĩa và câu ví dụ của từ điển không đưa lên trang.
+
 ## Lịch sử tìm kiếm
 
 Các từ đã tra được lưu ngay trong trình duyệt của người dùng (localStorage), không gửi đi đâu. Bấm vào ô tìm kiếm để xem lại. Bấm × ở cuối dòng để xoá một từ (hoặc chọn dòng bằng phím mũi tên rồi nhấn Delete), hoặc bấm **Clear all** để xoá hết.
